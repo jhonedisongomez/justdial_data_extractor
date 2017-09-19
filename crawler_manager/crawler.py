@@ -14,9 +14,9 @@ def check_url(link):
         return newspaper_base_url + link
 
 
-def get_info_instance(city_name, keyword, numof_result):
+def get_info_instance(city_name='Ahmedabad', keyword='hello', numof_result=5):
     instance_index = 0
-    for i in range(5):
+    for i in range(numof_result):
         city_page_url = newspaper_base_url + city_name + '/' + keyword + 'page-' + str(i+1)
         
         html_markup = requests.get(check_url(city_page_url), headers=headers)
@@ -51,9 +51,5 @@ def get_info_instance(city_name, keyword, numof_result):
                 instance_index += 1
 
 
-# input parameters
-city_name = 'Ahmedabad'
-keyword = 'hello'
-numof_result = 5
 
-get_info_instance(city_name, keyword, numof_result)
+# get_info_instance()

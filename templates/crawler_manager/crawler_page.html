@@ -1,0 +1,53 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Start Scrapping{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Start Scrapping</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block content %}
+<div id="content">
+  <h1>Please specify a category and keyword to start scrapping: </h1>
+
+    {% if messages %}
+        {% for message in messages %}
+            <p style="color: green">{{ message }}</p>
+        {% endfor %}
+        <hr>
+    {% endif %}
+
+  <form action="index" method="post"> {% csrf_token %}
+
+    <label for="city_name">City Name</label>
+    <br>
+    <select name="city_name" id="city_name">
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+    </select>
+
+    <br>
+
+    <label for="keyword">Search Keyword</label>
+    <br>
+    <input type="text" name="keyword" placeholder="hello">
+    
+    <br>
+
+    <label for="numof_instance">Number of Results</label>
+    <br>
+    <input type="number" name="numof_instance">
+
+
+    <br>
+    <button type="submit">Start</button>
+  </form>
+  
+</div>
+{% endblock %}

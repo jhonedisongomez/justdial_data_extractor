@@ -17,9 +17,10 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.generic import RedirectView
 
+
 urlpatterns = [
-    url(r'^$', RedirectView.as_view(url='admin/')),
-    # url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS
-    # url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),  # Django JET dashboard URLS
+    # url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
     url(r'^admin/', admin.site.urls),
+    url(r'^', include('crawler_manager.urls', namespace='crawler_manager')),
+    # url(r'^$', RedirectView.as_view(url='admin/')),
 ]
