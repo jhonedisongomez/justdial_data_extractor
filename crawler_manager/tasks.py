@@ -21,15 +21,15 @@ def check_url(link):
 @shared_task
 def start_srabbing(data):
     
-    city_name, keyword, crawel_number = data[0], data[1], int(data[2])
+    city_name, keyword, numof_pages = data[0], data[1], int(data[2])
 
     print (city_name)
     print (keyword)
-    print (crawel_number)
+    print (numof_pages)
 
     instance_index = 0
-    for i in range(crawel_number):
-        city_page_url = newspaper_base_url + city_name + '/' + keyword + 'page-' + str(i+1)
+    for i in range(numof_pages):
+        city_page_url = newspaper_base_url + city_name + '/' + keyword + '/' + 'page-' + str(i+1)
         
         html_markup = requests.get(check_url(city_page_url), headers=headers)
         print ('got page url {} with {}'.format(city_page_url, html_markup.status_code))
@@ -50,28 +50,42 @@ def start_srabbing(data):
                 page_soup = BeautifulSoup(html_markupx.content, "lxml")
                 cc = page_soup.find("div", {"class" : "col-sm-4 col-xs-12 padding0 leftdt"})
                 
-                contact = cc.find("div", {"class" : "telCntct cmawht"}).get_text()
-                address = cc.find("span", {"class" : "lng_add"}).get_text()
-                website = cc.find("span", {"class" : "mreinfp comp-text"}).find('a').find_next('a').get_text()
+                try:
+                    contact = cc.find("div", {"class" : "telCntct cmawht"}).get_text()
+                except Exception as e:
+                    contact = ''
+                    pass
+                try:
+                    address = cc.find("span", {"class" : "lng_add"}).get_text()
+                except Exception as e:
+                    address = ''
+                    pass
+                try:
+                    website = cc.find("span", {"class" : "mreinfp comp-text"}).find('a').find_next('a').get_text()
+                except Exception as e:
+                    website = ''
+                    pass
+                
+                
 
             except Exception as e:
+                print (e)
                 pass
                 flag = False
             
             if flag is True:
-                print ( instance_index, city_name, title, rating, votes, contact, address, website)
-
+                print ( 'No: {}, Saving data to database'.format(instance_index))
                 issue = CrawelIssue.objects.create(
                     keyword = keyword, 
                     city_name = city_name, 
-                    crawel_number = crawel_number, 
+                    # crawel_number = crawel_number, 
                     instance_index = instance_index, 
                     title = title, 
                     rating = rating, 
                     votes = votes, 
                     contact = contact, 
                     address = address, 
-                    website = website
+                    website = website,
                     )
 
                 instance_index += 1

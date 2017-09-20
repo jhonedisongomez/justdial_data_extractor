@@ -24,6 +24,6 @@ def home(request):
         data = (city_name, keyword, numof_instance,)
 
         start_srabbing.delay(data)
-        messages.success(request, 'We are scrabbing your requested data, please visit admin panel to see the progress')
+        messages.success(request, 'We are scrabbing your requested data, please reload this page to se progressed data')
 
         return redirect('/admin/crawler_manager/crawelissue/')

@@ -1,12 +1,22 @@
 {% extends "admin/base.html" %}
 
-{% block title %}Start Scrapping{% endblock %}
+{% block title %} Start Scrapping {% endblock %}
+{% load i18n %}
+
+
 
 {% block branding %}
 <h1 id="site-name"><a href="{% url 'admin:index' %}">Start Scrapping</a></h1>
+
+
 {% endblock %}
 
-{% block nav-global %}{% endblock %}
+{% block nav-global %}
+  <div class="head_nav_urls">
+      <a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a> 
+      <a href="{% url 'admin:logout' %}">{% trans 'Log out' %}</a>
+  </div>
+{% endblock %}
 
 {% block content %}
 <div id="content">
@@ -25,11 +35,20 @@
     <br>
     <select name="city_name" id="city_name">
         <option value="Ahmedabad">Ahmedabad</option>
-        <option value="Ahmedabad">Ahmedabad</option>
-        <option value="Ahmedabad">Ahmedabad</option>
-        <option value="Ahmedabad">Ahmedabad</option>
-        <option value="Ahmedabad">Ahmedabad</option>
-        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Goa">Goa</option>
+        <option value="Gurgaon">Gurgaon</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Indore">Indore</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Noida">Noida</option>
+        <option value="Pune">Pune</option>
     </select>
 
     <br>
@@ -40,7 +59,7 @@
     
     <br>
 
-    <label for="numof_instance">Number of Results</label>
+    <label for="numof_instance">Number of Pages to Scrab</label>
     <br>
     <input type="number" name="numof_instance">
 

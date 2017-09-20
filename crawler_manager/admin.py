@@ -21,9 +21,9 @@ class CrawelIssuekResource(resources.ModelResource):
 class CrawelIssueAdmin(ImportExportModelAdmin):
     resource_class = CrawelIssuekResource
 
-    list_display = ('instance_index', 'keyword', 'title','city_name',)
-    list_filter = ['instance_index', 'keyword', 'title','city_name']
-    search_fields = ['instance_index', 'keyword', 'title','city_name']
+    list_display = ('keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website')
+    list_filter = ['city_name', 'rating']
+    search_fields = ['keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website']
 
 
 admin.site.site_header = 'Justdial Scrapper'
