@@ -1,0 +1,9 @@
+#content {}
+#content .columnx {
+    float: left;
+    padding: 0 30px;
+}
+
+/* #content .columnx:first-child {
+    border-right: 1px solid #ddd;
+} */
