@@ -1316,3 +1316,135 @@ User information: uid=0 euid=0 gid=0 egid=0
 [2017-09-23 22:43:23,597: WARNING/ForkPoolWorker-1] No: 48, Saving data to database
 [2017-09-23 22:43:25,040: WARNING/ForkPoolWorker-1] No: 49, Saving data to database
 [2017-09-23 22:43:25,044: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[4d75c1a9-0a24-4305-8e80-62179a82510a] succeeded in 64.48651811602758s: ' scrabbing success!'
+[2017-09-28 20:09:41,254: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[9975f1e5-ff15-47af-a42d-d174414bf24d]  
+[2017-09-28 20:09:41,409: WARNING/ForkPoolWorker-1] Dhaka
+[2017-09-28 20:09:41,421: WARNING/ForkPoolWorker-1] hello
+[2017-09-28 20:09:41,421: WARNING/ForkPoolWorker-1] 2
+[2017-09-28 20:09:42,810: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Dhaka/hello/page-1 with 200
+[2017-09-28 20:09:44,274: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-09-28 20:09:45,797: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-09-28 20:09:47,212: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-09-28 20:09:48,092: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-09-28 20:09:48,910: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-09-28 20:09:49,720: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-09-28 20:09:50,481: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Dhaka/hello/page-2 with 200
+[2017-09-28 20:09:51,825: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-09-28 20:09:52,623: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-09-28 20:09:53,543: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-09-28 20:09:54,322: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-09-28 20:09:55,311: WARNING/ForkPoolWorker-1] No: 10, Saving data to database
+[2017-09-28 20:09:57,182: WARNING/ForkPoolWorker-1] No: 11, Saving data to database
+[2017-09-28 20:09:57,186: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[9975f1e5-ff15-47af-a42d-d174414bf24d] succeeded in 15.814442740054801s: ' scrabbing success!'
+[2017-09-28 20:17:25,359: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[a944b919-759f-4556-b914-e09a088a55e2]  
+[2017-09-28 20:17:25,360: WARNING/ForkPoolWorker-1] Mumbai
+[2017-09-28 20:17:25,360: WARNING/ForkPoolWorker-1] smartphone
+[2017-09-28 20:17:25,360: WARNING/ForkPoolWorker-1] 4
+[2017-09-28 20:17:27,346: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Mumbai/smartphone/page-1 with 200
+[2017-09-28 20:17:28,279: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-09-28 20:17:28,286: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:29,998: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-09-28 20:17:30,002: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:30,004: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:31,099: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-09-28 20:17:32,015: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-09-28 20:17:32,022: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:32,815: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-09-28 20:17:32,821: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:34,086: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Mumbai/smartphone/page-2 with 200
+[2017-09-28 20:17:35,986: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-09-28 20:17:36,002: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:36,722: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-09-28 20:17:36,726: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:36,728: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:37,408: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-09-28 20:17:37,415: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:37,416: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:38,007: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-09-28 20:17:38,010: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:40,984: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Mumbai/smartphone/page-3 with 200
+[2017-09-28 20:17:41,200: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:41,204: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:41,207: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-28 20:17:42,255: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Mumbai/smartphone/page-4 with 200
+[2017-09-28 20:17:42,347: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[a944b919-759f-4556-b914-e09a088a55e2] succeeded in 16.98701620392967s: ' scrabbing success!'
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@rajputdataserver.info v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-2.6.32-042stab123.1-x86_64-with-Ubuntu-16.04-xenial 2017-09-22 13:56:15
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         justdial_main:0x7f54ce7a1e48
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . crawler_manager.tasks.start_srabbing
+
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-09-29 01:04:31,018: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-29 01:04:31,030: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-29 01:04:32,053: INFO/MainProcess] mingle: all alone
+[2017-09-29 01:04:32,064: WARNING/MainProcess] /root/py3djenv/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-29 01:04:32,064: INFO/MainProcess] celery@rajputdataserver.info ready.
+[2017-09-29 02:00:52,581: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[649dc994-b9f3-4724-aaae-f625263ad1b8]  
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-09-29 02:00:52,582: WARNING/ForkPoolWorker-1] Pune
+[2017-09-29 02:00:52,582: WARNING/ForkPoolWorker-1] hello
+[2017-09-29 02:00:52,582: WARNING/ForkPoolWorker-1] 3
+[2017-09-29 02:00:53,824: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Pune/hello/page-1 with 200
+[2017-09-29 02:00:53,925: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:00:53,927: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:00:55,205: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-09-29 02:00:55,717: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-09-29 02:00:56,228: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-09-29 02:00:56,907: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-09-29 02:00:57,403: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-09-29 02:00:57,408: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:00:57,936: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-09-29 02:00:58,411: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-09-29 02:00:59,241: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Pune/hello/page-2 with 200
+[2017-09-29 02:00:59,438: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:00:59,440: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:02,220: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-09-29 02:01:02,709: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-09-29 02:01:03,200: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-09-29 02:01:03,910: WARNING/ForkPoolWorker-1] No: 10, Saving data to database
+[2017-09-29 02:01:04,415: WARNING/ForkPoolWorker-1] No: 11, Saving data to database
+[2017-09-29 02:01:05,615: WARNING/ForkPoolWorker-1] No: 12, Saving data to database
+[2017-09-29 02:01:06,782: WARNING/ForkPoolWorker-1] No: 13, Saving data to database
+[2017-09-29 02:01:06,786: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:07,755: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Pune/hello/page-3 with 200
+[2017-09-29 02:01:08,375: WARNING/ForkPoolWorker-1] No: 14, Saving data to database
+[2017-09-29 02:01:08,379: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,380: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,382: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,897: WARNING/ForkPoolWorker-1] No: 15, Saving data to database
+[2017-09-29 02:01:08,900: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,902: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,903: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,905: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,907: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-09-29 02:01:08,907: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[649dc994-b9f3-4724-aaae-f625263ad1b8] succeeded in 16.32527318992652s: ' scrabbing success!'

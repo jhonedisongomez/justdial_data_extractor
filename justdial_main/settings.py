@@ -121,7 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
 STATIC_ROOT = 'statics'
 
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 5000
 
 CELERY_BROKER_URL = 'amqp://localhost'
