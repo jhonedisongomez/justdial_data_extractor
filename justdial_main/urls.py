@@ -19,8 +19,6 @@ from django.views.generic import RedirectView
 
 
 urlpatterns = [
-    # url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
     url(r'^admin/', admin.site.urls),
     url(r'^', include('crawler_manager.urls', namespace='crawler_manager')),
-    # url(r'^$', RedirectView.as_view(url='admin/')),
 ]
