@@ -19,12 +19,19 @@ class CrawelIssuekResource(resources.ModelResource):
 
 @admin.register(models.CrawelIssue)
 class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
-    save_as = True
+    def save_model(self, request, obj, form, change):
+        obj.user = request.user
+        obj.save()
+
     def get_queryset(self, request):
         qs = super(CrawelIssueAdmin, self).get_queryset(request)
-        if request.user.is_superuser:
-            return qs
         return qs.filter(user=request.user)
+
+    def has_change_permission(self, request, obj=None):
+        if not obj:
+            # the changelist itself
+            return True
+        return obj.user == request.user
 
     resource_class = CrawelIssuekResource
 
