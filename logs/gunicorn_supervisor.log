@@ -1136,3 +1136,13 @@ Starting django_app as root
 [2017-10-01 06:23:27 +0000] [30618] [DEBUG] GET /admin/jsi18n/
 [2017-10-01 06:25:16 +0000] [30619] [DEBUG] GET /admin/crawler_manager/crawelissue/
 [2017-10-01 06:25:17 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 06:30:50 +0000] [30620] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-01 06:30:50 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 06:30:58 +0000] [30619] [DEBUG] GET /
+[2017-10-01 06:31:09 +0000] [30620] [DEBUG] POST /index
+[2017-10-01 06:31:09 +0000] [30619] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-01 06:31:10 +0000] [30620] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 06:31:12 +0000] [30620] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-01 06:31:12 +0000] [30620] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 06:31:15 +0000] [30620] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-01 06:31:15 +0000] [30619] [DEBUG] GET /admin/jsi18n/
