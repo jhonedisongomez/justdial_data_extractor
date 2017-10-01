@@ -22,8 +22,8 @@ class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     save_as = True
     def get_queryset(self, request):
         qs = super(CrawelIssueAdmin, self).get_queryset(request)
-	if request.user.is_superuser:
-	    return qs
+        if request.user.is_superuser:
+            return qs
         return qs.filter(user=request.user)
 
     resource_class = CrawelIssuekResource
