@@ -18,11 +18,11 @@
 {% block breadcrumbs %}
   <div class="breadcrumbs">
     <a href="{% url 'admin:index' %}">{% trans 'Admin Home' %}</a>
-    {% if title %} &rsaquo; {{ title }}{% endif %}
+    {% if title %} &rsaquo; {{ title }}{% endif %} / 
 
-    <a href="/admin/crawler_manager/crawelissue/">{% trans 'Scrapped Data' %}</a>
+    <a href="/admin/crawler_manager/crawelissue/">{% trans 'Scrapped Data' %}</a> /
 
-    <a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a> 
+    <a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a> / 
     <a href="{% url 'admin:logout' %}">{% trans 'Log out' %}</a>
     
 
