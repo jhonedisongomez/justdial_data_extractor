@@ -14,7 +14,7 @@ class CrawelIssuekResource(resources.ModelResource):
         skip_unchanged = True
         report_skipped = False
         # fields = ('id', 'name', 'price',)
-        # exclude = ('imported', )
+        exclude = ('user', )
 
 
 @admin.register(models.CrawelIssue)
@@ -28,7 +28,7 @@ class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
 
     resource_class = CrawelIssuekResource
 
-    list_display = ('keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website')
+    list_display = ('user', 'keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website')
     list_filter = ['city_name', 'user', 'keyword', 'rating']
     search_fields = ['keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website']
     list_per_page = 5000
