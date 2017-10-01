@@ -10093,3 +10093,62 @@ ValueError: invalid literal for int() with base 10: ''
 [2017-10-01 05:40:13,102: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
 [2017-10-01 05:40:13,104: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
 [2017-10-01 05:40:13,104: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[dd1887f6-bd9d-4e07-86d1-39f711cd689f] succeeded in 286.12450785096735s: ' scrabbing success!'
+[2017-10-01 05:59:37,092: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[880caf6e-619f-4862-82c6-1c0b14952c4e]  
+[2017-10-01 05:59:37,093: WARNING/ForkPoolWorker-1] Surat
+[2017-10-01 05:59:37,093: WARNING/ForkPoolWorker-1] gym
+[2017-10-01 05:59:37,093: WARNING/ForkPoolWorker-1] 2
+[2017-10-01 05:59:39,298: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Surat/gym/page-1 with 200
+[2017-10-01 05:59:40,142: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-01 05:59:41,293: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-01 05:59:42,420: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-01 05:59:42,908: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-01 05:59:43,520: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-01 05:59:44,118: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-01 05:59:45,235: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-01 05:59:45,809: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-01 05:59:46,480: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-10-01 05:59:47,126: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-10-01 05:59:47,782: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Surat/gym/page-2 with 200
+[2017-10-01 05:59:48,836: WARNING/ForkPoolWorker-1] No: 10, Saving data to database
+[2017-10-01 05:59:49,341: WARNING/ForkPoolWorker-1] No: 11, Saving data to database
+[2017-10-01 05:59:50,193: WARNING/ForkPoolWorker-1] No: 12, Saving data to database
+[2017-10-01 05:59:51,136: WARNING/ForkPoolWorker-1] No: 13, Saving data to database
+[2017-10-01 05:59:51,628: WARNING/ForkPoolWorker-1] No: 14, Saving data to database
+[2017-10-01 05:59:52,285: WARNING/ForkPoolWorker-1] No: 15, Saving data to database
+[2017-10-01 05:59:52,816: WARNING/ForkPoolWorker-1] No: 16, Saving data to database
+[2017-10-01 05:59:53,433: WARNING/ForkPoolWorker-1] No: 17, Saving data to database
+[2017-10-01 05:59:53,926: WARNING/ForkPoolWorker-1] No: 18, Saving data to database
+[2017-10-01 05:59:54,492: WARNING/ForkPoolWorker-1] No: 19, Saving data to database
+[2017-10-01 05:59:54,496: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[880caf6e-619f-4862-82c6-1c0b14952c4e] succeeded in 17.40281900402624s: ' scrabbing success!'
+[2017-10-01 06:04:42,965: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[faf7403a-b968-4f8e-ac93-370a60cd8b85]  
+[2017-10-01 06:04:42,966: WARNING/ForkPoolWorker-1] Ahmedabad
+[2017-10-01 06:04:42,966: WARNING/ForkPoolWorker-1] hello
+[2017-10-01 06:04:42,966: WARNING/ForkPoolWorker-1] 1
+[2017-10-01 06:04:44,159: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Ahmedabad/hello/page-1 with 200
+[2017-10-01 06:04:44,288: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-01 06:04:44,289: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-01 06:04:44,791: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-01 06:04:45,987: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-01 06:04:46,497: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-01 06:04:47,118: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-01 06:04:48,029: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-01 06:04:48,635: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-01 06:04:49,114: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-01 06:04:49,780: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-01 06:04:49,783: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[faf7403a-b968-4f8e-ac93-370a60cd8b85] succeeded in 6.817274537985213s: ' scrabbing success!'
+[2017-10-01 06:22:50,252: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[c91f26b5-ea32-467a-b612-9cfc76599047]  
+[2017-10-01 06:22:50,253: WARNING/ForkPoolWorker-1] Ahmedabad
+[2017-10-01 06:22:50,253: WARNING/ForkPoolWorker-1] hello
+[2017-10-01 06:22:50,253: WARNING/ForkPoolWorker-1] 1
+[2017-10-01 06:22:51,170: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Ahmedabad/hello/page-1 with 200
+[2017-10-01 06:22:51,311: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-01 06:22:51,313: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-01 06:22:52,121: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-01 06:22:53,684: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-01 06:22:54,377: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-01 06:22:54,924: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-01 06:22:55,695: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-01 06:22:56,214: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-01 06:22:56,883: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-01 06:22:57,395: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-01 06:22:57,407: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[c91f26b5-ea32-467a-b612-9cfc76599047] succeeded in 7.154229386011139s: ' scrabbing success!'

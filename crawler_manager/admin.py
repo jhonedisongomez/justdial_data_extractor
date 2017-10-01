@@ -18,11 +18,18 @@ class CrawelIssuekResource(resources.ModelResource):
 
 
 @admin.register(models.CrawelIssue)
-class CrawelIssueAdmin(ImportExportModelAdmin):
+class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
+    save_as = True
+    def get_queryset(self, request):
+        qs = super(CrawelIssueAdmin, self).get_queryset(request)
+	if request.user.is_superuser:
+	    return qs
+        return qs.filter(user=request.user)
+
     resource_class = CrawelIssuekResource
 
     list_display = ('keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website')
-    list_filter = ['city_name', 'keyword', 'rating']
+    list_filter = ['city_name', 'user', 'keyword', 'rating']
     search_fields = ['keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website']
     list_per_page = 5000
 
