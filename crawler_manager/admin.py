@@ -18,7 +18,12 @@ class CrawelIssuekResource(resources.ModelResource):
 
 
 @admin.register(models.CrawelIssue)
-class CrawelIssueAdmin(ImportExportModelAdmin):
+class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
+    
+    def get_queryset(self, request):
+        qs = super(CrawelIssueAdmin, self).get_queryset(request)
+        return qs.filter(user=request.user)
+
     resource_class = CrawelIssuekResource
 
     list_display = ('keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website')
