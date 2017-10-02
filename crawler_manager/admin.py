@@ -15,13 +15,12 @@ class CrawelIssuekResource(resources.ModelResource):
         skip_unchanged = True
         report_skipped = False
         # fields = ('id', 'name', 'price',)
-        # exclude = ('user', )
+        #exclude = ('user', )
 
 
 @admin.register(models.CrawelIssue)
 class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     
-
     # def get_queryset(self, request):
     #     qs = super(CrawelIssueAdmin, self).get_queryset(request)
     #     return qs.filter(user=request.user)
@@ -31,6 +30,19 @@ class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     #         # the changelist itself
     #         return True
     #     return obj.user == request.user
+    #def save_model(self, request, obj, form, change):
+    #    obj.user = request.user
+    #    obj.save()
+
+    #def get_queryset(self, request):
+    #    qs = super(CrawelIssueAdmin, self).get_queryset(request)
+    #    return qs.filter(user=request.user)
+
+    #def has_change_permission(self, request, obj=None):
+    #    if not obj:
+            # the changelist itself
+    #        return True
+    #    return obj.user == request.user
 
     resource_class = CrawelIssuekResource
 

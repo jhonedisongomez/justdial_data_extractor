@@ -1914,3 +1914,374 @@ django.db.utils.OperationalError: no such table: django_session
 [2017-10-02 01:38:15 +0000] [6338] [DEBUG] GET /admin/jsi18n/
 [2017-10-02 01:39:01 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
 [2017-10-02 01:39:01 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:31:07 +0000] [6338] [DEBUG] GET /
+[2017-10-02 02:31:08 +0000] [6342] [DEBUG] GET /admin/login/
+[2017-10-02 02:31:08 +0000] [6338] [DEBUG] GET /admin/login/
+[2017-10-02 02:35:37 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:35:38 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:35:54 +0000] [6342] [DEBUG] GET /
+[2017-10-02 02:36:08 +0000] [6338] [DEBUG] POST /index
+[2017-10-02 02:36:09 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:36:10 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:36:26 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:36:27 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:36:30 +0000] [6338] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:36:31 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:36:56 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:36:57 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:37:00 +0000] [6338] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:37:01 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:37:11 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:37:12 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:37:14 +0000] [6338] [DEBUG] GET /
+[2017-10-02 02:37:33 +0000] [6338] [DEBUG] GET /
+[2017-10-02 02:37:43 +0000] [6340] [DEBUG] POST /index
+[2017-10-02 02:37:44 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:37:45 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:38:36 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:38:37 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:38:42 +0000] [6338] [DEBUG] GET /
+[2017-10-02 02:38:49 +0000] [6340] [DEBUG] POST /index
+[2017-10-02 02:38:50 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:38:50 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:39:07 +0000] [6338] [DEBUG] GET /admin/crawler_manager/
+[2017-10-02 02:39:09 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:39:10 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:39:15 +0000] [6340] [DEBUG] GET /
+[2017-10-02 02:48:17 +0000] [6340] [DEBUG] GET /admin/
+[2017-10-02 02:48:18 +0000] [6338] [DEBUG] GET /admin/login/
+[2017-10-02 02:48:19 +0000] [6340] [DEBUG] GET /favicon.ico
+[2017-10-02 02:48:19 +0000] [6342] [DEBUG] GET /admin/login/
+[2017-10-02 02:48:34 +0000] [6342] [DEBUG] POST /admin/login/
+[2017-10-02 02:48:35 +0000] [6340] [DEBUG] GET /admin/
+[2017-10-02 02:48:36 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:02 +0000] [6338] [DEBUG] GET /
+[2017-10-02 02:49:03 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:20 +0000] [6338] [DEBUG] POST /index
+[2017-10-02 02:49:20 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:49:21 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:49:22 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:29 +0000] [6338] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:49:30 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:49:30 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:33 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:49:33 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:49:34 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:35 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:49:36 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:49:37 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:39 +0000] [6338] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:49:40 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:49:40 +0000] [6340] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:42 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:49:43 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:49:43 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:48 +0000] [6340] [DEBUG] GET /
+[2017-10-02 02:49:48 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:49:51 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:49:51 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:49:52 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 02:52:28 +0000] [6342] [DEBUG] GET /admin/
+[2017-10-02 02:52:29 +0000] [6340] [DEBUG] GET /favicon.ico
+[2017-10-02 02:56:12 +0000] [6340] [DEBUG] GET /
+[2017-10-02 02:56:12 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:56:22 +0000] [6338] [DEBUG] POST /index
+[2017-10-02 02:56:23 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:56:23 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:56:24 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:56:27 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:56:27 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:56:28 +0000] [6340] [DEBUG] GET /favicon.ico
+[2017-10-02 02:58:06 +0000] [6340] [DEBUG] GET /
+[2017-10-02 02:58:06 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:58:09 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 02:58:09 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:58:10 +0000] [6340] [DEBUG] GET /favicon.ico
+[2017-10-02 02:58:15 +0000] [6340] [DEBUG] GET /admin/
+[2017-10-02 02:58:15 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 02:58:29 +0000] [6338] [DEBUG] GET /admin/auth/user/
+[2017-10-02 02:58:30 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 02:58:30 +0000] [6340] [DEBUG] GET /favicon.ico
+[2017-10-02 04:52:08 +0000] [6342] [DEBUG] GET /
+[2017-10-02 04:52:10 +0000] [6338] [DEBUG] GET /favicon.ico
+[2017-10-02 05:43:32 +0000] [6338] [DEBUG] GET /admin/
+[2017-10-02 05:43:33 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 05:43:35 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+Internal Server Error: /admin/crawler_manager/crawelissue/
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 79, in __init__
+    self.get_results(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/paginator.py", line 79, in count
+    return self.object_list.count()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 884, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: crawler_manager_crawelissue.user_id
+[2017-10-02 05:43:38 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 05:45:41 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 05:45:41 +0000] [6338] [DEBUG] GET /admin/login/
+[2017-10-02 05:45:42 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 05:45:42 +0000] [6340] [DEBUG] GET /admin/login/
+[2017-10-02 05:45:48 +0000] [6342] [DEBUG] POST /admin/login/
+[2017-10-02 05:45:48 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+Internal Server Error: /admin/crawler_manager/crawelissue/
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 79, in __init__
+    self.get_results(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/paginator.py", line 79, in count
+    return self.object_list.count()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 884, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: crawler_manager_crawelissue.user_id
+[2017-10-02 05:45:50 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 05:45:55 +0000] [6338] [DEBUG] GET /admin/
+[2017-10-02 05:45:56 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 05:45:57 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+Internal Server Error: /admin/crawler_manager/crawelissue/
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 79, in __init__
+    self.get_results(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/paginator.py", line 79, in count
+    return self.object_list.count()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 884, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: crawler_manager_crawelissue.user_id
+[2017-10-02 05:45:59 +0000] [6342] [DEBUG] GET /favicon.ico
+[2017-10-02 05:47:18 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+Internal Server Error: /admin/crawler_manager/crawelissue/
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 79, in __init__
+    self.get_results(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/paginator.py", line 79, in count
+    return self.object_list.count()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 884, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: crawler_manager_crawelissue.user_id
+[2017-10-02 05:47:20 +0000] [6340] [DEBUG] GET /favicon.ico

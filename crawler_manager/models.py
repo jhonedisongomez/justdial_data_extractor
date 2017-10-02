@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 
 
 class CrawelIssue(models.Model):
+    # user = models.ForeignKey(settings.AUTH_USER_MODEL)
     keyword = models.CharField(max_length=100)
     city_name = models.CharField(max_length=100)
     instance_index = models.IntegerField()
