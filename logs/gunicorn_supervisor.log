@@ -3293,3 +3293,561 @@ Starting django_app as root
 [2017-10-02 06:52:16 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/
 [2017-10-02 06:52:17 +0000] [12313] [DEBUG] GET /admin/jsi18n/
 [2017-10-02 06:52:19 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:54:02 +0000] [12311] [DEBUG] GET /
+[2017-10-02 06:54:02 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:54:13 +0000] [12315] [DEBUG] POST /index
+[2017-10-02 06:54:14 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:54:18 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:54:28 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:54:33 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:54:37 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:54:41 +0000] [12311] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:54:45 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:54:45 +0000] [12311] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:54:46 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:54:48 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:54:49 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:55:00 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 06:55:04 +0000] [12311] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:55:08 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:55:20 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 06:55:22 +0000] [12315] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:55:23 +0000] [12311] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:55:27 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:55:29 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:55:29 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:55:40 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 06:55:48 +0000] [12315] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:55:52 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:56:03 +0000] [12311] [DEBUG] GET /favicon.ico
+[2017-10-02 06:56:12 +0000] [12315] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:56:17 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:56:29 +0000] [12311] [DEBUG] GET /favicon.ico
+[2017-10-02 06:56:48 +0000] [12315] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:56:53 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:57:06 +0000] [12311] [DEBUG] GET /favicon.ico
+[2017-10-02 06:57:09 +0000] [12315] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:57:13 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:57:29 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:57:41 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/export/
+[2017-10-02 06:57:42 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 06:57:46 +0000] [12315] [DEBUG] POST /admin/crawler_manager/crawelissue/export/
+[2017-10-02 06:58:19 +0000] [12315] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:58:24 +0000] [12315] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:58:25 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 06:59:31 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:59:36 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:59:38 +0000] [12311] [DEBUG] GET /favicon.ico
+[2017-10-02 06:59:44 +0000] [12315] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 06:59:49 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 06:59:51 +0000] [12311] [DEBUG] GET /favicon.ico
+[2017-10-02 07:00:01 +0000] [12311] [DEBUG] GET /admin/crawler_manager/
+[2017-10-02 07:00:02 +0000] [12311] [DEBUG] GET /favicon.ico
+[2017-10-02 07:01:03 +0000] [12311] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:01:09 +0000] [12313] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:01:10 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 07:01:19 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:01:24 +0000] [12313] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:01:26 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 07:01:54 +0000] [12315] [DEBUG] GET /
+[2017-10-02 07:01:55 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 07:01:57 +0000] [12311] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:02:02 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:02:04 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:02:08 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:02:11 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 07:02:22 +0000] [12315] [DEBUG] GET /favicon.ico
+[2017-10-02 07:02:45 +0000] [12311] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:02:48 +0000] [12313] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:02:51 +0000] [12311] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:02:55 +0000] [12313] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:02:57 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 07:02:59 +0000] [12313] [DEBUG] GET /favicon.ico
+[2017-10-02 03:03:30 -0400] [12304] [INFO] Handling signal: term
+[2017-10-02 07:03:30 +0000] [12311] [INFO] Worker exiting (pid: 12311)
+[2017-10-02 07:03:30 +0000] [12313] [INFO] Worker exiting (pid: 12313)
+[2017-10-02 07:03:30 +0000] [12315] [INFO] Worker exiting (pid: 12315)
+[2017-10-02 03:03:31 -0400] [12304] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-02 03:03:31 -0400] [13393] [DEBUG] Current configuration:
+  errorlog: -
+  ciphers: TLSv1
+  worker_class: sync
+  reload: False
+  sendfile: None
+  proxy_protocol: False
+  raw_paste_global_conf: []
+  certfile: None
+  forwarded_allow_ips: ['127.0.0.1']
+  limit_request_fields: 100
+  graceful_timeout: 30
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  post_fork: <function Postfork.post_fork at 0x7f749e830b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f749e8340d0>
+  pre_request: <function PreRequest.pre_request at 0x7f749e834400>
+  daemon: False
+  worker_tmp_dir: None
+  user: 0
+  group: 0
+  pythonpath: None
+  check_config: False
+  worker_exit: <function WorkerExit.worker_exit at 0x7f749e834840>
+  initgroups: False
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  on_exit: <function OnExit.on_exit at 0x7f749e834b70>
+  cert_reqs: 0
+  workers: 3
+  suppress_ragged_eofs: True
+  keepalive: 2
+  capture_output: False
+  enable_stdio_inheritance: False
+  on_reload: <function OnReload.on_reload at 0x7f749e8306a8>
+  umask: 0
+  tmp_upload_dir: None
+  timeout: 30
+  limit_request_line: 4094
+  proc_name: django_app
+  statsd_host: None
+  preload_app: False
+  do_handshake_on_connect: False
+  accesslog: None
+  max_requests_jitter: 0
+  reload_engine: auto
+  on_starting: <function OnStarting.on_starting at 0x7f749e830510>
+  statsd_prefix: 
+  pre_fork: <function Prefork.pre_fork at 0x7f749e8309d8>
+  worker_int: <function WorkerInt.worker_int at 0x7f749e830ea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f749e834268>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  logger_class: gunicorn.glogging.Logger
+  syslog_facility: user
+  raw_env: []
+  proxy_allow_ips: ['127.0.0.1']
+  backlog: 2048
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f749e830d08>
+  post_request: <function PostRequest.post_request at 0x7f749e834510>
+  keyfile: None
+  ssl_version: 2
+  threads: 1
+  max_requests: 0
+  loglevel: debug
+  pidfile: None
+  when_ready: <function WhenReady.when_ready at 0x7f749e830840>
+  limit_request_field_size: 8190
+  child_exit: <function ChildExit.child_exit at 0x7f749e8346a8>
+  paste: None
+  syslog_prefix: None
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  spew: False
+  chdir: /root/justdial_data_extractor
+  default_proc_name: justdial_main.wsgi:application
+  ca_certs: None
+  worker_connections: 1000
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f749e8349d8>
+  syslog: False
+  config: None
+[2017-10-02 03:03:31 -0400] [13393] [INFO] Starting gunicorn 19.7.1
+[2017-10-02 03:03:31 -0400] [13393] [DEBUG] Arbiter booted
+[2017-10-02 03:03:31 -0400] [13393] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (13393)
+[2017-10-02 03:03:31 -0400] [13393] [INFO] Using worker: sync
+[2017-10-02 03:03:31 -0400] [13400] [INFO] Booting worker with pid: 13400
+[2017-10-02 03:03:31 -0400] [13401] [INFO] Booting worker with pid: 13401
+[2017-10-02 03:03:31 -0400] [13403] [INFO] Booting worker with pid: 13403
+[2017-10-02 03:03:32 -0400] [13393] [DEBUG] 3 workers
+[2017-10-02 07:03:36 +0000] [13403] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:03:43 +0000] [13403] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:03:45 +0000] [13400] [DEBUG] GET /favicon.ico
+[2017-10-02 07:03:52 +0000] [13401] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:03:58 +0000] [13403] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:04:00 +0000] [13400] [DEBUG] GET /favicon.ico
+[2017-10-02 07:05:10 +0000] [13400] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:05:16 +0000] [13403] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:05:17 +0000] [13403] [DEBUG] GET /favicon.ico
+[2017-10-02 03:05:25 -0400] [13393] [INFO] Handling signal: term
+[2017-10-02 07:05:25 +0000] [13403] [INFO] Worker exiting (pid: 13403)
+[2017-10-02 07:05:25 +0000] [13400] [INFO] Worker exiting (pid: 13400)
+[2017-10-02 07:05:25 +0000] [13401] [INFO] Worker exiting (pid: 13401)
+[2017-10-02 03:05:26 -0400] [13393] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-02 03:05:27 -0400] [13456] [DEBUG] Current configuration:
+  cert_reqs: 0
+  pre_request: <function PreRequest.pre_request at 0x7f44a9200400>
+  preload_app: False
+  backlog: 2048
+  spew: False
+  capture_output: False
+  worker_int: <function WorkerInt.worker_int at 0x7f44a91fcea0>
+  user: 0
+  logger_class: gunicorn.glogging.Logger
+  config: None
+  keyfile: None
+  when_ready: <function WhenReady.when_ready at 0x7f44a91fc840>
+  chdir: /root/justdial_data_extractor
+  raw_env: []
+  pidfile: None
+  accesslog: None
+  statsd_prefix: 
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f44a92009d8>
+  syslog: False
+  ca_certs: None
+  on_reload: <function OnReload.on_reload at 0x7f44a91fc6a8>
+  statsd_host: None
+  worker_connections: 1000
+  reload: False
+  daemon: False
+  group: 0
+  check_config: False
+  worker_class: sync
+  certfile: None
+  worker_tmp_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  pythonpath: None
+  proxy_allow_ips: ['127.0.0.1']
+  pre_exec: <function PreExec.pre_exec at 0x7f44a9200268>
+  threads: 1
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  loglevel: debug
+  syslog_addr: udp://localhost:514
+  pre_fork: <function Prefork.pre_fork at 0x7f44a91fc9d8>
+  workers: 3
+  paste: None
+  keepalive: 2
+  proc_name: django_app
+  on_starting: <function OnStarting.on_starting at 0x7f44a91fc510>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f44a92000d0>
+  limit_request_fields: 100
+  reload_engine: auto
+  limit_request_line: 4094
+  graceful_timeout: 30
+  post_fork: <function Postfork.post_fork at 0x7f44a91fcb70>
+  ssl_version: 2
+  worker_exit: <function WorkerExit.worker_exit at 0x7f44a9200840>
+  syslog_prefix: None
+  initgroups: False
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  tmp_upload_dir: None
+  raw_paste_global_conf: []
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f44a91fcd08>
+  post_request: <function PostRequest.post_request at 0x7f44a9200510>
+  default_proc_name: justdial_main.wsgi:application
+  child_exit: <function ChildExit.child_exit at 0x7f44a92006a8>
+  errorlog: -
+  logconfig: None
+  enable_stdio_inheritance: False
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  syslog_facility: user
+  sendfile: None
+  umask: 0
+  limit_request_field_size: 8190
+  on_exit: <function OnExit.on_exit at 0x7f44a9200b70>
+  proxy_protocol: False
+[2017-10-02 03:05:27 -0400] [13456] [INFO] Starting gunicorn 19.7.1
+[2017-10-02 03:05:27 -0400] [13456] [DEBUG] Arbiter booted
+[2017-10-02 03:05:27 -0400] [13456] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (13456)
+[2017-10-02 03:05:27 -0400] [13456] [INFO] Using worker: sync
+[2017-10-02 03:05:27 -0400] [13463] [INFO] Booting worker with pid: 13463
+[2017-10-02 03:05:27 -0400] [13464] [INFO] Booting worker with pid: 13464
+[2017-10-02 03:05:27 -0400] [13467] [INFO] Booting worker with pid: 13467
+[2017-10-02 03:05:27 -0400] [13456] [DEBUG] 3 workers
+[2017-10-02 07:05:34 +0000] [13467] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:05:40 +0000] [13464] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:05:42 +0000] [13464] [DEBUG] GET /favicon.ico
+[2017-10-02 07:05:44 +0000] [13467] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:05:50 +0000] [13463] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:05:52 +0000] [13463] [DEBUG] GET /favicon.ico
+[2017-10-02 07:08:01 +0000] [13464] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:08:03 +0000] [13463] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:08:05 +0000] [13464] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:08:09 +0000] [13464] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:08:11 +0000] [13464] [DEBUG] GET /favicon.ico
+[2017-10-02 07:08:13 +0000] [13463] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:08:15 +0000] [13464] [DEBUG] GET /favicon.ico
+[2017-10-02 07:08:18 +0000] [13464] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:08:21 +0000] [13467] [DEBUG] GET /favicon.ico
+[2017-10-02 07:08:37 +0000] [13463] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:08:42 +0000] [13467] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:08:44 +0000] [13467] [DEBUG] GET /favicon.ico
+[2017-10-02 07:09:53 +0000] [13467] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:10:00 +0000] [13463] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:10:02 +0000] [13463] [DEBUG] GET /favicon.ico
+[2017-10-02 07:10:42 +0000] [13464] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:10:49 +0000] [13464] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:10:51 +0000] [13464] [DEBUG] GET /favicon.ico
+[2017-10-02 07:12:04 +0000] [13463] [DEBUG] GET /admin/
+[2017-10-02 07:12:04 +0000] [13467] [DEBUG] GET /favicon.ico
+[2017-10-02 07:12:05 +0000] [13464] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:12:12 +0000] [13467] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:12:14 +0000] [13467] [DEBUG] GET /favicon.ico
+[2017-10-02 07:12:20 +0000] [13463] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:12:26 +0000] [13467] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:12:28 +0000] [13467] [DEBUG] GET /favicon.ico
+[2017-10-02 07:12:30 +0000] [13467] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:12:36 +0000] [13464] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:12:38 +0000] [13463] [DEBUG] GET /favicon.ico
+[2017-10-02 07:13:09 +0000] [13463] [DEBUG] POST /admin/crawler_manager/crawelissue/
+[2017-10-02 07:13:10 +0000] [13464] [DEBUG] GET /favicon.ico
+[2017-10-02 07:13:14 +0000] [13464] [DEBUG] POST /admin/crawler_manager/crawelissue/
+[2017-10-02 07:13:17 +0000] [13464] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:13:17 +0000] [13463] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:13:18 +0000] [13467] [DEBUG] GET /favicon.ico
+[2017-10-02 07:13:22 +0000] [13467] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:13:22 +0000] [13463] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:13:23 +0000] [13464] [DEBUG] GET /favicon.ico
+[2017-10-02 03:13:52 -0400] [13456] [INFO] Handling signal: term
+[2017-10-02 07:13:52 +0000] [13464] [INFO] Worker exiting (pid: 13464)
+[2017-10-02 07:13:52 +0000] [13463] [INFO] Worker exiting (pid: 13463)
+[2017-10-02 07:13:52 +0000] [13467] [INFO] Worker exiting (pid: 13467)
+[2017-10-02 03:13:54 -0400] [13456] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-02 03:13:54 -0400] [13749] [DEBUG] Current configuration:
+  certfile: None
+  ssl_version: 2
+  keepalive: 2
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  syslog_addr: udp://localhost:514
+  enable_stdio_inheritance: False
+  pre_exec: <function PreExec.pre_exec at 0x7f232503b268>
+  graceful_timeout: 30
+  keyfile: None
+  ciphers: TLSv1
+  preload_app: False
+  sendfile: None
+  chdir: /root/justdial_data_extractor
+  daemon: False
+  raw_env: []
+  workers: 3
+  worker_connections: 1000
+  user: 0
+  group: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  paste: None
+  statsd_prefix: 
+  on_reload: <function OnReload.on_reload at 0x7f23250376a8>
+  when_ready: <function WhenReady.when_ready at 0x7f2325037840>
+  child_exit: <function ChildExit.child_exit at 0x7f232503b6a8>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f232503b840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f232503b9d8>
+  default_proc_name: justdial_main.wsgi:application
+  pidfile: None
+  proxy_protocol: False
+  loglevel: debug
+  backlog: 2048
+  proc_name: django_app
+  limit_request_field_size: 8190
+  errorlog: -
+  logconfig: None
+  pre_request: <function PreRequest.pre_request at 0x7f232503b400>
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  reload: False
+  on_starting: <function OnStarting.on_starting at 0x7f2325037510>
+  post_fork: <function Postfork.post_fork at 0x7f2325037b70>
+  spew: False
+  worker_tmp_dir: None
+  check_config: False
+  syslog: False
+  statsd_host: None
+  pre_fork: <function Prefork.pre_fork at 0x7f23250379d8>
+  worker_int: <function WorkerInt.worker_int at 0x7f2325037ea0>
+  post_request: <function PostRequest.post_request at 0x7f232503b510>
+  max_requests_jitter: 0
+  syslog_prefix: None
+  threads: 1
+  ca_certs: None
+  max_requests: 0
+  do_handshake_on_connect: False
+  umask: 0
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  pythonpath: None
+  raw_paste_global_conf: []
+  worker_class: sync
+  timeout: 30
+  limit_request_fields: 100
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f232503b0d0>
+  on_exit: <function OnExit.on_exit at 0x7f232503bb70>
+  cert_reqs: 0
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f2325037d08>
+  limit_request_line: 4094
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  initgroups: False
+  syslog_facility: user
+  config: None
+  suppress_ragged_eofs: True
+[2017-10-02 03:13:54 -0400] [13749] [INFO] Starting gunicorn 19.7.1
+[2017-10-02 03:13:54 -0400] [13749] [DEBUG] Arbiter booted
+[2017-10-02 03:13:54 -0400] [13749] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (13749)
+[2017-10-02 03:13:54 -0400] [13749] [INFO] Using worker: sync
+[2017-10-02 03:13:54 -0400] [13756] [INFO] Booting worker with pid: 13756
+[2017-10-02 03:13:54 -0400] [13757] [INFO] Booting worker with pid: 13757
+[2017-10-02 03:13:54 -0400] [13759] [INFO] Booting worker with pid: 13759
+[2017-10-02 03:13:54 -0400] [13749] [DEBUG] 3 workers
+[2017-10-02 07:14:02 +0000] [13759] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:14:03 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:14:03 +0000] [13759] [DEBUG] GET /favicon.ico
+[2017-10-02 07:14:06 +0000] [13759] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:14:06 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:14:07 +0000] [13757] [DEBUG] GET /favicon.ico
+[2017-10-02 07:15:34 +0000] [13756] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:15:35 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:15:35 +0000] [13759] [DEBUG] GET /favicon.ico
+[2017-10-02 07:15:39 +0000] [13759] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:15:40 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:15:40 +0000] [13756] [DEBUG] GET /favicon.ico
+[2017-10-02 07:16:33 +0000] [13757] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:16:35 +0000] [13756] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:16:37 +0000] [13756] [DEBUG] GET /favicon.ico
+[2017-10-02 07:16:55 +0000] [13756] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:16:56 +0000] [13759] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:16:57 +0000] [13757] [DEBUG] GET /favicon.ico
+[2017-10-02 07:17:13 +0000] [13757] [DEBUG] POST /admin/crawler_manager/crawelissue/
+[2017-10-02 07:17:14 +0000] [13759] [DEBUG] GET /favicon.ico
+[2017-10-02 07:17:17 +0000] [13759] [DEBUG] POST /admin/crawler_manager/crawelissue/
+[2017-10-02 07:17:18 +0000] [13757] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:17:18 +0000] [13759] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:17:19 +0000] [13759] [DEBUG] GET /favicon.ico
+[2017-10-02 07:18:51 +0000] [13759] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:18:52 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:18:52 +0000] [13756] [DEBUG] GET /favicon.ico
+[2017-10-02 07:18:57 +0000] [13756] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:18:58 +0000] [13756] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:18:59 +0000] [13756] [DEBUG] GET /favicon.ico
+[2017-10-02 07:19:15 +0000] [13756] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:19:16 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:19:16 +0000] [13757] [DEBUG] GET /favicon.ico
+[2017-10-02 07:19:19 +0000] [13757] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:19:20 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:19:20 +0000] [13757] [DEBUG] GET /favicon.ico
+[2017-10-02 07:20:10 +0000] [13759] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:20:11 +0000] [13759] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:20:11 +0000] [13757] [DEBUG] GET /favicon.ico
+[2017-10-02 07:21:03 +0000] [13756] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:21:04 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:21:05 +0000] [13757] [DEBUG] GET /favicon.ico
+[2017-10-02 07:21:08 +0000] [13756] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:21:09 +0000] [13756] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:21:10 +0000] [13756] [DEBUG] GET /favicon.ico
+[2017-10-02 07:23:36 +0000] [13757] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:23:38 +0000] [13757] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:23:39 +0000] [13757] [DEBUG] GET /favicon.ico
+[2017-10-02 07:23:41 +0000] [13757] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:23:43 +0000] [13759] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:23:44 +0000] [13756] [DEBUG] GET /favicon.ico
+[2017-10-02 03:23:48 -0400] [13749] [INFO] Handling signal: term
+[2017-10-02 07:23:48 +0000] [13759] [INFO] Worker exiting (pid: 13759)
+[2017-10-02 07:23:48 +0000] [13757] [INFO] Worker exiting (pid: 13757)
+[2017-10-02 07:23:48 +0000] [13756] [INFO] Worker exiting (pid: 13756)
+[2017-10-02 03:23:50 -0400] [13749] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-02 03:23:50 -0400] [14004] [DEBUG] Current configuration:
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f002e8cb9d8>
+  workers: 3
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  sendfile: None
+  pidfile: None
+  syslog: False
+  keyfile: None
+  do_handshake_on_connect: False
+  on_starting: <function OnStarting.on_starting at 0x7f002e8c7510>
+  child_exit: <function ChildExit.child_exit at 0x7f002e8cb6a8>
+  backlog: 2048
+  post_request: <function PostRequest.post_request at 0x7f002e8cb510>
+  cert_reqs: 0
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f002e8c7d08>
+  errorlog: -
+  loglevel: debug
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ssl_version: 2
+  worker_exit: <function WorkerExit.worker_exit at 0x7f002e8cb840>
+  ca_certs: None
+  group: 0
+  initgroups: False
+  config: None
+  check_config: False
+  enable_stdio_inheritance: False
+  pre_exec: <function PreExec.pre_exec at 0x7f002e8cb268>
+  user: 0
+  tmp_upload_dir: None
+  graceful_timeout: 30
+  proxy_protocol: False
+  proc_name: django_app
+  suppress_ragged_eofs: True
+  post_fork: <function Postfork.post_fork at 0x7f002e8c7b70>
+  spew: False
+  proxy_allow_ips: ['127.0.0.1']
+  worker_class: sync
+  capture_output: False
+  syslog_facility: user
+  timeout: 30
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  paste: None
+  statsd_host: None
+  limit_request_line: 4094
+  worker_connections: 1000
+  keepalive: 2
+  umask: 0
+  when_ready: <function WhenReady.when_ready at 0x7f002e8c7840>
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  certfile: None
+  on_reload: <function OnReload.on_reload at 0x7f002e8c76a8>
+  raw_paste_global_conf: []
+  reload_engine: auto
+  accesslog: None
+  pre_fork: <function Prefork.pre_fork at 0x7f002e8c79d8>
+  on_exit: <function OnExit.on_exit at 0x7f002e8cbb70>
+  reload: False
+  preload_app: False
+  statsd_prefix: 
+  pre_request: <function PreRequest.pre_request at 0x7f002e8cb400>
+  daemon: False
+  logger_class: gunicorn.glogging.Logger
+  ciphers: TLSv1
+  limit_request_field_size: 8190
+  chdir: /root/justdial_data_extractor
+  raw_env: []
+  forwarded_allow_ips: ['127.0.0.1']
+  pythonpath: None
+  max_requests: 0
+  worker_tmp_dir: None
+  threads: 1
+  logconfig: None
+  limit_request_fields: 100
+  max_requests_jitter: 0
+  default_proc_name: justdial_main.wsgi:application
+  worker_int: <function WorkerInt.worker_int at 0x7f002e8c7ea0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f002e8cb0d0>
+[2017-10-02 03:23:50 -0400] [14004] [INFO] Starting gunicorn 19.7.1
+[2017-10-02 03:23:50 -0400] [14004] [DEBUG] Arbiter booted
+[2017-10-02 03:23:50 -0400] [14004] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (14004)
+[2017-10-02 03:23:50 -0400] [14004] [INFO] Using worker: sync
+[2017-10-02 03:23:50 -0400] [14011] [INFO] Booting worker with pid: 14011
+[2017-10-02 03:23:50 -0400] [14013] [INFO] Booting worker with pid: 14013
+[2017-10-02 03:23:50 -0400] [14015] [INFO] Booting worker with pid: 14015
+[2017-10-02 03:23:50 -0400] [14004] [DEBUG] 3 workers
+[2017-10-02 07:27:43 +0000] [14015] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:27:45 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:27:46 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 07:27:53 +0000] [14015] [DEBUG] POST /admin/crawler_manager/crawelissue/
+[2017-10-02 07:27:54 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 07:28:00 +0000] [14011] [DEBUG] POST /admin/crawler_manager/crawelissue/
+[2017-10-02 07:28:01 +0000] [14013] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:28:01 +0000] [14011] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:28:02 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 07:28:04 +0000] [14011] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 07:28:04 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 07:28:05 +0000] [14013] [DEBUG] GET /favicon.ico
