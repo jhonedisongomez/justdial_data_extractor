@@ -51,15 +51,15 @@ class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     search_fields = ['keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website']
     list_per_page = 5000
 
-    def get_queryset(self, request):
-        qs = super(CrawelIssueAdmin, self).get_queryset(request)
-        return qs.filter(created_by=request.user)
+    #def get_queryset(self, request):
+    #    qs = super(CrawelIssueAdmin, self).get_queryset(request)
+    #    return qs.filter(created_by=request.user)
 
-    def save_model(self, request, obj, form, change):
-        if not change:
-            # the object is being created, so set the user
-            obj.created_by = request.user
-        obj.save()
+    #def save_model(self, request, obj, form, change):
+    #    if not change:
+    #        # the object is being created, so set the user
+    #        obj.created_by = request.user
+    #    obj.save()
 
 
 admin.site.site_header = 'Justdial Scrapper'
