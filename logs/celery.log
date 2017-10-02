@@ -11587,3 +11587,273 @@ Traceback (most recent call last):
   File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
     return Database.Cursor.execute(self, query, params)
 django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 02:36:08,434: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[3dbd1e42-8205-4081-93db-99a12dd4ae4b]  
+[2017-10-02 02:36:08,435: WARNING/ForkPoolWorker-1] Delhi
+[2017-10-02 02:36:08,435: WARNING/ForkPoolWorker-1] dhaba
+[2017-10-02 02:36:08,435: WARNING/ForkPoolWorker-1] 2
+[2017-10-02 02:36:11,290: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Delhi/dhaba/page-1 with 200
+[2017-10-02 02:36:15,121: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 02:36:15,122: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[3dbd1e42-8205-4081-93db-99a12dd4ae4b] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 02:37:43,134: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[e0b8ea43-0955-4478-90b5-f108f15652a8]  
+[2017-10-02 02:37:43,135: WARNING/ForkPoolWorker-1] Delhi
+[2017-10-02 02:37:43,135: WARNING/ForkPoolWorker-1] mobile
+[2017-10-02 02:37:43,135: WARNING/ForkPoolWorker-1] 2
+[2017-10-02 02:37:44,501: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Delhi/mobile/page-1 with 200
+[2017-10-02 02:37:45,216: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 02:37:45,218: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[e0b8ea43-0955-4478-90b5-f108f15652a8] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 02:38:49,239: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[12ef682a-e4ee-4bb2-9dad-62a48ef303da]  
+[2017-10-02 02:38:49,240: WARNING/ForkPoolWorker-1] Dhaka
+[2017-10-02 02:38:49,240: WARNING/ForkPoolWorker-1] hello
+[2017-10-02 02:38:49,240: WARNING/ForkPoolWorker-1] 2
+[2017-10-02 02:38:50,194: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Dhaka/hello/page-1 with 200
+[2017-10-02 02:38:50,985: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 02:38:50,986: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[12ef682a-e4ee-4bb2-9dad-62a48ef303da] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 02:49:20,380: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[a66e306a-39de-468d-9640-ed32037df6b0]  
+[2017-10-02 02:49:20,380: WARNING/ForkPoolWorker-1] ahmedabad
+[2017-10-02 02:49:20,380: WARNING/ForkPoolWorker-1] gym
+[2017-10-02 02:49:20,380: WARNING/ForkPoolWorker-1] 25
+[2017-10-02 02:49:22,727: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/gym/page-1 with 200
+[2017-10-02 02:49:23,677: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 02:49:23,680: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[a66e306a-39de-468d-9640-ed32037df6b0] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 02:56:22,992: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[932a84cb-49d0-40e6-965e-a84b7c15b1e9]  
+[2017-10-02 02:56:22,992: WARNING/ForkPoolWorker-1] ahmedabad
+[2017-10-02 02:56:22,992: WARNING/ForkPoolWorker-1] gym
+[2017-10-02 02:56:22,992: WARNING/ForkPoolWorker-1] 25
+[2017-10-02 02:56:23,979: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/gym/page-1 with 200
+[2017-10-02 02:56:24,627: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 02:56:24,629: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[932a84cb-49d0-40e6-965e-a84b7c15b1e9] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id

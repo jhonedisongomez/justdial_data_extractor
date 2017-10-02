@@ -5,7 +5,7 @@ from django.conf import settings
 
 
 class CrawelIssue(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL)
+    # user = models.ForeignKey(settings.AUTH_USER_MODEL)
     keyword = models.CharField(max_length=100)
     city_name = models.CharField(max_length=100)
     # crawel_number = models.PositiveSmallIntegerField(validators=[MaxValueValidator(100),])
