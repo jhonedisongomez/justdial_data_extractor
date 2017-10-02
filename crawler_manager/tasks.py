@@ -41,20 +41,25 @@ def start_srabbing(data):
             flag = True
             try:
                 title = cont.find("a", {"class" : "nlogo lazy srtbyPic" }).get('title')
-                rating = cont.find("span", {"class" : "exrt_count" }).get_text()
-                votes = cont.find("span", {"class" : "rt_count lng_vote" }).get_text().strip(' \t\n\r')[0:5:1].strip()
-
+                try:
+                    rating = cont.find("span", {"class" : "exrt_count" }).get_text()
+                except Exception as e:
+                    rating = ''
+                    pass
+                try:
+                    votes = cont.find("span", {"class" : "rt_count lng_vote" }).get_text().strip(' \t\n\r')[0:5:1].strip()
+                except Exception as e:
+                    votes = ''
+                    pass
+                
                 # enter into the page
                 single_url = cont.find("a", {"class" : "nlogo lazy srtbyPic" }).get('href')
                 html_markupx = requests.get(check_url(single_url), headers=headers)
                 page_soup = BeautifulSoup(html_markupx.content, "lxml")
                 cc = page_soup.find("div", {"class" : "col-sm-4 col-xs-12 padding0 leftdt"})
                 
-                try:
-                    contact = cc.find("div", {"class" : "telCntct cmawht"}).get_text()
-                except Exception as e:
-                    contact = ''
-                    pass
+                contact = cc.find("div", {"class" : "telCntct cmawht"}).get_text() # compulsory field to scrab
+                
                 try:
                     address = cc.find("span", {"class" : "lng_add"}).get_text()
                 except Exception as e:
