@@ -76,6 +76,7 @@ def start_srabbing(data):
             if flag is True:
                 print ( 'No: {}, Saving data to database'.format(instance_index))
                 issue = CrawelIssue.objects.create(
+                    # user_id = request.user.id,
                     keyword = keyword, 
                     city_name = city_name, 
                     # crawel_number = crawel_number, 
