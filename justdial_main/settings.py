@@ -127,3 +127,6 @@ STATIC_ROOT = 'statics'
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 5000
 
 CELERY_BROKER_URL = 'amqp://localhost'
+
+
+LOGIN_REDIRECT_URL = '/home'

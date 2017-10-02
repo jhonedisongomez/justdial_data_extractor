@@ -27,16 +27,3 @@ def home(request):
         messages.success(request, 'We are scrabbing your requested data, please reload this page to see progressed data')
 
         return redirect('/admin/crawler_manager/crawelissue/')
-
-# @staff_member_required
-# def index_show(request):
-#     if request.method == 'GET':
-#         return render(request, 'crawler_manager/crawler_page.html')
-#     if request.method == 'POST':
-        
-#         city = request.POST.get('city')
-
-#         print(city)
-#         messages.success(request, 'We are scrabbing your requested data, please reload this page to see progressed data')
-
-#         return redirect('/admin/crawler_manager/crawelissue/')
