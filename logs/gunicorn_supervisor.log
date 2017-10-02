@@ -1469,3 +1469,448 @@ Starting django_app as root
 [2017-10-01 16:04:38 +0000] [30619] [DEBUG] POST /admin/login/
 [2017-10-01 16:04:43 +0000] [30618] [DEBUG] POST /admin/login/
 [2017-10-01 16:04:45 +0000] [30619] [DEBUG] POST /admin/login/
+[2017-10-01 18:23:31 +0000] [30619] [DEBUG] GET /admin/auth/
+[2017-10-01 18:23:34 +0000] [30620] [DEBUG] GET /admin/
+[2017-10-01 18:23:35 +0000] [30619] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-01 18:23:38 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:23:48 +0000] [30618] [DEBUG] GET /admin/logout/
+[2017-10-01 18:23:50 +0000] [30620] [DEBUG] GET /admin/
+[2017-10-01 18:23:50 +0000] [30619] [DEBUG] GET /admin/login/
+[2017-10-01 18:23:59 +0000] [30620] [DEBUG] POST /admin/login/
+[2017-10-01 18:24:26 +0000] [30619] [DEBUG] POST /admin/login/
+[2017-10-01 18:24:26 +0000] [30618] [DEBUG] GET /admin/
+[2017-10-01 18:24:29 +0000] [30619] [DEBUG] GET /admin/auth/user/
+[2017-10-01 18:24:29 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:24:34 +0000] [30620] [DEBUG] GET /admin/auth/user/add/
+[2017-10-01 18:24:34 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:24:36 +0000] [30619] [DEBUG] GET /admin/auth/user/
+[2017-10-01 18:24:47 +0000] [30618] [DEBUG] GET /admin/auth/user/add/
+[2017-10-01 18:24:48 +0000] [30619] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:25:12 +0000] [30620] [DEBUG] POST /admin/auth/user/add/
+[2017-10-01 18:25:12 +0000] [30618] [DEBUG] GET /admin/auth/user/8/change/
+[2017-10-01 18:25:13 +0000] [30619] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:25:38 +0000] [30619] [DEBUG] POST /admin/auth/user/8/change/
+[2017-10-01 18:25:38 +0000] [30618] [DEBUG] GET /admin/auth/user/
+[2017-10-01 18:25:39 +0000] [30619] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:25:43 +0000] [30620] [DEBUG] GET /admin/logout/
+[2017-10-01 18:25:45 +0000] [30619] [DEBUG] GET /admin/
+[2017-10-01 18:25:45 +0000] [30619] [DEBUG] GET /admin/login/
+[2017-10-01 18:25:54 +0000] [30620] [DEBUG] POST /admin/login/
+[2017-10-01 18:25:54 +0000] [30618] [DEBUG] GET /admin/
+[2017-10-01 18:25:56 +0000] [30620] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-01 18:26:00 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:26:38 +0000] [30618] [DEBUG] GET /admin/crawler_manager/crawelissue/8749/change/
+[2017-10-01 18:26:38 +0000] [30619] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:26:44 +0000] [30619] [DEBUG] POST /admin/crawler_manager/crawelissue/8749/change/
+[2017-10-01 18:26:44 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:26:55 +0000] [30618] [DEBUG] GET /admin/crawler_manager/crawelissue/8749/history/
+[2017-10-01 18:26:56 +0000] [30620] [DEBUG] GET /admin/crawler_manager/crawelissue/8749/change/
+[2017-10-01 18:26:57 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 18:26:58 +0000] [30619] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-01 18:27:01 +0000] [30618] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 21:16:17 -0400] [30608] [INFO] Handling signal: term
+[2017-10-02 01:16:17 +0000] [30618] [INFO] Worker exiting (pid: 30618)
+[2017-10-02 01:16:17 +0000] [30620] [INFO] Worker exiting (pid: 30620)
+[2017-10-02 01:16:17 +0000] [30619] [INFO] Worker exiting (pid: 30619)
+[2017-10-01 21:16:18 -0400] [30608] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-01 21:16:21 -0400] [5574] [DEBUG] Current configuration:
+  worker_int: <function WorkerInt.worker_int at 0x7fa3078a3ea0>
+  default_proc_name: justdial_main.wsgi:application
+  limit_request_fields: 100
+  config: None
+  capture_output: False
+  daemon: False
+  post_fork: <function Postfork.post_fork at 0x7fa3078a3b70>
+  pre_exec: <function PreExec.pre_exec at 0x7fa3078a7268>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fa3078a79d8>
+  backlog: 2048
+  workers: 3
+  reload_engine: auto
+  check_config: False
+  raw_env: []
+  worker_tmp_dir: None
+  user: 0
+  umask: 0
+  paste: None
+  proxy_allow_ips: ['127.0.0.1']
+  statsd_prefix: 
+  certfile: None
+  worker_class: sync
+  cert_reqs: 0
+  on_starting: <function OnStarting.on_starting at 0x7fa3078a3510>
+  pre_fork: <function Prefork.pre_fork at 0x7fa3078a39d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fa3078a3d08>
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  post_request: <function PostRequest.post_request at 0x7fa3078a7510>
+  loglevel: debug
+  group: 0
+  child_exit: <function ChildExit.child_exit at 0x7fa3078a76a8>
+  max_requests: 0
+  tmp_upload_dir: None
+  spew: False
+  ciphers: TLSv1
+  syslog_prefix: None
+  threads: 1
+  max_requests_jitter: 0
+  ssl_version: 2
+  syslog_facility: user
+  pidfile: None
+  initgroups: False
+  proxy_protocol: False
+  keyfile: None
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  logger_class: gunicorn.glogging.Logger
+  syslog_addr: udp://localhost:514
+  when_ready: <function WhenReady.when_ready at 0x7fa3078a3840>
+  pre_request: <function PreRequest.pre_request at 0x7fa3078a7400>
+  worker_connections: 1000
+  errorlog: -
+  logconfig: None
+  enable_stdio_inheritance: False
+  sendfile: None
+  on_reload: <function OnReload.on_reload at 0x7fa3078a36a8>
+  syslog: False
+  statsd_host: None
+  preload_app: False
+  chdir: /root/justdial_data_extractor
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  limit_request_line: 4094
+  on_exit: <function OnExit.on_exit at 0x7fa3078a7b70>
+  raw_paste_global_conf: []
+  reload: False
+  proc_name: django_app
+  keepalive: 2
+  limit_request_field_size: 8190
+  graceful_timeout: 30
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fa3078a70d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fa3078a7840>
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  ca_certs: None
+  timeout: 30
+  pythonpath: None
+[2017-10-01 21:16:21 -0400] [5574] [INFO] Starting gunicorn 19.7.1
+[2017-10-01 21:16:21 -0400] [5574] [DEBUG] Arbiter booted
+[2017-10-01 21:16:21 -0400] [5574] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (5574)
+[2017-10-01 21:16:21 -0400] [5574] [INFO] Using worker: sync
+[2017-10-01 21:16:21 -0400] [5584] [INFO] Booting worker with pid: 5584
+[2017-10-01 21:16:21 -0400] [5586] [INFO] Booting worker with pid: 5586
+[2017-10-01 21:16:21 -0400] [5587] [INFO] Booting worker with pid: 5587
+[2017-10-01 21:16:21 -0400] [5574] [DEBUG] 3 workers
+[2017-10-02 01:16:53 +0000] [5587] [DEBUG] GET /admin/
+[2017-10-02 01:16:57 +0000] [5584] [DEBUG] GET /admin/crawler_manager/crawelissue/
+Internal Server Error: /admin/crawler_manager/crawelissue/
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 79, in __init__
+    self.get_results(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/paginator.py", line 79, in count
+    return self.object_list.count()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 884, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: crawler_manager_crawelissue.user_id
+[2017-10-02 01:17:36 +0000] [5584] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:17:36 +0000] [5586] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:17:43 +0000] [5584] [DEBUG] GET /
+[2017-10-02 01:17:58 +0000] [5587] [DEBUG] POST /index
+[2017-10-02 01:17:58 +0000] [5586] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:17:58 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:18:03 +0000] [5584] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:18:03 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:18:06 +0000] [5586] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:18:06 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:19:09 +0000] [5584] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:19:09 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:19:11 +0000] [5586] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:19:11 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:19:13 +0000] [5584] [DEBUG] GET /
+[2017-10-02 01:19:19 +0000] [5587] [DEBUG] POST /index
+[2017-10-02 01:19:19 +0000] [5587] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:19:20 +0000] [5584] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:19:22 +0000] [5584] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:19:23 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:19:24 +0000] [5586] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:19:25 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:19:49 +0000] [5587] [DEBUG] GET /admin/logout/
+[2017-10-02 01:19:51 +0000] [5586] [DEBUG] GET /admin/
+[2017-10-02 01:19:52 +0000] [5584] [DEBUG] GET /admin/login/
+[2017-10-02 01:19:59 +0000] [5586] [DEBUG] POST /admin/login/
+[2017-10-02 01:20:00 +0000] [5584] [DEBUG] GET /admin/
+[2017-10-02 01:20:02 +0000] [5584] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:20:06 +0000] [5587] [DEBUG] GET /admin/jsi18n/
+[2017-10-01 21:24:24 -0400] [5574] [INFO] Handling signal: term
+[2017-10-02 01:24:24 +0000] [5584] [INFO] Worker exiting (pid: 5584)
+[2017-10-02 01:24:24 +0000] [5587] [INFO] Worker exiting (pid: 5587)
+[2017-10-02 01:24:24 +0000] [5586] [INFO] Worker exiting (pid: 5586)
+[2017-10-01 21:24:26 -0400] [5574] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-01 21:24:26 -0400] [6331] [DEBUG] Current configuration:
+  on_reload: <function OnReload.on_reload at 0x7fcca76ad6a8>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fcca76b1840>
+  on_exit: <function OnExit.on_exit at 0x7fcca76b1b70>
+  worker_class: sync
+  keepalive: 2
+  initgroups: False
+  proxy_allow_ips: ['127.0.0.1']
+  limit_request_fields: 100
+  spew: False
+  check_config: False
+  worker_tmp_dir: None
+  timeout: 30
+  graceful_timeout: 30
+  post_fork: <function Postfork.post_fork at 0x7fcca76adb70>
+  backlog: 2048
+  sendfile: None
+  raw_paste_global_conf: []
+  cert_reqs: 0
+  accesslog: None
+  loglevel: debug
+  raw_env: []
+  statsd_prefix: 
+  pidfile: None
+  statsd_host: None
+  config: None
+  syslog_prefix: None
+  limit_request_line: 4094
+  logconfig: None
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fcca76b19d8>
+  ssl_version: 2
+  group: 0
+  proxy_protocol: False
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fcca76add08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fcca76b10d0>
+  syslog_facility: user
+  threads: 1
+  pre_exec: <function PreExec.pre_exec at 0x7fcca76b1268>
+  daemon: False
+  umask: 0
+  reload: False
+  worker_connections: 1000
+  max_requests: 0
+  proc_name: django_app
+  default_proc_name: justdial_main.wsgi:application
+  chdir: /root/justdial_data_extractor
+  paste: None
+  logger_class: gunicorn.glogging.Logger
+  worker_int: <function WorkerInt.worker_int at 0x7fcca76adea0>
+  child_exit: <function ChildExit.child_exit at 0x7fcca76b16a8>
+  limit_request_field_size: 8190
+  capture_output: False
+  syslog: False
+  workers: 3
+  max_requests_jitter: 0
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  errorlog: -
+  enable_stdio_inheritance: False
+  preload_app: False
+  user: 0
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  on_starting: <function OnStarting.on_starting at 0x7fcca76ad510>
+  pre_fork: <function Prefork.pre_fork at 0x7fcca76ad9d8>
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on'}
+  keyfile: None
+  certfile: None
+  ca_certs: None
+  suppress_ragged_eofs: True
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  syslog_addr: udp://localhost:514
+  when_ready: <function WhenReady.when_ready at 0x7fcca76ad840>
+  tmp_upload_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  pythonpath: None
+  pre_request: <function PreRequest.pre_request at 0x7fcca76b1400>
+  post_request: <function PostRequest.post_request at 0x7fcca76b1510>
+  reload_engine: auto
+[2017-10-01 21:24:26 -0400] [6331] [INFO] Starting gunicorn 19.7.1
+[2017-10-01 21:24:26 -0400] [6331] [DEBUG] Arbiter booted
+[2017-10-01 21:24:26 -0400] [6331] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (6331)
+[2017-10-01 21:24:26 -0400] [6331] [INFO] Using worker: sync
+[2017-10-01 21:24:26 -0400] [6338] [INFO] Booting worker with pid: 6338
+[2017-10-01 21:24:26 -0400] [6340] [INFO] Booting worker with pid: 6340
+[2017-10-01 21:24:26 -0400] [6342] [INFO] Booting worker with pid: 6342
+[2017-10-01 21:24:26 -0400] [6331] [DEBUG] 3 workers
+[2017-10-02 01:25:19 +0000] [6342] [DEBUG] GET /admin/logout/
+[2017-10-02 01:25:21 +0000] [6340] [DEBUG] GET /admin/
+[2017-10-02 01:25:21 +0000] [6342] [DEBUG] GET /admin/login/
+[2017-10-02 01:25:30 +0000] [6338] [DEBUG] POST /admin/login/
+[2017-10-02 01:25:31 +0000] [6342] [DEBUG] GET /admin/
+[2017-10-02 01:25:33 +0000] [6338] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:25:36 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:25:40 +0000] [6340] [DEBUG] GET /
+[2017-10-02 01:25:50 +0000] [6340] [DEBUG] POST /index
+[2017-10-02 01:25:50 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:25:53 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:25:58 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:26:01 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:26:03 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:26:06 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:26:11 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:26:14 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:26:16 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:26:20 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:26:23 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:26:23 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:26:26 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:26:29 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:29:03 +0000] [6342] [DEBUG] GET /
+[2017-10-02 01:29:16 +0000] [6338] [DEBUG] POST /index
+[2017-10-02 01:29:16 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:29:20 +0000] [6342] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:30:03 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:30:07 +0000] [6340] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:35:51 +0000] [6342] [DEBUG] GET /admin/
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 202, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/functional.py", line 386, in _setup
+    self._wrapped = self._setupfunc()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/auth/middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/auth/middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 210, in get_user
+    user_id = _get_user_session_key(request)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 57, in __getitem__
+    return self._session[key]
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 374, in get
+    num = len(clone)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 884, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: django_session
+[2017-10-02 01:36:56 +0000] [6340] [DEBUG] GET /admin/
+[2017-10-02 01:36:56 +0000] [6342] [DEBUG] GET /admin/login/
+[2017-10-02 01:37:56 +0000] [6342] [DEBUG] POST /admin/login/
+[2017-10-02 01:37:56 +0000] [6338] [DEBUG] GET /admin/
+[2017-10-02 01:37:59 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:38:00 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:38:03 +0000] [6342] [DEBUG] GET /
+[2017-10-02 01:38:14 +0000] [6338] [DEBUG] POST /index
+[2017-10-02 01:38:14 +0000] [6340] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:38:15 +0000] [6338] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 01:39:01 +0000] [6342] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 01:39:01 +0000] [6338] [DEBUG] GET /admin/jsi18n/

@@ -11173,3 +11173,417 @@ ValueError: invalid literal for int() with base 10: ''
 [2017-10-01 15:53:55,621: WARNING/ForkPoolWorker-1] No: 898, Saving data to database
 [2017-10-01 15:53:56,587: WARNING/ForkPoolWorker-1] No: 899, Saving data to database
 [2017-10-01 15:53:56,591: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[66242010-d8d3-4e5c-aa74-3179d00f17e7] succeeded in 668.5756500120042s: ' scrabbing success!'
+
+worker: Warm shutdown (MainProcess)
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 01:16:26,040: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-10-02 01:16:26,079: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-02 01:16:27,095: INFO/MainProcess] mingle: all alone
+[2017-10-02 01:16:27,104: WARNING/MainProcess] /root/py3djenv/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-02 01:16:27,105: INFO/MainProcess] celery@rajputdataserver.info ready.
+[2017-10-02 01:17:58,153: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[e0c40374-23f6-4c7f-8c53-4578e7b7e017]  
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 01:17:58,155: WARNING/ForkPoolWorker-1] Delhi
+[2017-10-02 01:17:58,155: WARNING/ForkPoolWorker-1] phone
+[2017-10-02 01:17:58,155: WARNING/ForkPoolWorker-1] 2
+[2017-10-02 01:17:59,145: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Delhi/phone/page-1 with 200
+[2017-10-02 01:17:59,937: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 01:17:59,944: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[e0c40374-23f6-4c7f-8c53-4578e7b7e017] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 01:19:19,582: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[b8892254-4387-4315-af75-fe9dd65a948d]  
+[2017-10-02 01:19:19,583: WARNING/ForkPoolWorker-1] Dhaka
+[2017-10-02 01:19:19,583: WARNING/ForkPoolWorker-1] hello
+[2017-10-02 01:19:19,583: WARNING/ForkPoolWorker-1] 1
+[2017-10-02 01:19:20,628: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Dhaka/hello/page-1 with 200
+[2017-10-02 01:19:21,416: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 01:19:21,418: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[b8892254-4387-4315-af75-fe9dd65a948d] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 01:21:45,399: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/root/py3djenv/lib/python3.5/site-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/kombu/transport/base.py", line 236, in on_readable
+    reader(loop)
+  File "/root/py3djenv/lib/python3.5/site-packages/kombu/transport/base.py", line 218, in _read
+    drain_events(timeout=0)
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/connection.py", line 471, in drain_events
+    while not self.blocking_read(timeout):
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/connection.py", line 477, in blocking_read
+    return self.on_inbound_frame(frame)
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/method_framing.py", line 55, in on_frame
+    callback(channel, method_sig, buf, None)
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/connection.py", line 481, in on_inbound_method
+    method_sig, payload, content,
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/abstract_channel.py", line 128, in dispatch_method
+    listener(*args)
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/connection.py", line 603, in _on_close
+    (class_id, method_id), ConnectionError)
+amqp.exceptions.ConnectionForced: (0, 0): (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+[2017-10-02 01:21:45,410: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2017-10-02 01:21:47,417: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2017-10-02 01:21:51,427: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-10-02 01:21:51,437: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-02 01:21:51,439: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/worker/consumer/mingle.py", line 38, in start
+    self.sync(c)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/worker/consumer/mingle.py", line 42, in sync
+    replies = self.send_hello(c)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/worker/consumer/mingle.py", line 55, in send_hello
+    replies = inspect.hello(c.hostname, our_revoked._data) or {}
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/control.py", line 129, in hello
+    return self._request('hello', from_node=from_node, revoked=revoked)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/control.py", line 81, in _request
+    timeout=self.timeout, reply=True,
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/control.py", line 436, in broadcast
+    limit, callback, channel=channel,
+  File "/root/py3djenv/lib/python3.5/site-packages/kombu/pidbox.py", line 315, in _broadcast
+    serializer=serializer)
+  File "/root/py3djenv/lib/python3.5/site-packages/kombu/pidbox.py", line 290, in _publish
+    serializer=serializer,
+  File "/root/py3djenv/lib/python3.5/site-packages/kombu/messaging.py", line 181, in publish
+    exchange_name, declare,
+  File "/root/py3djenv/lib/python3.5/site-packages/kombu/messaging.py", line 203, in _publish
+    mandatory=mandatory, immediate=immediate,
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/channel.py", line 1734, in _basic_publish
+    (0, exchange, routing_key, mandatory, immediate), msg
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/abstract_channel.py", line 50, in send_method
+    conn.frame_writer(1, self.channel_id, sig, args, content)
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/method_framing.py", line 166, in write_frame
+    write(view[:offset])
+  File "/root/py3djenv/lib/python3.5/site-packages/amqp/transport.py", line 258, in write
+    self._write(s)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[2017-10-02 01:21:51,450: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-10-02 01:21:51,459: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-02 01:21:52,472: INFO/MainProcess] mingle: all alone
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@rajputdataserver.info v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-2.6.32-042stab123.1-x86_64-with-Ubuntu-16.04-xenial 2017-10-02 01:16:25
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         justdial_main:0x7fe18d951390
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . crawler_manager.tasks.start_srabbing
+
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 01:25:04,706: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-10-02 01:25:04,720: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-02 01:25:05,736: INFO/MainProcess] mingle: all alone
+[2017-10-02 01:25:05,744: WARNING/MainProcess] /root/py3djenv/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-02 01:25:05,745: INFO/MainProcess] celery@rajputdataserver.info ready.
+[2017-10-02 01:25:50,188: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[fab52fac-260f-4525-abea-38bba5daf705]  
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 01:25:50,189: WARNING/ForkPoolWorker-1] Ahmedabad
+[2017-10-02 01:25:50,190: WARNING/ForkPoolWorker-1] phone
+[2017-10-02 01:25:50,190: WARNING/ForkPoolWorker-1] 1
+[2017-10-02 01:25:53,082: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Ahmedabad/phone/page-1 with 200
+[2017-10-02 01:25:54,538: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 01:25:54,573: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[fab52fac-260f-4525-abea-38bba5daf705] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 01:29:16,477: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[5ea07c8f-ad31-47fd-885a-d01c8d08d04c]  
+[2017-10-02 01:29:16,478: WARNING/ForkPoolWorker-1] Ahmedabad
+[2017-10-02 01:29:16,478: WARNING/ForkPoolWorker-1] dhaba
+[2017-10-02 01:29:16,478: WARNING/ForkPoolWorker-1] 2
+[2017-10-02 01:29:17,294: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Ahmedabad/dhaba/page-1 with 200
+[2017-10-02 01:29:18,620: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 01:29:18,624: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[5ea07c8f-ad31-47fd-885a-d01c8d08d04c] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+[2017-10-02 01:38:14,484: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[336e39a4-5a04-4f22-ab61-4956e86608d5]  
+[2017-10-02 01:38:14,485: WARNING/ForkPoolWorker-1] Ahmedabad
+[2017-10-02 01:38:14,485: WARNING/ForkPoolWorker-1] hello
+[2017-10-02 01:38:14,485: WARNING/ForkPoolWorker-1] 2
+[2017-10-02 01:38:15,516: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Ahmedabad/hello/page-1 with 200
+[2017-10-02 01:38:15,620: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 01:38:15,622: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 01:38:16,126: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 01:38:16,127: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[336e39a4-5a04-4f22-ab61-4956e86608d5] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user_id',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 88, in start_srabbing
+    website = website,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
