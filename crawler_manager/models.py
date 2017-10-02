@@ -3,8 +3,8 @@ from django.core.validators import MaxValueValidator
 from django.contrib.auth.models import User
 
 
-
 class CrawelIssue(models.Model):
+    user = models.IntegerField()
     keyword = models.CharField(max_length=100)
     city_name = models.CharField(max_length=100)
     instance_index = models.IntegerField()
