@@ -15,7 +15,7 @@ class CrawelIssuekResource(resources.ModelResource):
         skip_unchanged = True
         report_skipped = False
         # fields = ('id', 'name', 'price',)
-        #exclude = ('user', )
+        # exclude = ('user', )
 
 
 @admin.register(models.CrawelIssue)
