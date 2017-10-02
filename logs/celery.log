@@ -11857,3 +11857,220 @@ Traceback (most recent call last):
   File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
     return Database.Cursor.execute(self, query, params)
 django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user_id
+
+worker: Warm shutdown (MainProcess)
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 06:17:44,418: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-10-02 06:17:44,431: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-02 06:17:45,477: INFO/MainProcess] mingle: all alone
+[2017-10-02 06:17:45,487: WARNING/MainProcess] /root/py3djenv/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-02 06:17:45,487: INFO/MainProcess] celery@rajputdataserver.info ready.
+[2017-10-02 06:18:54,120: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[508c2063-cc64-4091-ad25-2bc428407ef4]  
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 06:18:54,121: WARNING/ForkPoolWorker-1] Surat
+[2017-10-02 06:18:54,121: WARNING/ForkPoolWorker-1] smartphone
+[2017-10-02 06:18:54,122: WARNING/ForkPoolWorker-1] 3
+[2017-10-02 06:18:54,973: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Surat/smartphone/page-1 with 200
+[2017-10-02 06:18:55,804: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 06:18:56,629: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-02 06:18:57,148: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-02 06:18:57,890: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-02 06:18:58,502: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-02 06:18:59,117: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-02 06:18:59,777: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-02 06:19:00,491: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-02 06:19:01,099: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-10-02 06:19:01,716: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-10-02 06:19:02,636: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Surat/smartphone/page-2 with 200
+[2017-10-02 06:19:03,814: WARNING/ForkPoolWorker-1] No: 10, Saving data to database
+[2017-10-02 06:19:04,436: WARNING/ForkPoolWorker-1] No: 11, Saving data to database
+[2017-10-02 06:19:05,028: WARNING/ForkPoolWorker-1] No: 12, Saving data to database
+[2017-10-02 06:19:05,779: WARNING/ForkPoolWorker-1] No: 13, Saving data to database
+[2017-10-02 06:19:06,499: WARNING/ForkPoolWorker-1] No: 14, Saving data to database
+[2017-10-02 06:19:07,135: WARNING/ForkPoolWorker-1] No: 15, Saving data to database
+[2017-10-02 06:19:07,726: WARNING/ForkPoolWorker-1] No: 16, Saving data to database
+[2017-10-02 06:19:08,312: WARNING/ForkPoolWorker-1] No: 17, Saving data to database
+[2017-10-02 06:19:08,937: WARNING/ForkPoolWorker-1] No: 18, Saving data to database
+[2017-10-02 06:19:09,582: WARNING/ForkPoolWorker-1] No: 19, Saving data to database
+[2017-10-02 06:19:10,698: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Surat/smartphone/page-3 with 200
+[2017-10-02 06:19:11,881: WARNING/ForkPoolWorker-1] No: 20, Saving data to database
+[2017-10-02 06:19:12,889: WARNING/ForkPoolWorker-1] No: 21, Saving data to database
+[2017-10-02 06:19:13,474: WARNING/ForkPoolWorker-1] No: 22, Saving data to database
+[2017-10-02 06:19:15,178: WARNING/ForkPoolWorker-1] No: 23, Saving data to database
+[2017-10-02 06:19:16,239: WARNING/ForkPoolWorker-1] No: 24, Saving data to database
+[2017-10-02 06:19:17,395: WARNING/ForkPoolWorker-1] No: 25, Saving data to database
+[2017-10-02 06:19:18,015: WARNING/ForkPoolWorker-1] No: 26, Saving data to database
+[2017-10-02 06:19:18,689: WARNING/ForkPoolWorker-1] No: 27, Saving data to database
+[2017-10-02 06:19:21,082: WARNING/ForkPoolWorker-1] No: 28, Saving data to database
+[2017-10-02 06:19:21,614: WARNING/ForkPoolWorker-1] No: 29, Saving data to database
+[2017-10-02 06:19:21,617: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[508c2063-cc64-4091-ad25-2bc428407ef4] succeeded in 27.495720891980454s: ' scrabbing success!'
+[2017-10-02 06:23:27,290: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[dd5c6c65-3dd3-4d1d-b997-540b47178a9e]  
+[2017-10-02 06:23:27,291: WARNING/ForkPoolWorker-1] surat
+[2017-10-02 06:23:27,291: WARNING/ForkPoolWorker-1] gym
+[2017-10-02 06:23:27,291: WARNING/ForkPoolWorker-1] 25
+[2017-10-02 06:23:28,282: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-1 with 200
+[2017-10-02 06:23:29,112: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 06:23:29,831: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-02 06:23:30,334: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-02 06:23:30,904: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-02 06:23:31,400: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-02 06:23:32,113: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-02 06:23:32,620: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-02 06:23:33,125: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-02 06:23:33,622: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-10-02 06:23:34,110: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-10-02 06:23:34,894: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-2 with 200
+[2017-10-02 06:23:35,697: WARNING/ForkPoolWorker-1] No: 10, Saving data to database
+[2017-10-02 06:23:36,217: WARNING/ForkPoolWorker-1] No: 11, Saving data to database
+[2017-10-02 06:23:36,935: WARNING/ForkPoolWorker-1] No: 12, Saving data to database
+[2017-10-02 06:23:37,414: WARNING/ForkPoolWorker-1] No: 13, Saving data to database
+[2017-10-02 06:23:38,090: WARNING/ForkPoolWorker-1] No: 14, Saving data to database
+[2017-10-02 06:23:38,604: WARNING/ForkPoolWorker-1] No: 15, Saving data to database
+[2017-10-02 06:23:39,175: WARNING/ForkPoolWorker-1] No: 16, Saving data to database
+[2017-10-02 06:23:39,687: WARNING/ForkPoolWorker-1] No: 17, Saving data to database
+[2017-10-02 06:23:40,321: WARNING/ForkPoolWorker-1] No: 18, Saving data to database
+[2017-10-02 06:23:40,812: WARNING/ForkPoolWorker-1] No: 19, Saving data to database
+[2017-10-02 06:23:41,902: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-3 with 200
+[2017-10-02 06:23:42,530: WARNING/ForkPoolWorker-1] No: 20, Saving data to database
+[2017-10-02 06:23:43,028: WARNING/ForkPoolWorker-1] No: 21, Saving data to database
+[2017-10-02 06:23:43,775: WARNING/ForkPoolWorker-1] No: 22, Saving data to database
+[2017-10-02 06:23:44,519: WARNING/ForkPoolWorker-1] No: 23, Saving data to database
+[2017-10-02 06:23:45,129: WARNING/ForkPoolWorker-1] No: 24, Saving data to database
+[2017-10-02 06:23:45,632: WARNING/ForkPoolWorker-1] No: 25, Saving data to database
+[2017-10-02 06:23:46,690: WARNING/ForkPoolWorker-1] No: 26, Saving data to database
+[2017-10-02 06:23:47,190: WARNING/ForkPoolWorker-1] No: 27, Saving data to database
+[2017-10-02 06:23:47,878: WARNING/ForkPoolWorker-1] No: 28, Saving data to database
+[2017-10-02 06:23:48,385: WARNING/ForkPoolWorker-1] No: 29, Saving data to database
+[2017-10-02 06:23:49,095: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-4 with 200
+[2017-10-02 06:23:50,108: WARNING/ForkPoolWorker-1] No: 30, Saving data to database
+[2017-10-02 06:23:50,777: WARNING/ForkPoolWorker-1] No: 31, Saving data to database
+[2017-10-02 06:23:51,408: WARNING/ForkPoolWorker-1] No: 32, Saving data to database
+[2017-10-02 06:23:51,890: WARNING/ForkPoolWorker-1] No: 33, Saving data to database
+[2017-10-02 06:23:53,184: WARNING/ForkPoolWorker-1] No: 34, Saving data to database
+[2017-10-02 06:23:53,774: WARNING/ForkPoolWorker-1] No: 35, Saving data to database
+[2017-10-02 06:23:54,277: WARNING/ForkPoolWorker-1] No: 36, Saving data to database
+[2017-10-02 06:23:54,776: WARNING/ForkPoolWorker-1] No: 37, Saving data to database
+[2017-10-02 06:23:55,427: WARNING/ForkPoolWorker-1] No: 38, Saving data to database
+[2017-10-02 06:23:56,087: WARNING/ForkPoolWorker-1] No: 39, Saving data to database
+[2017-10-02 06:23:57,729: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-5 with 200
+[2017-10-02 06:23:58,315: WARNING/ForkPoolWorker-1] No: 40, Saving data to database
+[2017-10-02 06:23:58,885: WARNING/ForkPoolWorker-1] No: 41, Saving data to database
+[2017-10-02 06:23:59,694: WARNING/ForkPoolWorker-1] No: 42, Saving data to database
+[2017-10-02 06:24:00,233: WARNING/ForkPoolWorker-1] No: 43, Saving data to database
+[2017-10-02 06:24:00,713: WARNING/ForkPoolWorker-1] No: 44, Saving data to database
+[2017-10-02 06:24:03,506: WARNING/ForkPoolWorker-1] No: 45, Saving data to database
+[2017-10-02 06:24:04,078: WARNING/ForkPoolWorker-1] No: 46, Saving data to database
+[2017-10-02 06:24:04,692: WARNING/ForkPoolWorker-1] No: 47, Saving data to database
+[2017-10-02 06:24:05,886: WARNING/ForkPoolWorker-1] No: 48, Saving data to database
+[2017-10-02 06:24:06,402: WARNING/ForkPoolWorker-1] No: 49, Saving data to database
+[2017-10-02 06:24:07,141: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-6 with 200
+[2017-10-02 06:24:07,933: WARNING/ForkPoolWorker-1] No: 50, Saving data to database
+[2017-10-02 06:24:08,409: WARNING/ForkPoolWorker-1] No: 51, Saving data to database
+[2017-10-02 06:24:09,521: WARNING/ForkPoolWorker-1] No: 52, Saving data to database
+[2017-10-02 06:24:10,319: WARNING/ForkPoolWorker-1] No: 53, Saving data to database
+[2017-10-02 06:24:10,812: WARNING/ForkPoolWorker-1] No: 54, Saving data to database
+[2017-10-02 06:24:11,442: WARNING/ForkPoolWorker-1] No: 55, Saving data to database
+[2017-10-02 06:24:12,037: WARNING/ForkPoolWorker-1] No: 56, Saving data to database
+[2017-10-02 06:24:12,520: WARNING/ForkPoolWorker-1] No: 57, Saving data to database
+[2017-10-02 06:24:13,016: WARNING/ForkPoolWorker-1] No: 58, Saving data to database
+[2017-10-02 06:24:13,509: WARNING/ForkPoolWorker-1] No: 59, Saving data to database
+[2017-10-02 06:24:14,228: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-7 with 200
+[2017-10-02 06:24:14,941: WARNING/ForkPoolWorker-1] No: 60, Saving data to database
+[2017-10-02 06:24:15,439: WARNING/ForkPoolWorker-1] No: 61, Saving data to database
+[2017-10-02 06:24:15,912: WARNING/ForkPoolWorker-1] No: 62, Saving data to database
+[2017-10-02 06:24:16,516: WARNING/ForkPoolWorker-1] No: 63, Saving data to database
+[2017-10-02 06:24:17,174: WARNING/ForkPoolWorker-1] No: 64, Saving data to database
+[2017-10-02 06:24:17,687: WARNING/ForkPoolWorker-1] No: 65, Saving data to database
+[2017-10-02 06:24:18,681: WARNING/ForkPoolWorker-1] No: 66, Saving data to database
+[2017-10-02 06:24:19,176: WARNING/ForkPoolWorker-1] No: 67, Saving data to database
+[2017-10-02 06:24:19,833: WARNING/ForkPoolWorker-1] No: 68, Saving data to database
+[2017-10-02 06:24:20,312: WARNING/ForkPoolWorker-1] No: 69, Saving data to database
+[2017-10-02 06:24:21,221: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-8 with 200
+[2017-10-02 06:24:22,087: WARNING/ForkPoolWorker-1] No: 70, Saving data to database
+[2017-10-02 06:24:22,544: WARNING/ForkPoolWorker-1] No: 71, Saving data to database
+[2017-10-02 06:24:23,136: WARNING/ForkPoolWorker-1] No: 72, Saving data to database
+[2017-10-02 06:24:23,608: WARNING/ForkPoolWorker-1] No: 73, Saving data to database
+[2017-10-02 06:24:24,141: WARNING/ForkPoolWorker-1] No: 74, Saving data to database
+[2017-10-02 06:24:24,673: WARNING/ForkPoolWorker-1] No: 75, Saving data to database
+[2017-10-02 06:24:25,313: WARNING/ForkPoolWorker-1] No: 76, Saving data to database
+[2017-10-02 06:24:28,298: WARNING/ForkPoolWorker-1] No: 77, Saving data to database
+[2017-10-02 06:24:29,002: WARNING/ForkPoolWorker-1] No: 78, Saving data to database
+[2017-10-02 06:24:29,741: WARNING/ForkPoolWorker-1] No: 79, Saving data to database
+[2017-10-02 06:24:30,551: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-9 with 200
+[2017-10-02 06:24:30,683: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:31,233: WARNING/ForkPoolWorker-1] No: 80, Saving data to database
+[2017-10-02 06:24:31,704: WARNING/ForkPoolWorker-1] No: 81, Saving data to database
+[2017-10-02 06:24:32,188: WARNING/ForkPoolWorker-1] No: 82, Saving data to database
+[2017-10-02 06:24:32,743: WARNING/ForkPoolWorker-1] No: 83, Saving data to database
+[2017-10-02 06:24:33,484: WARNING/ForkPoolWorker-1] No: 84, Saving data to database
+[2017-10-02 06:24:34,089: WARNING/ForkPoolWorker-1] No: 85, Saving data to database
+[2017-10-02 06:24:35,196: WARNING/ForkPoolWorker-1] No: 86, Saving data to database
+[2017-10-02 06:24:35,721: WARNING/ForkPoolWorker-1] No: 87, Saving data to database
+[2017-10-02 06:24:38,990: WARNING/ForkPoolWorker-1] No: 88, Saving data to database
+[2017-10-02 06:24:40,298: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-10 with 200
+[2017-10-02 06:24:41,012: WARNING/ForkPoolWorker-1] No: 89, Saving data to database
+[2017-10-02 06:24:41,487: WARNING/ForkPoolWorker-1] No: 90, Saving data to database
+[2017-10-02 06:24:42,138: WARNING/ForkPoolWorker-1] No: 91, Saving data to database
+[2017-10-02 06:24:42,624: WARNING/ForkPoolWorker-1] No: 92, Saving data to database
+[2017-10-02 06:24:43,120: WARNING/ForkPoolWorker-1] No: 93, Saving data to database
+[2017-10-02 06:24:43,897: WARNING/ForkPoolWorker-1] No: 94, Saving data to database
+[2017-10-02 06:24:44,600: WARNING/ForkPoolWorker-1] No: 95, Saving data to database
+[2017-10-02 06:24:44,605: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:44,607: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:44,609: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,348: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-11 with 200
+[2017-10-02 06:24:45,477: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,479: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,481: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,482: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,484: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,485: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,487: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,488: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,490: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:45,491: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,297: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-12 with 200
+[2017-10-02 06:24:46,407: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,410: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,412: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,413: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,415: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,417: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,418: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,420: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,421: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:46,423: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:47,126: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-13 with 200
+[2017-10-02 06:24:47,298: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:47,301: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:47,304: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:47,307: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:47,310: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-02 06:24:48,405: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-14 with 200
+[2017-10-02 06:24:49,186: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-15 with 200
+[2017-10-02 06:24:50,042: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-16 with 200
+[2017-10-02 06:24:50,878: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-17 with 200
+[2017-10-02 06:24:51,641: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-18 with 200
+[2017-10-02 06:24:52,494: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-19 with 200
+[2017-10-02 06:24:53,580: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-20 with 200
+[2017-10-02 06:24:54,753: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-21 with 200
+[2017-10-02 06:24:55,631: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-22 with 200
+[2017-10-02 06:24:56,480: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-23 with 200
+[2017-10-02 06:24:57,242: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-24 with 200
+[2017-10-02 06:24:58,085: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/surat/gym/page-25 with 200
+[2017-10-02 06:24:58,142: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[dd5c6c65-3dd3-4d1d-b997-540b47178a9e] succeeded in 90.85107117204461s: ' scrabbing success!'
