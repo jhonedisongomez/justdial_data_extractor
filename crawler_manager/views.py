@@ -21,7 +21,12 @@ def home(request):
         keyword = request.POST.get('keyword')
         numof_instance = request.POST.get('numof_instance')
 
-        data = (city_name, keyword, numof_instance,)
+        user = request.user.id
+        print (type(user))
+        user = str(request.user.id)
+        print (type(user))
+
+        data = (city_name, keyword, numof_instance, user,)
 
         start_srabbing.delay(data)
         messages.success(request, 'We are scrabbing your requested data, please reload this page to see progressed data')

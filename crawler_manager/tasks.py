@@ -21,11 +21,10 @@ def check_url(link):
 @shared_task
 def start_srabbing(data):
     
-    city_name, keyword, numof_pages = data[0], data[1], int(data[2])
+    city_name, keyword, numof_pages, user = data[0], data[1], int(data[2]), data[3]
 
-    print (city_name)
-    print (keyword)
-    print (numof_pages)
+    print (city_name, keyword, numof_pages)
+    print ('requested by user id: {}'.format(user))
 
     instance_index = 0
     for i in range(numof_pages):
@@ -81,7 +80,7 @@ def start_srabbing(data):
             if flag is True:
                 print ( 'No: {}, Saving data to database'.format(instance_index))
                 issue = CrawelIssue.objects.create(
-                    # user_id = request.user.id,
+                    user = user,
                     keyword = keyword, 
                     city_name = city_name, 
                     # crawel_number = crawel_number, 
