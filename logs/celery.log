@@ -16083,3 +16083,1154 @@ User information: uid=0 euid=0 gid=0 egid=0
 [2017-10-02 08:19:23,332: WARNING/ForkPoolWorker-1] No: 198, Saving data to database
 [2017-10-02 08:19:24,520: WARNING/ForkPoolWorker-1] No: 199, Saving data to database
 [2017-10-02 08:19:24,524: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[17c5d490-4ffd-4c6a-9c0f-856c6ddf337e] succeeded in 242.8492764189141s: ' scrabbing success!'
+[2017-10-02 08:42:28,001: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[ca038b94-caf3-49eb-9f0d-98d38c65b819]  
+[2017-10-02 08:42:28,002: WARNING/ForkPoolWorker-1] Dhaka
+[2017-10-02 08:42:28,002: WARNING/ForkPoolWorker-1] hello
+[2017-10-02 08:42:28,002: WARNING/ForkPoolWorker-1] 1
+[2017-10-02 08:42:29,377: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Dhaka/hello/page-1 with 200
+[2017-10-02 08:42:30,530: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 08:42:30,535: ERROR/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[ca038b94-caf3-49eb-9f0d-98d38c65b819] raised unexpected: IntegrityError('NOT NULL constraint failed: crawler_manager_crawelissue.user',)
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/root/justdial_data_extractor/crawler_manager/tasks.py", line 89, in start_srabbing
+    rating = rating,
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/root/py3djenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: crawler_manager_crawelissue.user
+
+worker: Warm shutdown (MainProcess)
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 08:43:28,294: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-10-02 08:43:28,307: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-02 08:43:29,322: INFO/MainProcess] mingle: all alone
+[2017-10-02 08:43:29,337: WARNING/MainProcess] /root/py3djenv/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-02 08:43:29,338: INFO/MainProcess] celery@rajputdataserver.info ready.
+
+worker: Warm shutdown (MainProcess)
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 17:41:19,227: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-10-02 17:41:19,240: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-02 17:41:20,287: INFO/MainProcess] mingle: all alone
+[2017-10-02 17:41:20,297: WARNING/MainProcess] /root/py3djenv/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-02 17:41:20,298: INFO/MainProcess] celery@rajputdataserver.info ready.
+[2017-10-02 17:58:05,595: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[22ac2612-e6ea-42a5-9319-f680e9338bec]  
+/root/py3djenv/lib/python3.5/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-10-02 17:58:05,597: WARNING/ForkPoolWorker-1] Indore
+[2017-10-02 17:58:05,597: WARNING/ForkPoolWorker-1] tab
+[2017-10-02 17:58:05,597: WARNING/ForkPoolWorker-1] 1
+[2017-10-02 17:58:05,597: WARNING/ForkPoolWorker-1] requested by user id: 4
+[2017-10-02 17:58:06,429: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Indore/tab/page-1 with 200
+[2017-10-02 17:58:07,123: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-02 17:58:07,704: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-02 17:58:08,522: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-02 17:58:09,501: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-02 17:58:10,105: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-02 17:58:10,917: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-02 17:58:11,919: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-02 17:58:12,425: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-02 17:58:12,983: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-10-02 17:58:13,514: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-10-02 17:58:13,518: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[22ac2612-e6ea-42a5-9319-f680e9338bec] succeeded in 7.9215244490187615s: ' scrabbing success!'
+[2017-10-03 03:34:34,841: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[85d7f3ce-1eb1-48d2-93ad-1879b3deb17f]  
+[2017-10-03 03:34:34,842: WARNING/ForkPoolWorker-1] ahmedabad
+[2017-10-03 03:34:34,842: WARNING/ForkPoolWorker-1] computer repairing
+[2017-10-03 03:34:34,842: WARNING/ForkPoolWorker-1] 100
+[2017-10-03 03:34:34,842: WARNING/ForkPoolWorker-1] requested by user id: 5
+[2017-10-03 03:34:36,028: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-1 with 200
+[2017-10-03 03:34:36,822: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-03 03:34:37,390: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-03 03:34:37,933: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-03 03:34:38,538: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-03 03:34:39,202: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-03 03:34:39,708: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-03 03:34:40,332: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-03 03:34:41,411: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-03 03:34:42,115: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-10-03 03:34:42,774: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-10-03 03:34:43,546: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-2 with 200
+[2017-10-03 03:34:44,275: WARNING/ForkPoolWorker-1] No: 10, Saving data to database
+[2017-10-03 03:34:45,509: WARNING/ForkPoolWorker-1] No: 11, Saving data to database
+[2017-10-03 03:34:46,196: WARNING/ForkPoolWorker-1] No: 12, Saving data to database
+[2017-10-03 03:34:46,739: WARNING/ForkPoolWorker-1] No: 13, Saving data to database
+[2017-10-03 03:34:47,721: WARNING/ForkPoolWorker-1] No: 14, Saving data to database
+[2017-10-03 03:34:48,305: WARNING/ForkPoolWorker-1] No: 15, Saving data to database
+[2017-10-03 03:34:48,911: WARNING/ForkPoolWorker-1] No: 16, Saving data to database
+[2017-10-03 03:34:51,491: WARNING/ForkPoolWorker-1] No: 17, Saving data to database
+[2017-10-03 03:34:52,285: WARNING/ForkPoolWorker-1] No: 18, Saving data to database
+[2017-10-03 03:34:52,829: WARNING/ForkPoolWorker-1] No: 19, Saving data to database
+[2017-10-03 03:34:54,015: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-3 with 200
+[2017-10-03 03:34:54,734: WARNING/ForkPoolWorker-1] No: 20, Saving data to database
+[2017-10-03 03:34:55,298: WARNING/ForkPoolWorker-1] No: 21, Saving data to database
+[2017-10-03 03:34:55,805: WARNING/ForkPoolWorker-1] No: 22, Saving data to database
+[2017-10-03 03:34:56,291: WARNING/ForkPoolWorker-1] No: 23, Saving data to database
+[2017-10-03 03:34:56,925: WARNING/ForkPoolWorker-1] No: 24, Saving data to database
+[2017-10-03 03:34:57,495: WARNING/ForkPoolWorker-1] No: 25, Saving data to database
+[2017-10-03 03:34:58,040: WARNING/ForkPoolWorker-1] No: 26, Saving data to database
+[2017-10-03 03:34:58,533: WARNING/ForkPoolWorker-1] No: 27, Saving data to database
+[2017-10-03 03:34:59,186: WARNING/ForkPoolWorker-1] No: 28, Saving data to database
+[2017-10-03 03:34:59,786: WARNING/ForkPoolWorker-1] No: 29, Saving data to database
+[2017-10-03 03:35:01,006: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-4 with 200
+[2017-10-03 03:35:01,804: WARNING/ForkPoolWorker-1] No: 30, Saving data to database
+[2017-10-03 03:35:02,482: WARNING/ForkPoolWorker-1] No: 31, Saving data to database
+[2017-10-03 03:35:03,208: WARNING/ForkPoolWorker-1] No: 32, Saving data to database
+[2017-10-03 03:35:03,739: WARNING/ForkPoolWorker-1] No: 33, Saving data to database
+[2017-10-03 03:35:04,387: WARNING/ForkPoolWorker-1] No: 34, Saving data to database
+[2017-10-03 03:35:04,928: WARNING/ForkPoolWorker-1] No: 35, Saving data to database
+[2017-10-03 03:35:05,634: WARNING/ForkPoolWorker-1] No: 36, Saving data to database
+[2017-10-03 03:35:06,141: WARNING/ForkPoolWorker-1] No: 37, Saving data to database
+[2017-10-03 03:35:06,742: WARNING/ForkPoolWorker-1] No: 38, Saving data to database
+[2017-10-03 03:35:07,377: WARNING/ForkPoolWorker-1] No: 39, Saving data to database
+[2017-10-03 03:35:08,339: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-5 with 200
+[2017-10-03 03:35:09,200: WARNING/ForkPoolWorker-1] No: 40, Saving data to database
+[2017-10-03 03:35:09,733: WARNING/ForkPoolWorker-1] No: 41, Saving data to database
+[2017-10-03 03:35:10,240: WARNING/ForkPoolWorker-1] No: 42, Saving data to database
+[2017-10-03 03:35:11,216: WARNING/ForkPoolWorker-1] No: 43, Saving data to database
+[2017-10-03 03:35:11,714: WARNING/ForkPoolWorker-1] No: 44, Saving data to database
+[2017-10-03 03:35:12,308: WARNING/ForkPoolWorker-1] No: 45, Saving data to database
+[2017-10-03 03:35:12,795: WARNING/ForkPoolWorker-1] No: 46, Saving data to database
+[2017-10-03 03:35:13,425: WARNING/ForkPoolWorker-1] No: 47, Saving data to database
+[2017-10-03 03:35:14,141: WARNING/ForkPoolWorker-1] No: 48, Saving data to database
+[2017-10-03 03:35:14,632: WARNING/ForkPoolWorker-1] No: 49, Saving data to database
+[2017-10-03 03:35:15,661: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-6 with 200
+[2017-10-03 03:35:16,741: WARNING/ForkPoolWorker-1] No: 50, Saving data to database
+[2017-10-03 03:35:17,473: WARNING/ForkPoolWorker-1] No: 51, Saving data to database
+[2017-10-03 03:35:18,128: WARNING/ForkPoolWorker-1] No: 52, Saving data to database
+[2017-10-03 03:35:18,706: WARNING/ForkPoolWorker-1] No: 53, Saving data to database
+[2017-10-03 03:35:19,501: WARNING/ForkPoolWorker-1] No: 54, Saving data to database
+[2017-10-03 03:35:20,017: WARNING/ForkPoolWorker-1] No: 55, Saving data to database
+[2017-10-03 03:35:20,620: WARNING/ForkPoolWorker-1] No: 56, Saving data to database
+[2017-10-03 03:35:21,222: WARNING/ForkPoolWorker-1] No: 57, Saving data to database
+[2017-10-03 03:35:22,201: WARNING/ForkPoolWorker-1] No: 58, Saving data to database
+[2017-10-03 03:35:22,917: WARNING/ForkPoolWorker-1] No: 59, Saving data to database
+[2017-10-03 03:35:24,105: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-7 with 200
+[2017-10-03 03:35:25,022: WARNING/ForkPoolWorker-1] No: 60, Saving data to database
+[2017-10-03 03:35:25,677: WARNING/ForkPoolWorker-1] No: 61, Saving data to database
+[2017-10-03 03:35:26,236: WARNING/ForkPoolWorker-1] No: 62, Saving data to database
+[2017-10-03 03:35:26,802: WARNING/ForkPoolWorker-1] No: 63, Saving data to database
+[2017-10-03 03:35:27,378: WARNING/ForkPoolWorker-1] No: 64, Saving data to database
+[2017-10-03 03:35:28,393: WARNING/ForkPoolWorker-1] No: 65, Saving data to database
+[2017-10-03 03:35:28,987: WARNING/ForkPoolWorker-1] No: 66, Saving data to database
+[2017-10-03 03:35:29,537: WARNING/ForkPoolWorker-1] No: 67, Saving data to database
+[2017-10-03 03:35:30,309: WARNING/ForkPoolWorker-1] No: 68, Saving data to database
+[2017-10-03 03:35:30,922: WARNING/ForkPoolWorker-1] No: 69, Saving data to database
+[2017-10-03 03:35:31,833: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-8 with 200
+[2017-10-03 03:35:32,781: WARNING/ForkPoolWorker-1] No: 70, Saving data to database
+[2017-10-03 03:35:33,397: WARNING/ForkPoolWorker-1] No: 71, Saving data to database
+[2017-10-03 03:35:34,333: WARNING/ForkPoolWorker-1] No: 72, Saving data to database
+[2017-10-03 03:35:34,935: WARNING/ForkPoolWorker-1] No: 73, Saving data to database
+[2017-10-03 03:35:35,497: WARNING/ForkPoolWorker-1] No: 74, Saving data to database
+[2017-10-03 03:35:36,014: WARNING/ForkPoolWorker-1] No: 75, Saving data to database
+[2017-10-03 03:35:36,694: WARNING/ForkPoolWorker-1] No: 76, Saving data to database
+[2017-10-03 03:35:37,292: WARNING/ForkPoolWorker-1] No: 77, Saving data to database
+[2017-10-03 03:35:38,079: WARNING/ForkPoolWorker-1] No: 78, Saving data to database
+[2017-10-03 03:35:38,693: WARNING/ForkPoolWorker-1] No: 79, Saving data to database
+[2017-10-03 03:35:39,942: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-9 with 200
+[2017-10-03 03:35:41,024: WARNING/ForkPoolWorker-1] No: 80, Saving data to database
+[2017-10-03 03:35:41,615: WARNING/ForkPoolWorker-1] No: 81, Saving data to database
+[2017-10-03 03:35:42,142: WARNING/ForkPoolWorker-1] No: 82, Saving data to database
+[2017-10-03 03:35:42,726: WARNING/ForkPoolWorker-1] No: 83, Saving data to database
+[2017-10-03 03:35:43,988: WARNING/ForkPoolWorker-1] No: 84, Saving data to database
+[2017-10-03 03:35:44,481: WARNING/ForkPoolWorker-1] No: 85, Saving data to database
+[2017-10-03 03:35:45,028: WARNING/ForkPoolWorker-1] No: 86, Saving data to database
+[2017-10-03 03:35:46,018: WARNING/ForkPoolWorker-1] No: 87, Saving data to database
+[2017-10-03 03:35:46,524: WARNING/ForkPoolWorker-1] No: 88, Saving data to database
+[2017-10-03 03:35:47,091: WARNING/ForkPoolWorker-1] No: 89, Saving data to database
+[2017-10-03 03:35:48,010: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-10 with 200
+[2017-10-03 03:35:48,716: WARNING/ForkPoolWorker-1] No: 90, Saving data to database
+[2017-10-03 03:35:49,236: WARNING/ForkPoolWorker-1] No: 91, Saving data to database
+[2017-10-03 03:35:49,727: WARNING/ForkPoolWorker-1] No: 92, Saving data to database
+[2017-10-03 03:35:50,221: WARNING/ForkPoolWorker-1] No: 93, Saving data to database
+[2017-10-03 03:35:50,719: WARNING/ForkPoolWorker-1] No: 94, Saving data to database
+[2017-10-03 03:35:51,526: WARNING/ForkPoolWorker-1] No: 95, Saving data to database
+[2017-10-03 03:35:52,407: WARNING/ForkPoolWorker-1] No: 96, Saving data to database
+[2017-10-03 03:35:52,988: WARNING/ForkPoolWorker-1] No: 97, Saving data to database
+[2017-10-03 03:35:53,495: WARNING/ForkPoolWorker-1] No: 98, Saving data to database
+[2017-10-03 03:35:54,121: WARNING/ForkPoolWorker-1] No: 99, Saving data to database
+[2017-10-03 03:35:54,997: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-11 with 200
+[2017-10-03 03:35:55,625: WARNING/ForkPoolWorker-1] No: 100, Saving data to database
+[2017-10-03 03:35:56,124: WARNING/ForkPoolWorker-1] No: 101, Saving data to database
+[2017-10-03 03:35:56,799: WARNING/ForkPoolWorker-1] No: 102, Saving data to database
+[2017-10-03 03:35:57,703: WARNING/ForkPoolWorker-1] No: 103, Saving data to database
+[2017-10-03 03:35:58,274: WARNING/ForkPoolWorker-1] No: 104, Saving data to database
+[2017-10-03 03:35:58,894: WARNING/ForkPoolWorker-1] No: 105, Saving data to database
+[2017-10-03 03:35:59,581: WARNING/ForkPoolWorker-1] No: 106, Saving data to database
+[2017-10-03 03:36:00,089: WARNING/ForkPoolWorker-1] No: 107, Saving data to database
+[2017-10-03 03:36:00,604: WARNING/ForkPoolWorker-1] No: 108, Saving data to database
+[2017-10-03 03:36:01,489: WARNING/ForkPoolWorker-1] No: 109, Saving data to database
+[2017-10-03 03:36:02,382: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-12 with 200
+[2017-10-03 03:36:03,175: WARNING/ForkPoolWorker-1] No: 110, Saving data to database
+[2017-10-03 03:36:03,688: WARNING/ForkPoolWorker-1] No: 111, Saving data to database
+[2017-10-03 03:36:04,237: WARNING/ForkPoolWorker-1] No: 112, Saving data to database
+[2017-10-03 03:36:05,042: WARNING/ForkPoolWorker-1] No: 113, Saving data to database
+[2017-10-03 03:36:05,631: WARNING/ForkPoolWorker-1] No: 114, Saving data to database
+[2017-10-03 03:36:06,225: WARNING/ForkPoolWorker-1] No: 115, Saving data to database
+[2017-10-03 03:36:06,827: WARNING/ForkPoolWorker-1] No: 116, Saving data to database
+[2017-10-03 03:36:07,524: WARNING/ForkPoolWorker-1] No: 117, Saving data to database
+[2017-10-03 03:36:08,508: WARNING/ForkPoolWorker-1] No: 118, Saving data to database
+[2017-10-03 03:36:09,482: WARNING/ForkPoolWorker-1] No: 119, Saving data to database
+[2017-10-03 03:36:10,517: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-13 with 200
+[2017-10-03 03:36:11,328: WARNING/ForkPoolWorker-1] No: 120, Saving data to database
+[2017-10-03 03:36:11,818: WARNING/ForkPoolWorker-1] No: 121, Saving data to database
+[2017-10-03 03:36:14,520: WARNING/ForkPoolWorker-1] No: 122, Saving data to database
+[2017-10-03 03:36:17,383: WARNING/ForkPoolWorker-1] No: 123, Saving data to database
+[2017-10-03 03:36:17,926: WARNING/ForkPoolWorker-1] No: 124, Saving data to database
+[2017-10-03 03:36:18,536: WARNING/ForkPoolWorker-1] No: 125, Saving data to database
+[2017-10-03 03:36:19,215: WARNING/ForkPoolWorker-1] No: 126, Saving data to database
+[2017-10-03 03:36:19,884: WARNING/ForkPoolWorker-1] No: 127, Saving data to database
+[2017-10-03 03:36:20,428: WARNING/ForkPoolWorker-1] No: 128, Saving data to database
+[2017-10-03 03:36:20,946: WARNING/ForkPoolWorker-1] No: 129, Saving data to database
+[2017-10-03 03:36:21,891: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-14 with 200
+[2017-10-03 03:36:22,588: WARNING/ForkPoolWorker-1] No: 130, Saving data to database
+[2017-10-03 03:36:23,313: WARNING/ForkPoolWorker-1] No: 131, Saving data to database
+[2017-10-03 03:36:23,992: WARNING/ForkPoolWorker-1] No: 132, Saving data to database
+[2017-10-03 03:36:27,306: WARNING/ForkPoolWorker-1] No: 133, Saving data to database
+[2017-10-03 03:36:27,895: WARNING/ForkPoolWorker-1] No: 134, Saving data to database
+[2017-10-03 03:36:29,074: WARNING/ForkPoolWorker-1] No: 135, Saving data to database
+[2017-10-03 03:36:30,083: WARNING/ForkPoolWorker-1] No: 136, Saving data to database
+[2017-10-03 03:36:30,601: WARNING/ForkPoolWorker-1] No: 137, Saving data to database
+[2017-10-03 03:36:31,486: WARNING/ForkPoolWorker-1] No: 138, Saving data to database
+[2017-10-03 03:36:32,097: WARNING/ForkPoolWorker-1] No: 139, Saving data to database
+[2017-10-03 03:36:33,051: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-15 with 200
+[2017-10-03 03:36:33,788: WARNING/ForkPoolWorker-1] No: 140, Saving data to database
+[2017-10-03 03:36:34,485: WARNING/ForkPoolWorker-1] No: 141, Saving data to database
+[2017-10-03 03:36:35,100: WARNING/ForkPoolWorker-1] No: 142, Saving data to database
+[2017-10-03 03:36:35,679: WARNING/ForkPoolWorker-1] No: 143, Saving data to database
+[2017-10-03 03:36:36,398: WARNING/ForkPoolWorker-1] No: 144, Saving data to database
+[2017-10-03 03:36:37,332: WARNING/ForkPoolWorker-1] No: 145, Saving data to database
+[2017-10-03 03:36:37,832: WARNING/ForkPoolWorker-1] No: 146, Saving data to database
+[2017-10-03 03:36:38,525: WARNING/ForkPoolWorker-1] No: 147, Saving data to database
+[2017-10-03 03:36:39,037: WARNING/ForkPoolWorker-1] No: 148, Saving data to database
+[2017-10-03 03:36:39,722: WARNING/ForkPoolWorker-1] No: 149, Saving data to database
+[2017-10-03 03:36:40,601: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-16 with 200
+[2017-10-03 03:36:41,307: WARNING/ForkPoolWorker-1] No: 150, Saving data to database
+[2017-10-03 03:36:41,888: WARNING/ForkPoolWorker-1] No: 151, Saving data to database
+[2017-10-03 03:36:42,401: WARNING/ForkPoolWorker-1] No: 152, Saving data to database
+[2017-10-03 03:36:43,120: WARNING/ForkPoolWorker-1] No: 153, Saving data to database
+[2017-10-03 03:36:43,685: WARNING/ForkPoolWorker-1] No: 154, Saving data to database
+[2017-10-03 03:36:44,524: WARNING/ForkPoolWorker-1] No: 155, Saving data to database
+[2017-10-03 03:36:46,812: WARNING/ForkPoolWorker-1] No: 156, Saving data to database
+[2017-10-03 03:36:47,895: WARNING/ForkPoolWorker-1] No: 157, Saving data to database
+[2017-10-03 03:36:48,534: WARNING/ForkPoolWorker-1] No: 158, Saving data to database
+[2017-10-03 03:36:49,222: WARNING/ForkPoolWorker-1] No: 159, Saving data to database
+[2017-10-03 03:36:50,119: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-17 with 200
+[2017-10-03 03:36:50,819: WARNING/ForkPoolWorker-1] No: 160, Saving data to database
+[2017-10-03 03:36:51,376: WARNING/ForkPoolWorker-1] No: 161, Saving data to database
+[2017-10-03 03:36:52,042: WARNING/ForkPoolWorker-1] No: 162, Saving data to database
+[2017-10-03 03:36:52,695: WARNING/ForkPoolWorker-1] No: 163, Saving data to database
+[2017-10-03 03:36:53,207: WARNING/ForkPoolWorker-1] No: 164, Saving data to database
+[2017-10-03 03:36:53,812: WARNING/ForkPoolWorker-1] No: 165, Saving data to database
+[2017-10-03 03:36:54,382: WARNING/ForkPoolWorker-1] No: 166, Saving data to database
+[2017-10-03 03:36:56,520: WARNING/ForkPoolWorker-1] No: 167, Saving data to database
+[2017-10-03 03:36:57,328: WARNING/ForkPoolWorker-1] No: 168, Saving data to database
+[2017-10-03 03:36:58,033: WARNING/ForkPoolWorker-1] No: 169, Saving data to database
+[2017-10-03 03:36:58,945: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-18 with 200
+[2017-10-03 03:36:59,885: WARNING/ForkPoolWorker-1] No: 170, Saving data to database
+[2017-10-03 03:37:00,444: WARNING/ForkPoolWorker-1] No: 171, Saving data to database
+[2017-10-03 03:37:01,130: WARNING/ForkPoolWorker-1] No: 172, Saving data to database
+[2017-10-03 03:37:03,300: WARNING/ForkPoolWorker-1] No: 173, Saving data to database
+[2017-10-03 03:37:04,542: WARNING/ForkPoolWorker-1] No: 174, Saving data to database
+[2017-10-03 03:37:05,133: WARNING/ForkPoolWorker-1] No: 175, Saving data to database
+[2017-10-03 03:37:05,819: WARNING/ForkPoolWorker-1] No: 176, Saving data to database
+[2017-10-03 03:37:06,343: WARNING/ForkPoolWorker-1] No: 177, Saving data to database
+[2017-10-03 03:37:07,077: WARNING/ForkPoolWorker-1] No: 178, Saving data to database
+[2017-10-03 03:37:07,816: WARNING/ForkPoolWorker-1] No: 179, Saving data to database
+[2017-10-03 03:37:08,663: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-19 with 200
+[2017-10-03 03:37:09,627: WARNING/ForkPoolWorker-1] No: 180, Saving data to database
+[2017-10-03 03:37:10,111: WARNING/ForkPoolWorker-1] No: 181, Saving data to database
+[2017-10-03 03:37:10,693: WARNING/ForkPoolWorker-1] No: 182, Saving data to database
+[2017-10-03 03:37:11,397: WARNING/ForkPoolWorker-1] No: 183, Saving data to database
+[2017-10-03 03:37:12,282: WARNING/ForkPoolWorker-1] No: 184, Saving data to database
+[2017-10-03 03:37:12,833: WARNING/ForkPoolWorker-1] No: 185, Saving data to database
+[2017-10-03 03:37:13,619: WARNING/ForkPoolWorker-1] No: 186, Saving data to database
+[2017-10-03 03:37:14,282: WARNING/ForkPoolWorker-1] No: 187, Saving data to database
+[2017-10-03 03:37:14,894: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:15,404: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:16,245: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-20 with 200
+[2017-10-03 03:37:17,028: WARNING/ForkPoolWorker-1] No: 188, Saving data to database
+[2017-10-03 03:37:17,613: WARNING/ForkPoolWorker-1] No: 189, Saving data to database
+[2017-10-03 03:37:18,206: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:19,086: WARNING/ForkPoolWorker-1] No: 190, Saving data to database
+[2017-10-03 03:37:19,825: WARNING/ForkPoolWorker-1] No: 191, Saving data to database
+[2017-10-03 03:37:20,418: WARNING/ForkPoolWorker-1] No: 192, Saving data to database
+[2017-10-03 03:37:21,383: WARNING/ForkPoolWorker-1] No: 193, Saving data to database
+[2017-10-03 03:37:21,920: WARNING/ForkPoolWorker-1] No: 194, Saving data to database
+[2017-10-03 03:37:22,540: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:23,122: WARNING/ForkPoolWorker-1] No: 195, Saving data to database
+[2017-10-03 03:37:24,059: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-21 with 200
+[2017-10-03 03:37:25,031: WARNING/ForkPoolWorker-1] No: 196, Saving data to database
+[2017-10-03 03:37:25,712: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:26,521: WARNING/ForkPoolWorker-1] No: 197, Saving data to database
+[2017-10-03 03:37:27,141: WARNING/ForkPoolWorker-1] No: 198, Saving data to database
+[2017-10-03 03:37:27,745: WARNING/ForkPoolWorker-1] No: 199, Saving data to database
+[2017-10-03 03:37:28,420: WARNING/ForkPoolWorker-1] No: 200, Saving data to database
+[2017-10-03 03:37:28,914: WARNING/ForkPoolWorker-1] No: 201, Saving data to database
+[2017-10-03 03:37:29,414: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:29,927: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:30,798: WARNING/ForkPoolWorker-1] No: 202, Saving data to database
+[2017-10-03 03:37:31,662: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-22 with 200
+[2017-10-03 03:37:32,275: WARNING/ForkPoolWorker-1] No: 203, Saving data to database
+[2017-10-03 03:37:32,738: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:33,327: WARNING/ForkPoolWorker-1] No: 204, Saving data to database
+[2017-10-03 03:37:34,238: WARNING/ForkPoolWorker-1] No: 205, Saving data to database
+[2017-10-03 03:37:34,736: WARNING/ForkPoolWorker-1] No: 206, Saving data to database
+[2017-10-03 03:37:35,587: WARNING/ForkPoolWorker-1] No: 207, Saving data to database
+[2017-10-03 03:37:36,136: WARNING/ForkPoolWorker-1] No: 208, Saving data to database
+[2017-10-03 03:37:36,729: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:37,298: WARNING/ForkPoolWorker-1] No: 209, Saving data to database
+[2017-10-03 03:37:37,927: WARNING/ForkPoolWorker-1] No: 210, Saving data to database
+[2017-10-03 03:37:38,847: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-23 with 200
+[2017-10-03 03:37:39,641: WARNING/ForkPoolWorker-1] No: 211, Saving data to database
+[2017-10-03 03:37:40,232: WARNING/ForkPoolWorker-1] No: 212, Saving data to database
+[2017-10-03 03:37:40,716: WARNING/ForkPoolWorker-1] No: 213, Saving data to database
+[2017-10-03 03:37:41,279: WARNING/ForkPoolWorker-1] No: 214, Saving data to database
+[2017-10-03 03:37:41,998: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:42,737: WARNING/ForkPoolWorker-1] No: 215, Saving data to database
+[2017-10-03 03:37:43,417: WARNING/ForkPoolWorker-1] No: 216, Saving data to database
+[2017-10-03 03:37:44,012: WARNING/ForkPoolWorker-1] No: 217, Saving data to database
+[2017-10-03 03:37:45,024: WARNING/ForkPoolWorker-1] No: 218, Saving data to database
+[2017-10-03 03:37:45,542: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:46,692: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-24 with 200
+[2017-10-03 03:37:47,638: WARNING/ForkPoolWorker-1] No: 219, Saving data to database
+[2017-10-03 03:37:48,399: WARNING/ForkPoolWorker-1] No: 220, Saving data to database
+[2017-10-03 03:37:49,091: WARNING/ForkPoolWorker-1] No: 221, Saving data to database
+[2017-10-03 03:37:49,734: WARNING/ForkPoolWorker-1] No: 222, Saving data to database
+[2017-10-03 03:37:50,377: WARNING/ForkPoolWorker-1] No: 223, Saving data to database
+[2017-10-03 03:37:51,097: WARNING/ForkPoolWorker-1] No: 224, Saving data to database
+[2017-10-03 03:37:51,635: WARNING/ForkPoolWorker-1] No: 225, Saving data to database
+[2017-10-03 03:37:52,185: WARNING/ForkPoolWorker-1] No: 226, Saving data to database
+[2017-10-03 03:37:52,709: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:37:53,427: WARNING/ForkPoolWorker-1] No: 227, Saving data to database
+[2017-10-03 03:37:54,386: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-25 with 200
+[2017-10-03 03:37:55,277: WARNING/ForkPoolWorker-1] No: 228, Saving data to database
+[2017-10-03 03:37:55,793: WARNING/ForkPoolWorker-1] No: 229, Saving data to database
+[2017-10-03 03:37:56,532: WARNING/ForkPoolWorker-1] No: 230, Saving data to database
+[2017-10-03 03:37:57,392: WARNING/ForkPoolWorker-1] No: 231, Saving data to database
+[2017-10-03 03:37:57,993: WARNING/ForkPoolWorker-1] No: 232, Saving data to database
+[2017-10-03 03:37:59,404: WARNING/ForkPoolWorker-1] No: 233, Saving data to database
+[2017-10-03 03:37:59,933: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:38:00,475: WARNING/ForkPoolWorker-1] No: 234, Saving data to database
+[2017-10-03 03:38:01,142: WARNING/ForkPoolWorker-1] No: 235, Saving data to database
+[2017-10-03 03:38:01,883: WARNING/ForkPoolWorker-1] No: 236, Saving data to database
+[2017-10-03 03:38:04,107: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-26 with 200
+[2017-10-03 03:38:04,825: WARNING/ForkPoolWorker-1] No: 237, Saving data to database
+[2017-10-03 03:38:05,499: WARNING/ForkPoolWorker-1] No: 238, Saving data to database
+[2017-10-03 03:38:06,218: WARNING/ForkPoolWorker-1] No: 239, Saving data to database
+[2017-10-03 03:38:06,774: WARNING/ForkPoolWorker-1] No: 240, Saving data to database
+[2017-10-03 03:38:08,018: WARNING/ForkPoolWorker-1] No: 241, Saving data to database
+[2017-10-03 03:38:10,482: WARNING/ForkPoolWorker-1] No: 242, Saving data to database
+[2017-10-03 03:38:11,222: WARNING/ForkPoolWorker-1] No: 243, Saving data to database
+[2017-10-03 03:38:11,893: WARNING/ForkPoolWorker-1] No: 244, Saving data to database
+[2017-10-03 03:38:12,426: WARNING/ForkPoolWorker-1] No: 245, Saving data to database
+[2017-10-03 03:38:13,011: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:38:13,854: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-27 with 200
+[2017-10-03 03:38:14,781: WARNING/ForkPoolWorker-1] No: 246, Saving data to database
+[2017-10-03 03:38:15,332: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:38:15,840: WARNING/ForkPoolWorker-1] No: 247, Saving data to database
+[2017-10-03 03:38:16,506: WARNING/ForkPoolWorker-1] No: 248, Saving data to database
+[2017-10-03 03:38:17,299: WARNING/ForkPoolWorker-1] No: 249, Saving data to database
+[2017-10-03 03:38:18,102: WARNING/ForkPoolWorker-1] No: 250, Saving data to database
+[2017-10-03 03:38:18,791: WARNING/ForkPoolWorker-1] No: 251, Saving data to database
+[2017-10-03 03:38:19,530: WARNING/ForkPoolWorker-1] No: 252, Saving data to database
+[2017-10-03 03:38:20,210: WARNING/ForkPoolWorker-1] No: 253, Saving data to database
+[2017-10-03 03:38:20,922: WARNING/ForkPoolWorker-1] No: 254, Saving data to database
+[2017-10-03 03:38:21,840: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-28 with 200
+[2017-10-03 03:38:22,520: WARNING/ForkPoolWorker-1] No: 255, Saving data to database
+[2017-10-03 03:38:23,040: WARNING/ForkPoolWorker-1] No: 256, Saving data to database
+[2017-10-03 03:38:23,797: WARNING/ForkPoolWorker-1] No: 257, Saving data to database
+[2017-10-03 03:38:24,320: WARNING/ForkPoolWorker-1] No: 258, Saving data to database
+[2017-10-03 03:38:25,282: WARNING/ForkPoolWorker-1] No: 259, Saving data to database
+[2017-10-03 03:38:25,927: WARNING/ForkPoolWorker-1] No: 260, Saving data to database
+[2017-10-03 03:38:26,718: WARNING/ForkPoolWorker-1] No: 261, Saving data to database
+[2017-10-03 03:38:27,402: WARNING/ForkPoolWorker-1] No: 262, Saving data to database
+[2017-10-03 03:38:28,029: WARNING/ForkPoolWorker-1] No: 263, Saving data to database
+[2017-10-03 03:38:28,593: WARNING/ForkPoolWorker-1] No: 264, Saving data to database
+[2017-10-03 03:38:29,521: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-29 with 200
+[2017-10-03 03:38:30,704: WARNING/ForkPoolWorker-1] No: 265, Saving data to database
+[2017-10-03 03:38:31,541: WARNING/ForkPoolWorker-1] No: 266, Saving data to database
+[2017-10-03 03:38:32,205: WARNING/ForkPoolWorker-1] No: 267, Saving data to database
+[2017-10-03 03:38:32,993: WARNING/ForkPoolWorker-1] No: 268, Saving data to database
+[2017-10-03 03:38:33,536: WARNING/ForkPoolWorker-1] No: 269, Saving data to database
+[2017-10-03 03:38:34,094: WARNING/ForkPoolWorker-1] No: 270, Saving data to database
+[2017-10-03 03:38:34,774: WARNING/ForkPoolWorker-1] No: 271, Saving data to database
+[2017-10-03 03:38:35,519: WARNING/ForkPoolWorker-1] No: 272, Saving data to database
+[2017-10-03 03:38:36,177: WARNING/ForkPoolWorker-1] No: 273, Saving data to database
+[2017-10-03 03:38:36,998: WARNING/ForkPoolWorker-1] No: 274, Saving data to database
+[2017-10-03 03:38:37,917: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-30 with 200
+[2017-10-03 03:38:38,679: WARNING/ForkPoolWorker-1] No: 275, Saving data to database
+[2017-10-03 03:38:39,233: WARNING/ForkPoolWorker-1] No: 276, Saving data to database
+[2017-10-03 03:38:39,785: WARNING/ForkPoolWorker-1] No: 277, Saving data to database
+[2017-10-03 03:38:40,586: WARNING/ForkPoolWorker-1] No: 278, Saving data to database
+[2017-10-03 03:38:41,296: WARNING/ForkPoolWorker-1] No: 279, Saving data to database
+[2017-10-03 03:38:41,978: WARNING/ForkPoolWorker-1] No: 280, Saving data to database
+[2017-10-03 03:38:42,517: WARNING/ForkPoolWorker-1] No: 281, Saving data to database
+[2017-10-03 03:38:43,111: WARNING/ForkPoolWorker-1] No: 282, Saving data to database
+[2017-10-03 03:38:43,804: WARNING/ForkPoolWorker-1] No: 283, Saving data to database
+[2017-10-03 03:38:44,432: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:38:45,321: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-31 with 200
+[2017-10-03 03:38:46,019: WARNING/ForkPoolWorker-1] No: 284, Saving data to database
+[2017-10-03 03:38:46,540: WARNING/ForkPoolWorker-1] No: 285, Saving data to database
+[2017-10-03 03:38:47,373: WARNING/ForkPoolWorker-1] No: 286, Saving data to database
+[2017-10-03 03:38:47,983: WARNING/ForkPoolWorker-1] No: 287, Saving data to database
+[2017-10-03 03:38:48,535: WARNING/ForkPoolWorker-1] No: 288, Saving data to database
+[2017-10-03 03:38:49,440: WARNING/ForkPoolWorker-1] No: 289, Saving data to database
+[2017-10-03 03:38:49,913: WARNING/ForkPoolWorker-1] No: 290, Saving data to database
+[2017-10-03 03:38:50,433: WARNING/ForkPoolWorker-1] No: 291, Saving data to database
+[2017-10-03 03:38:51,139: WARNING/ForkPoolWorker-1] No: 292, Saving data to database
+[2017-10-03 03:38:51,607: WARNING/ForkPoolWorker-1] No: 293, Saving data to database
+[2017-10-03 03:38:53,117: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-32 with 200
+[2017-10-03 03:38:54,017: WARNING/ForkPoolWorker-1] No: 294, Saving data to database
+[2017-10-03 03:38:54,523: WARNING/ForkPoolWorker-1] No: 295, Saving data to database
+[2017-10-03 03:38:55,079: WARNING/ForkPoolWorker-1] No: 296, Saving data to database
+[2017-10-03 03:38:55,632: WARNING/ForkPoolWorker-1] No: 297, Saving data to database
+[2017-10-03 03:38:56,194: WARNING/ForkPoolWorker-1] No: 298, Saving data to database
+[2017-10-03 03:38:56,710: WARNING/ForkPoolWorker-1] No: 299, Saving data to database
+[2017-10-03 03:38:57,310: WARNING/ForkPoolWorker-1] No: 300, Saving data to database
+[2017-10-03 03:38:58,035: WARNING/ForkPoolWorker-1] No: 301, Saving data to database
+[2017-10-03 03:38:58,592: WARNING/ForkPoolWorker-1] No: 302, Saving data to database
+[2017-10-03 03:38:59,510: WARNING/ForkPoolWorker-1] No: 303, Saving data to database
+[2017-10-03 03:39:00,625: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-33 with 200
+[2017-10-03 03:39:01,290: WARNING/ForkPoolWorker-1] No: 304, Saving data to database
+[2017-10-03 03:39:01,935: WARNING/ForkPoolWorker-1] No: 305, Saving data to database
+[2017-10-03 03:39:02,616: WARNING/ForkPoolWorker-1] No: 306, Saving data to database
+[2017-10-03 03:39:03,179: WARNING/ForkPoolWorker-1] No: 307, Saving data to database
+[2017-10-03 03:39:03,715: WARNING/ForkPoolWorker-1] No: 308, Saving data to database
+[2017-10-03 03:39:04,407: WARNING/ForkPoolWorker-1] No: 309, Saving data to database
+[2017-10-03 03:39:04,928: WARNING/ForkPoolWorker-1] No: 310, Saving data to database
+[2017-10-03 03:39:05,588: WARNING/ForkPoolWorker-1] No: 311, Saving data to database
+[2017-10-03 03:39:06,127: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:39:06,897: WARNING/ForkPoolWorker-1] No: 312, Saving data to database
+[2017-10-03 03:39:07,855: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-34 with 200
+[2017-10-03 03:39:08,538: WARNING/ForkPoolWorker-1] No: 313, Saving data to database
+[2017-10-03 03:39:09,022: WARNING/ForkPoolWorker-1] No: 314, Saving data to database
+[2017-10-03 03:39:09,624: WARNING/ForkPoolWorker-1] No: 315, Saving data to database
+[2017-10-03 03:39:10,273: WARNING/ForkPoolWorker-1] No: 316, Saving data to database
+[2017-10-03 03:39:11,038: WARNING/ForkPoolWorker-1] No: 317, Saving data to database
+[2017-10-03 03:39:11,521: WARNING/ForkPoolWorker-1] No: 318, Saving data to database
+[2017-10-03 03:39:12,007: WARNING/ForkPoolWorker-1] No: 319, Saving data to database
+[2017-10-03 03:39:12,696: WARNING/ForkPoolWorker-1] No: 320, Saving data to database
+[2017-10-03 03:39:13,706: WARNING/ForkPoolWorker-1] No: 321, Saving data to database
+[2017-10-03 03:39:14,319: WARNING/ForkPoolWorker-1] No: 322, Saving data to database
+[2017-10-03 03:39:15,153: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-35 with 200
+[2017-10-03 03:39:15,902: WARNING/ForkPoolWorker-1] No: 323, Saving data to database
+[2017-10-03 03:39:16,440: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:39:17,294: WARNING/ForkPoolWorker-1] No: 324, Saving data to database
+[2017-10-03 03:39:17,811: WARNING/ForkPoolWorker-1] No: 325, Saving data to database
+[2017-10-03 03:39:18,413: WARNING/ForkPoolWorker-1] No: 326, Saving data to database
+[2017-10-03 03:39:18,988: WARNING/ForkPoolWorker-1] No: 327, Saving data to database
+[2017-10-03 03:39:19,578: WARNING/ForkPoolWorker-1] No: 328, Saving data to database
+[2017-10-03 03:39:20,327: WARNING/ForkPoolWorker-1] No: 329, Saving data to database
+[2017-10-03 03:39:20,988: WARNING/ForkPoolWorker-1] No: 330, Saving data to database
+[2017-10-03 03:39:21,632: WARNING/ForkPoolWorker-1] No: 331, Saving data to database
+[2017-10-03 03:39:22,515: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-36 with 200
+[2017-10-03 03:39:23,193: WARNING/ForkPoolWorker-1] No: 332, Saving data to database
+[2017-10-03 03:39:23,695: WARNING/ForkPoolWorker-1] No: 333, Saving data to database
+[2017-10-03 03:39:24,309: WARNING/ForkPoolWorker-1] No: 334, Saving data to database
+[2017-10-03 03:39:24,835: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:39:25,339: WARNING/ForkPoolWorker-1] No: 335, Saving data to database
+[2017-10-03 03:39:25,836: WARNING/ForkPoolWorker-1] No: 336, Saving data to database
+[2017-10-03 03:39:26,342: WARNING/ForkPoolWorker-1] No: 337, Saving data to database
+[2017-10-03 03:39:27,041: WARNING/ForkPoolWorker-1] No: 338, Saving data to database
+[2017-10-03 03:39:27,586: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:39:28,634: WARNING/ForkPoolWorker-1] No: 339, Saving data to database
+[2017-10-03 03:39:29,717: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-37 with 200
+[2017-10-03 03:39:30,608: WARNING/ForkPoolWorker-1] No: 340, Saving data to database
+[2017-10-03 03:39:31,406: WARNING/ForkPoolWorker-1] No: 341, Saving data to database
+[2017-10-03 03:39:31,933: WARNING/ForkPoolWorker-1] No: 342, Saving data to database
+[2017-10-03 03:39:32,533: WARNING/ForkPoolWorker-1] No: 343, Saving data to database
+[2017-10-03 03:39:33,210: WARNING/ForkPoolWorker-1] No: 344, Saving data to database
+[2017-10-03 03:39:33,774: WARNING/ForkPoolWorker-1] No: 345, Saving data to database
+[2017-10-03 03:39:34,308: WARNING/ForkPoolWorker-1] No: 346, Saving data to database
+[2017-10-03 03:39:34,814: WARNING/ForkPoolWorker-1] No: 347, Saving data to database
+[2017-10-03 03:39:35,697: WARNING/ForkPoolWorker-1] No: 348, Saving data to database
+[2017-10-03 03:39:36,385: WARNING/ForkPoolWorker-1] No: 349, Saving data to database
+[2017-10-03 03:39:37,615: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-38 with 200
+[2017-10-03 03:39:38,293: WARNING/ForkPoolWorker-1] No: 350, Saving data to database
+[2017-10-03 03:39:38,887: WARNING/ForkPoolWorker-1] No: 351, Saving data to database
+[2017-10-03 03:39:39,609: WARNING/ForkPoolWorker-1] No: 352, Saving data to database
+[2017-10-03 03:39:40,141: WARNING/ForkPoolWorker-1] No: 353, Saving data to database
+[2017-10-03 03:39:40,736: WARNING/ForkPoolWorker-1] No: 354, Saving data to database
+[2017-10-03 03:39:41,277: WARNING/ForkPoolWorker-1] No: 355, Saving data to database
+[2017-10-03 03:39:41,893: WARNING/ForkPoolWorker-1] No: 356, Saving data to database
+[2017-10-03 03:39:42,423: WARNING/ForkPoolWorker-1] No: 357, Saving data to database
+[2017-10-03 03:39:42,977: WARNING/ForkPoolWorker-1] No: 358, Saving data to database
+[2017-10-03 03:39:43,442: WARNING/ForkPoolWorker-1] No: 359, Saving data to database
+[2017-10-03 03:39:44,323: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-39 with 200
+[2017-10-03 03:39:45,083: WARNING/ForkPoolWorker-1] No: 360, Saving data to database
+[2017-10-03 03:39:45,574: WARNING/ForkPoolWorker-1] No: 361, Saving data to database
+[2017-10-03 03:39:46,176: WARNING/ForkPoolWorker-1] No: 362, Saving data to database
+[2017-10-03 03:39:46,776: WARNING/ForkPoolWorker-1] No: 363, Saving data to database
+[2017-10-03 03:39:47,396: WARNING/ForkPoolWorker-1] No: 364, Saving data to database
+[2017-10-03 03:39:47,927: WARNING/ForkPoolWorker-1] No: 365, Saving data to database
+[2017-10-03 03:39:48,684: WARNING/ForkPoolWorker-1] No: 366, Saving data to database
+[2017-10-03 03:39:49,211: WARNING/ForkPoolWorker-1] No: 367, Saving data to database
+[2017-10-03 03:39:49,719: WARNING/ForkPoolWorker-1] No: 368, Saving data to database
+[2017-10-03 03:39:50,327: WARNING/ForkPoolWorker-1] No: 369, Saving data to database
+[2017-10-03 03:39:51,198: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-40 with 200
+[2017-10-03 03:39:51,892: WARNING/ForkPoolWorker-1] No: 370, Saving data to database
+[2017-10-03 03:39:52,424: WARNING/ForkPoolWorker-1] No: 371, Saving data to database
+[2017-10-03 03:39:52,928: WARNING/ForkPoolWorker-1] No: 372, Saving data to database
+[2017-10-03 03:39:53,521: WARNING/ForkPoolWorker-1] No: 373, Saving data to database
+[2017-10-03 03:39:54,038: WARNING/ForkPoolWorker-1] No: 374, Saving data to database
+[2017-10-03 03:39:54,593: WARNING/ForkPoolWorker-1] No: 375, Saving data to database
+[2017-10-03 03:39:55,129: WARNING/ForkPoolWorker-1] No: 376, Saving data to database
+[2017-10-03 03:39:55,785: WARNING/ForkPoolWorker-1] No: 377, Saving data to database
+[2017-10-03 03:39:56,328: WARNING/ForkPoolWorker-1] No: 378, Saving data to database
+[2017-10-03 03:39:56,831: WARNING/ForkPoolWorker-1] No: 379, Saving data to database
+[2017-10-03 03:39:57,720: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-41 with 200
+[2017-10-03 03:39:58,886: WARNING/ForkPoolWorker-1] No: 380, Saving data to database
+[2017-10-03 03:39:59,523: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:40:00,174: WARNING/ForkPoolWorker-1] No: 381, Saving data to database
+[2017-10-03 03:40:00,718: WARNING/ForkPoolWorker-1] No: 382, Saving data to database
+[2017-10-03 03:40:01,308: WARNING/ForkPoolWorker-1] No: 383, Saving data to database
+[2017-10-03 03:40:01,937: WARNING/ForkPoolWorker-1] No: 384, Saving data to database
+[2017-10-03 03:40:02,421: WARNING/ForkPoolWorker-1] No: 385, Saving data to database
+[2017-10-03 03:40:02,974: WARNING/ForkPoolWorker-1] No: 386, Saving data to database
+[2017-10-03 03:40:03,478: WARNING/ForkPoolWorker-1] No: 387, Saving data to database
+[2017-10-03 03:40:04,082: WARNING/ForkPoolWorker-1] No: 388, Saving data to database
+[2017-10-03 03:40:04,918: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-42 with 200
+[2017-10-03 03:40:05,699: WARNING/ForkPoolWorker-1] No: 389, Saving data to database
+[2017-10-03 03:40:07,847: WARNING/ForkPoolWorker-1] No: 390, Saving data to database
+[2017-10-03 03:40:08,377: WARNING/ForkPoolWorker-1] No: 391, Saving data to database
+[2017-10-03 03:40:09,224: WARNING/ForkPoolWorker-1] No: 392, Saving data to database
+[2017-10-03 03:40:09,814: WARNING/ForkPoolWorker-1] No: 393, Saving data to database
+[2017-10-03 03:40:10,708: WARNING/ForkPoolWorker-1] No: 394, Saving data to database
+[2017-10-03 03:40:11,211: WARNING/ForkPoolWorker-1] No: 395, Saving data to database
+[2017-10-03 03:40:11,981: WARNING/ForkPoolWorker-1] No: 396, Saving data to database
+[2017-10-03 03:40:12,487: WARNING/ForkPoolWorker-1] No: 397, Saving data to database
+[2017-10-03 03:40:13,007: WARNING/ForkPoolWorker-1] No: 398, Saving data to database
+[2017-10-03 03:40:13,914: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-43 with 200
+[2017-10-03 03:40:14,698: WARNING/ForkPoolWorker-1] No: 399, Saving data to database
+[2017-10-03 03:40:15,411: WARNING/ForkPoolWorker-1] No: 400, Saving data to database
+[2017-10-03 03:40:15,935: WARNING/ForkPoolWorker-1] No: 401, Saving data to database
+[2017-10-03 03:40:16,495: WARNING/ForkPoolWorker-1] No: 402, Saving data to database
+[2017-10-03 03:40:16,997: WARNING/ForkPoolWorker-1] No: 403, Saving data to database
+[2017-10-03 03:40:17,574: WARNING/ForkPoolWorker-1] No: 404, Saving data to database
+[2017-10-03 03:40:18,278: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:40:18,809: WARNING/ForkPoolWorker-1] No: 405, Saving data to database
+[2017-10-03 03:40:19,306: WARNING/ForkPoolWorker-1] No: 406, Saving data to database
+[2017-10-03 03:40:19,927: WARNING/ForkPoolWorker-1] No: 407, Saving data to database
+[2017-10-03 03:40:20,796: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-44 with 200
+[2017-10-03 03:40:21,626: WARNING/ForkPoolWorker-1] No: 408, Saving data to database
+[2017-10-03 03:40:22,229: WARNING/ForkPoolWorker-1] No: 409, Saving data to database
+[2017-10-03 03:40:22,908: WARNING/ForkPoolWorker-1] No: 410, Saving data to database
+[2017-10-03 03:40:23,712: WARNING/ForkPoolWorker-1] No: 411, Saving data to database
+[2017-10-03 03:40:24,734: WARNING/ForkPoolWorker-1] No: 412, Saving data to database
+[2017-10-03 03:40:25,238: WARNING/ForkPoolWorker-1] No: 413, Saving data to database
+[2017-10-03 03:40:25,816: WARNING/ForkPoolWorker-1] No: 414, Saving data to database
+[2017-10-03 03:40:26,421: WARNING/ForkPoolWorker-1] No: 415, Saving data to database
+[2017-10-03 03:40:27,094: WARNING/ForkPoolWorker-1] No: 416, Saving data to database
+[2017-10-03 03:40:27,676: WARNING/ForkPoolWorker-1] No: 417, Saving data to database
+[2017-10-03 03:40:28,574: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-45 with 200
+[2017-10-03 03:40:29,232: WARNING/ForkPoolWorker-1] No: 418, Saving data to database
+[2017-10-03 03:40:29,781: WARNING/ForkPoolWorker-1] No: 419, Saving data to database
+[2017-10-03 03:40:30,392: WARNING/ForkPoolWorker-1] No: 420, Saving data to database
+[2017-10-03 03:40:31,409: WARNING/ForkPoolWorker-1] No: 421, Saving data to database
+[2017-10-03 03:40:31,912: WARNING/ForkPoolWorker-1] No: 422, Saving data to database
+[2017-10-03 03:40:33,143: WARNING/ForkPoolWorker-1] No: 423, Saving data to database
+[2017-10-03 03:40:33,787: WARNING/ForkPoolWorker-1] No: 424, Saving data to database
+[2017-10-03 03:40:34,329: WARNING/ForkPoolWorker-1] No: 425, Saving data to database
+[2017-10-03 03:40:34,880: WARNING/ForkPoolWorker-1] No: 426, Saving data to database
+[2017-10-03 03:40:35,624: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:40:36,583: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-46 with 200
+[2017-10-03 03:40:37,836: WARNING/ForkPoolWorker-1] No: 427, Saving data to database
+[2017-10-03 03:40:38,410: WARNING/ForkPoolWorker-1] No: 428, Saving data to database
+[2017-10-03 03:40:38,926: WARNING/ForkPoolWorker-1] No: 429, Saving data to database
+[2017-10-03 03:40:39,607: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:40:40,102: WARNING/ForkPoolWorker-1] No: 430, Saving data to database
+[2017-10-03 03:40:40,639: WARNING/ForkPoolWorker-1] No: 431, Saving data to database
+[2017-10-03 03:40:41,116: WARNING/ForkPoolWorker-1] No: 432, Saving data to database
+[2017-10-03 03:40:41,637: WARNING/ForkPoolWorker-1] No: 433, Saving data to database
+[2017-10-03 03:40:42,396: WARNING/ForkPoolWorker-1] No: 434, Saving data to database
+[2017-10-03 03:40:42,910: WARNING/ForkPoolWorker-1] No: 435, Saving data to database
+[2017-10-03 03:40:43,805: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-47 with 200
+[2017-10-03 03:40:44,493: WARNING/ForkPoolWorker-1] No: 436, Saving data to database
+[2017-10-03 03:40:45,239: WARNING/ForkPoolWorker-1] No: 437, Saving data to database
+[2017-10-03 03:40:45,818: WARNING/ForkPoolWorker-1] No: 438, Saving data to database
+[2017-10-03 03:40:46,314: WARNING/ForkPoolWorker-1] No: 439, Saving data to database
+[2017-10-03 03:40:46,877: WARNING/ForkPoolWorker-1] No: 440, Saving data to database
+[2017-10-03 03:40:47,534: WARNING/ForkPoolWorker-1] No: 441, Saving data to database
+[2017-10-03 03:40:48,042: WARNING/ForkPoolWorker-1] No: 442, Saving data to database
+[2017-10-03 03:40:48,604: WARNING/ForkPoolWorker-1] No: 443, Saving data to database
+[2017-10-03 03:40:49,118: WARNING/ForkPoolWorker-1] No: 444, Saving data to database
+[2017-10-03 03:40:49,606: WARNING/ForkPoolWorker-1] No: 445, Saving data to database
+[2017-10-03 03:40:50,628: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-48 with 200
+[2017-10-03 03:40:51,482: WARNING/ForkPoolWorker-1] No: 446, Saving data to database
+[2017-10-03 03:40:52,092: WARNING/ForkPoolWorker-1] No: 447, Saving data to database
+[2017-10-03 03:40:52,594: WARNING/ForkPoolWorker-1] No: 448, Saving data to database
+[2017-10-03 03:40:53,126: WARNING/ForkPoolWorker-1] No: 449, Saving data to database
+[2017-10-03 03:40:53,986: WARNING/ForkPoolWorker-1] No: 450, Saving data to database
+[2017-10-03 03:40:55,124: WARNING/ForkPoolWorker-1] No: 451, Saving data to database
+[2017-10-03 03:40:55,698: WARNING/ForkPoolWorker-1] No: 452, Saving data to database
+[2017-10-03 03:40:56,406: WARNING/ForkPoolWorker-1] No: 453, Saving data to database
+[2017-10-03 03:40:57,221: WARNING/ForkPoolWorker-1] No: 454, Saving data to database
+[2017-10-03 03:40:57,741: WARNING/ForkPoolWorker-1] No: 455, Saving data to database
+[2017-10-03 03:40:58,730: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-49 with 200
+[2017-10-03 03:40:59,430: WARNING/ForkPoolWorker-1] No: 456, Saving data to database
+[2017-10-03 03:41:00,117: WARNING/ForkPoolWorker-1] No: 457, Saving data to database
+[2017-10-03 03:41:00,637: WARNING/ForkPoolWorker-1] No: 458, Saving data to database
+[2017-10-03 03:41:01,124: WARNING/ForkPoolWorker-1] No: 459, Saving data to database
+[2017-10-03 03:41:02,085: WARNING/ForkPoolWorker-1] No: 460, Saving data to database
+[2017-10-03 03:41:02,818: WARNING/ForkPoolWorker-1] No: 461, Saving data to database
+[2017-10-03 03:41:03,307: WARNING/ForkPoolWorker-1] No: 462, Saving data to database
+[2017-10-03 03:41:03,894: WARNING/ForkPoolWorker-1] No: 463, Saving data to database
+[2017-10-03 03:41:04,394: WARNING/ForkPoolWorker-1] No: 464, Saving data to database
+[2017-10-03 03:41:04,916: WARNING/ForkPoolWorker-1] No: 465, Saving data to database
+[2017-10-03 03:41:05,774: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-50 with 200
+[2017-10-03 03:41:06,586: WARNING/ForkPoolWorker-1] No: 466, Saving data to database
+[2017-10-03 03:41:07,108: WARNING/ForkPoolWorker-1] No: 467, Saving data to database
+[2017-10-03 03:41:07,599: WARNING/ForkPoolWorker-1] 'NoneType' object has no attribute 'get_text'
+[2017-10-03 03:41:08,119: WARNING/ForkPoolWorker-1] No: 468, Saving data to database
+[2017-10-03 03:41:08,826: WARNING/ForkPoolWorker-1] No: 469, Saving data to database
+[2017-10-03 03:41:09,332: WARNING/ForkPoolWorker-1] No: 470, Saving data to database
+[2017-10-03 03:41:10,133: WARNING/ForkPoolWorker-1] No: 471, Saving data to database
+[2017-10-03 03:41:10,723: WARNING/ForkPoolWorker-1] No: 472, Saving data to database
+[2017-10-03 03:41:11,330: WARNING/ForkPoolWorker-1] No: 473, Saving data to database
+[2017-10-03 03:41:11,886: WARNING/ForkPoolWorker-1] No: 474, Saving data to database
+[2017-10-03 03:41:12,837: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-51 with 200
+[2017-10-03 03:41:13,838: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-52 with 200
+[2017-10-03 03:41:14,748: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-53 with 200
+[2017-10-03 03:41:15,619: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-54 with 200
+[2017-10-03 03:41:16,516: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-55 with 200
+[2017-10-03 03:41:17,435: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-56 with 200
+[2017-10-03 03:41:18,370: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-57 with 200
+[2017-10-03 03:41:19,361: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-58 with 200
+[2017-10-03 03:41:20,577: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-59 with 200
+[2017-10-03 03:41:21,482: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-60 with 200
+[2017-10-03 03:41:22,940: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-61 with 200
+[2017-10-03 03:41:23,629: WARNING/ForkPoolWorker-1] No: 475, Saving data to database
+[2017-10-03 03:41:24,118: WARNING/ForkPoolWorker-1] No: 476, Saving data to database
+[2017-10-03 03:41:24,727: WARNING/ForkPoolWorker-1] No: 477, Saving data to database
+[2017-10-03 03:41:25,299: WARNING/ForkPoolWorker-1] No: 478, Saving data to database
+[2017-10-03 03:41:25,808: WARNING/ForkPoolWorker-1] No: 479, Saving data to database
+[2017-10-03 03:41:26,319: WARNING/ForkPoolWorker-1] No: 480, Saving data to database
+[2017-10-03 03:41:26,925: WARNING/ForkPoolWorker-1] No: 481, Saving data to database
+[2017-10-03 03:41:27,441: WARNING/ForkPoolWorker-1] No: 482, Saving data to database
+[2017-10-03 03:41:28,005: WARNING/ForkPoolWorker-1] No: 483, Saving data to database
+[2017-10-03 03:41:28,578: WARNING/ForkPoolWorker-1] No: 484, Saving data to database
+[2017-10-03 03:41:30,090: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-62 with 200
+[2017-10-03 03:41:30,842: WARNING/ForkPoolWorker-1] No: 485, Saving data to database
+[2017-10-03 03:41:31,428: WARNING/ForkPoolWorker-1] No: 486, Saving data to database
+[2017-10-03 03:41:31,919: WARNING/ForkPoolWorker-1] No: 487, Saving data to database
+[2017-10-03 03:41:32,592: WARNING/ForkPoolWorker-1] No: 488, Saving data to database
+[2017-10-03 03:41:33,229: WARNING/ForkPoolWorker-1] No: 489, Saving data to database
+[2017-10-03 03:41:33,775: WARNING/ForkPoolWorker-1] No: 490, Saving data to database
+[2017-10-03 03:41:34,305: WARNING/ForkPoolWorker-1] No: 491, Saving data to database
+[2017-10-03 03:41:34,880: WARNING/ForkPoolWorker-1] No: 492, Saving data to database
+[2017-10-03 03:41:36,030: WARNING/ForkPoolWorker-1] No: 493, Saving data to database
+[2017-10-03 03:41:36,677: WARNING/ForkPoolWorker-1] No: 494, Saving data to database
+[2017-10-03 03:41:37,968: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-63 with 200
+[2017-10-03 03:41:38,704: WARNING/ForkPoolWorker-1] No: 495, Saving data to database
+[2017-10-03 03:41:39,197: WARNING/ForkPoolWorker-1] No: 496, Saving data to database
+[2017-10-03 03:41:39,934: WARNING/ForkPoolWorker-1] No: 497, Saving data to database
+[2017-10-03 03:41:40,425: WARNING/ForkPoolWorker-1] No: 498, Saving data to database
+[2017-10-03 03:41:41,075: WARNING/ForkPoolWorker-1] No: 499, Saving data to database
+[2017-10-03 03:41:41,528: WARNING/ForkPoolWorker-1] No: 500, Saving data to database
+[2017-10-03 03:41:42,185: WARNING/ForkPoolWorker-1] No: 501, Saving data to database
+[2017-10-03 03:41:42,811: WARNING/ForkPoolWorker-1] No: 502, Saving data to database
+[2017-10-03 03:41:43,331: WARNING/ForkPoolWorker-1] No: 503, Saving data to database
+[2017-10-03 03:41:43,906: WARNING/ForkPoolWorker-1] No: 504, Saving data to database
+[2017-10-03 03:41:45,425: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-64 with 200
+[2017-10-03 03:41:46,141: WARNING/ForkPoolWorker-1] No: 505, Saving data to database
+[2017-10-03 03:41:46,831: WARNING/ForkPoolWorker-1] No: 506, Saving data to database
+[2017-10-03 03:41:47,347: WARNING/ForkPoolWorker-1] No: 507, Saving data to database
+[2017-10-03 03:41:47,880: WARNING/ForkPoolWorker-1] No: 508, Saving data to database
+[2017-10-03 03:41:48,392: WARNING/ForkPoolWorker-1] No: 509, Saving data to database
+[2017-10-03 03:41:49,030: WARNING/ForkPoolWorker-1] No: 510, Saving data to database
+[2017-10-03 03:41:49,793: WARNING/ForkPoolWorker-1] No: 511, Saving data to database
+[2017-10-03 03:41:50,318: WARNING/ForkPoolWorker-1] No: 512, Saving data to database
+[2017-10-03 03:41:50,884: WARNING/ForkPoolWorker-1] No: 513, Saving data to database
+[2017-10-03 03:41:51,414: WARNING/ForkPoolWorker-1] No: 514, Saving data to database
+[2017-10-03 03:41:52,738: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-65 with 200
+[2017-10-03 03:41:53,534: WARNING/ForkPoolWorker-1] No: 515, Saving data to database
+[2017-10-03 03:41:54,098: WARNING/ForkPoolWorker-1] No: 516, Saving data to database
+[2017-10-03 03:41:54,613: WARNING/ForkPoolWorker-1] No: 517, Saving data to database
+[2017-10-03 03:41:55,232: WARNING/ForkPoolWorker-1] No: 518, Saving data to database
+[2017-10-03 03:41:55,817: WARNING/ForkPoolWorker-1] No: 519, Saving data to database
+[2017-10-03 03:41:56,342: WARNING/ForkPoolWorker-1] No: 520, Saving data to database
+[2017-10-03 03:41:56,816: WARNING/ForkPoolWorker-1] No: 521, Saving data to database
+[2017-10-03 03:41:57,338: WARNING/ForkPoolWorker-1] No: 522, Saving data to database
+[2017-10-03 03:41:58,036: WARNING/ForkPoolWorker-1] No: 523, Saving data to database
+[2017-10-03 03:41:58,725: WARNING/ForkPoolWorker-1] No: 524, Saving data to database
+[2017-10-03 03:41:59,834: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-66 with 200
+[2017-10-03 03:42:00,502: WARNING/ForkPoolWorker-1] No: 525, Saving data to database
+[2017-10-03 03:42:01,044: WARNING/ForkPoolWorker-1] No: 526, Saving data to database
+[2017-10-03 03:42:01,705: WARNING/ForkPoolWorker-1] No: 527, Saving data to database
+[2017-10-03 03:42:02,234: WARNING/ForkPoolWorker-1] No: 528, Saving data to database
+[2017-10-03 03:42:02,837: WARNING/ForkPoolWorker-1] No: 529, Saving data to database
+[2017-10-03 03:42:03,815: WARNING/ForkPoolWorker-1] No: 530, Saving data to database
+[2017-10-03 03:42:04,418: WARNING/ForkPoolWorker-1] No: 531, Saving data to database
+[2017-10-03 03:42:05,001: WARNING/ForkPoolWorker-1] No: 532, Saving data to database
+[2017-10-03 03:42:05,529: WARNING/ForkPoolWorker-1] No: 533, Saving data to database
+[2017-10-03 03:42:06,120: WARNING/ForkPoolWorker-1] No: 534, Saving data to database
+[2017-10-03 03:42:07,196: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-67 with 200
+[2017-10-03 03:42:08,141: WARNING/ForkPoolWorker-1] No: 535, Saving data to database
+[2017-10-03 03:42:08,718: WARNING/ForkPoolWorker-1] No: 536, Saving data to database
+[2017-10-03 03:42:09,223: WARNING/ForkPoolWorker-1] No: 537, Saving data to database
+[2017-10-03 03:42:09,793: WARNING/ForkPoolWorker-1] No: 538, Saving data to database
+[2017-10-03 03:42:10,426: WARNING/ForkPoolWorker-1] No: 539, Saving data to database
+[2017-10-03 03:42:10,916: WARNING/ForkPoolWorker-1] No: 540, Saving data to database
+[2017-10-03 03:42:11,434: WARNING/ForkPoolWorker-1] No: 541, Saving data to database
+[2017-10-03 03:42:11,915: WARNING/ForkPoolWorker-1] No: 542, Saving data to database
+[2017-10-03 03:42:12,536: WARNING/ForkPoolWorker-1] No: 543, Saving data to database
+[2017-10-03 03:42:13,177: WARNING/ForkPoolWorker-1] No: 544, Saving data to database
+[2017-10-03 03:42:14,296: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-68 with 200
+[2017-10-03 03:42:15,111: WARNING/ForkPoolWorker-1] No: 545, Saving data to database
+[2017-10-03 03:42:15,618: WARNING/ForkPoolWorker-1] No: 546, Saving data to database
+[2017-10-03 03:42:16,311: WARNING/ForkPoolWorker-1] No: 547, Saving data to database
+[2017-10-03 03:42:16,827: WARNING/ForkPoolWorker-1] No: 548, Saving data to database
+[2017-10-03 03:42:17,334: WARNING/ForkPoolWorker-1] No: 549, Saving data to database
+[2017-10-03 03:42:17,880: WARNING/ForkPoolWorker-1] No: 550, Saving data to database
+[2017-10-03 03:42:18,401: WARNING/ForkPoolWorker-1] No: 551, Saving data to database
+[2017-10-03 03:42:19,033: WARNING/ForkPoolWorker-1] No: 552, Saving data to database
+[2017-10-03 03:42:19,532: WARNING/ForkPoolWorker-1] No: 553, Saving data to database
+[2017-10-03 03:42:20,086: WARNING/ForkPoolWorker-1] No: 554, Saving data to database
+[2017-10-03 03:42:21,167: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-69 with 200
+[2017-10-03 03:42:21,923: WARNING/ForkPoolWorker-1] No: 555, Saving data to database
+[2017-10-03 03:42:22,445: WARNING/ForkPoolWorker-1] No: 556, Saving data to database
+[2017-10-03 03:42:23,010: WARNING/ForkPoolWorker-1] No: 557, Saving data to database
+[2017-10-03 03:42:23,578: WARNING/ForkPoolWorker-1] No: 558, Saving data to database
+[2017-10-03 03:42:24,105: WARNING/ForkPoolWorker-1] No: 559, Saving data to database
+[2017-10-03 03:42:24,808: WARNING/ForkPoolWorker-1] No: 560, Saving data to database
+[2017-10-03 03:42:25,322: WARNING/ForkPoolWorker-1] No: 561, Saving data to database
+[2017-10-03 03:42:25,875: WARNING/ForkPoolWorker-1] No: 562, Saving data to database
+[2017-10-03 03:42:26,417: WARNING/ForkPoolWorker-1] No: 563, Saving data to database
+[2017-10-03 03:42:26,938: WARNING/ForkPoolWorker-1] No: 564, Saving data to database
+[2017-10-03 03:42:28,132: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-70 with 200
+[2017-10-03 03:42:28,739: WARNING/ForkPoolWorker-1] No: 565, Saving data to database
+[2017-10-03 03:42:29,299: WARNING/ForkPoolWorker-1] No: 566, Saving data to database
+[2017-10-03 03:42:29,829: WARNING/ForkPoolWorker-1] No: 567, Saving data to database
+[2017-10-03 03:42:30,418: WARNING/ForkPoolWorker-1] No: 568, Saving data to database
+[2017-10-03 03:42:30,915: WARNING/ForkPoolWorker-1] No: 569, Saving data to database
+[2017-10-03 03:42:31,415: WARNING/ForkPoolWorker-1] No: 570, Saving data to database
+[2017-10-03 03:42:31,922: WARNING/ForkPoolWorker-1] No: 571, Saving data to database
+[2017-10-03 03:42:32,478: WARNING/ForkPoolWorker-1] No: 572, Saving data to database
+[2017-10-03 03:42:33,183: WARNING/ForkPoolWorker-1] No: 573, Saving data to database
+[2017-10-03 03:42:33,733: WARNING/ForkPoolWorker-1] No: 574, Saving data to database
+[2017-10-03 03:42:34,827: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-71 with 200
+[2017-10-03 03:42:35,487: WARNING/ForkPoolWorker-1] No: 575, Saving data to database
+[2017-10-03 03:42:36,406: WARNING/ForkPoolWorker-1] No: 576, Saving data to database
+[2017-10-03 03:42:36,929: WARNING/ForkPoolWorker-1] No: 577, Saving data to database
+[2017-10-03 03:42:37,498: WARNING/ForkPoolWorker-1] No: 578, Saving data to database
+[2017-10-03 03:42:38,018: WARNING/ForkPoolWorker-1] No: 579, Saving data to database
+[2017-10-03 03:42:38,515: WARNING/ForkPoolWorker-1] No: 580, Saving data to database
+[2017-10-03 03:42:39,111: WARNING/ForkPoolWorker-1] No: 581, Saving data to database
+[2017-10-03 03:42:39,641: WARNING/ForkPoolWorker-1] No: 582, Saving data to database
+[2017-10-03 03:42:40,206: WARNING/ForkPoolWorker-1] No: 583, Saving data to database
+[2017-10-03 03:42:40,716: WARNING/ForkPoolWorker-1] No: 584, Saving data to database
+[2017-10-03 03:42:41,779: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-72 with 200
+[2017-10-03 03:42:42,524: WARNING/ForkPoolWorker-1] No: 585, Saving data to database
+[2017-10-03 03:42:43,016: WARNING/ForkPoolWorker-1] No: 586, Saving data to database
+[2017-10-03 03:42:43,616: WARNING/ForkPoolWorker-1] No: 587, Saving data to database
+[2017-10-03 03:42:44,110: WARNING/ForkPoolWorker-1] No: 588, Saving data to database
+[2017-10-03 03:42:44,712: WARNING/ForkPoolWorker-1] No: 589, Saving data to database
+[2017-10-03 03:42:45,210: WARNING/ForkPoolWorker-1] No: 590, Saving data to database
+[2017-10-03 03:42:45,726: WARNING/ForkPoolWorker-1] No: 591, Saving data to database
+[2017-10-03 03:42:46,225: WARNING/ForkPoolWorker-1] No: 592, Saving data to database
+[2017-10-03 03:42:46,832: WARNING/ForkPoolWorker-1] No: 593, Saving data to database
+[2017-10-03 03:42:47,501: WARNING/ForkPoolWorker-1] No: 594, Saving data to database
+[2017-10-03 03:42:48,595: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-73 with 200
+[2017-10-03 03:42:49,228: WARNING/ForkPoolWorker-1] No: 595, Saving data to database
+[2017-10-03 03:42:49,717: WARNING/ForkPoolWorker-1] No: 596, Saving data to database
+[2017-10-03 03:42:50,327: WARNING/ForkPoolWorker-1] No: 597, Saving data to database
+[2017-10-03 03:42:50,890: WARNING/ForkPoolWorker-1] No: 598, Saving data to database
+[2017-10-03 03:42:51,383: WARNING/ForkPoolWorker-1] No: 599, Saving data to database
+[2017-10-03 03:42:51,885: WARNING/ForkPoolWorker-1] No: 600, Saving data to database
+[2017-10-03 03:42:52,380: WARNING/ForkPoolWorker-1] No: 601, Saving data to database
+[2017-10-03 03:42:52,991: WARNING/ForkPoolWorker-1] No: 602, Saving data to database
+[2017-10-03 03:42:53,511: WARNING/ForkPoolWorker-1] No: 603, Saving data to database
+[2017-10-03 03:42:54,019: WARNING/ForkPoolWorker-1] No: 604, Saving data to database
+[2017-10-03 03:42:55,104: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-74 with 200
+[2017-10-03 03:42:55,825: WARNING/ForkPoolWorker-1] No: 605, Saving data to database
+[2017-10-03 03:42:56,315: WARNING/ForkPoolWorker-1] No: 606, Saving data to database
+[2017-10-03 03:42:56,821: WARNING/ForkPoolWorker-1] No: 607, Saving data to database
+[2017-10-03 03:42:57,980: WARNING/ForkPoolWorker-1] No: 608, Saving data to database
+[2017-10-03 03:42:58,587: WARNING/ForkPoolWorker-1] No: 609, Saving data to database
+[2017-10-03 03:42:59,274: WARNING/ForkPoolWorker-1] No: 610, Saving data to database
+[2017-10-03 03:42:59,781: WARNING/ForkPoolWorker-1] No: 611, Saving data to database
+[2017-10-03 03:43:00,276: WARNING/ForkPoolWorker-1] No: 612, Saving data to database
+[2017-10-03 03:43:00,801: WARNING/ForkPoolWorker-1] No: 613, Saving data to database
+[2017-10-03 03:43:01,431: WARNING/ForkPoolWorker-1] No: 614, Saving data to database
+[2017-10-03 03:43:02,584: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-75 with 200
+[2017-10-03 03:43:03,217: WARNING/ForkPoolWorker-1] No: 615, Saving data to database
+[2017-10-03 03:43:03,815: WARNING/ForkPoolWorker-1] No: 616, Saving data to database
+[2017-10-03 03:43:04,317: WARNING/ForkPoolWorker-1] No: 617, Saving data to database
+[2017-10-03 03:43:04,924: WARNING/ForkPoolWorker-1] No: 618, Saving data to database
+[2017-10-03 03:43:05,513: WARNING/ForkPoolWorker-1] No: 619, Saving data to database
+[2017-10-03 03:43:06,014: WARNING/ForkPoolWorker-1] No: 620, Saving data to database
+[2017-10-03 03:43:06,507: WARNING/ForkPoolWorker-1] No: 621, Saving data to database
+[2017-10-03 03:43:07,018: WARNING/ForkPoolWorker-1] No: 622, Saving data to database
+[2017-10-03 03:43:07,630: WARNING/ForkPoolWorker-1] No: 623, Saving data to database
+[2017-10-03 03:43:08,119: WARNING/ForkPoolWorker-1] No: 624, Saving data to database
+[2017-10-03 03:43:09,231: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-76 with 200
+[2017-10-03 03:43:09,833: WARNING/ForkPoolWorker-1] No: 625, Saving data to database
+[2017-10-03 03:43:10,430: WARNING/ForkPoolWorker-1] No: 626, Saving data to database
+[2017-10-03 03:43:10,986: WARNING/ForkPoolWorker-1] No: 627, Saving data to database
+[2017-10-03 03:43:11,499: WARNING/ForkPoolWorker-1] No: 628, Saving data to database
+[2017-10-03 03:43:11,986: WARNING/ForkPoolWorker-1] No: 629, Saving data to database
+[2017-10-03 03:43:12,488: WARNING/ForkPoolWorker-1] No: 630, Saving data to database
+[2017-10-03 03:43:13,132: WARNING/ForkPoolWorker-1] No: 631, Saving data to database
+[2017-10-03 03:43:13,617: WARNING/ForkPoolWorker-1] No: 632, Saving data to database
+[2017-10-03 03:43:14,125: WARNING/ForkPoolWorker-1] No: 633, Saving data to database
+[2017-10-03 03:43:14,718: WARNING/ForkPoolWorker-1] No: 634, Saving data to database
+[2017-10-03 03:43:15,790: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-77 with 200
+[2017-10-03 03:43:16,604: WARNING/ForkPoolWorker-1] No: 635, Saving data to database
+[2017-10-03 03:43:17,123: WARNING/ForkPoolWorker-1] No: 636, Saving data to database
+[2017-10-03 03:43:17,626: WARNING/ForkPoolWorker-1] No: 637, Saving data to database
+[2017-10-03 03:43:18,183: WARNING/ForkPoolWorker-1] No: 638, Saving data to database
+[2017-10-03 03:43:19,014: WARNING/ForkPoolWorker-1] No: 639, Saving data to database
+[2017-10-03 03:43:19,621: WARNING/ForkPoolWorker-1] No: 640, Saving data to database
+[2017-10-03 03:43:20,910: WARNING/ForkPoolWorker-1] No: 641, Saving data to database
+[2017-10-03 03:43:21,482: WARNING/ForkPoolWorker-1] No: 642, Saving data to database
+[2017-10-03 03:43:23,717: WARNING/ForkPoolWorker-1] No: 643, Saving data to database
+[2017-10-03 03:43:24,306: WARNING/ForkPoolWorker-1] No: 644, Saving data to database
+[2017-10-03 03:43:25,354: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-78 with 200
+[2017-10-03 03:43:26,036: WARNING/ForkPoolWorker-1] No: 645, Saving data to database
+[2017-10-03 03:43:26,522: WARNING/ForkPoolWorker-1] No: 646, Saving data to database
+[2017-10-03 03:43:27,127: WARNING/ForkPoolWorker-1] No: 647, Saving data to database
+[2017-10-03 03:43:27,740: WARNING/ForkPoolWorker-1] No: 648, Saving data to database
+[2017-10-03 03:43:28,283: WARNING/ForkPoolWorker-1] No: 649, Saving data to database
+[2017-10-03 03:43:28,744: WARNING/ForkPoolWorker-1] No: 650, Saving data to database
+[2017-10-03 03:43:29,435: WARNING/ForkPoolWorker-1] No: 651, Saving data to database
+[2017-10-03 03:43:30,241: WARNING/ForkPoolWorker-1] No: 652, Saving data to database
+[2017-10-03 03:43:30,777: WARNING/ForkPoolWorker-1] No: 653, Saving data to database
+[2017-10-03 03:43:31,317: WARNING/ForkPoolWorker-1] No: 654, Saving data to database
+[2017-10-03 03:43:32,399: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-79 with 200
+[2017-10-03 03:43:33,127: WARNING/ForkPoolWorker-1] No: 655, Saving data to database
+[2017-10-03 03:43:34,241: WARNING/ForkPoolWorker-1] No: 656, Saving data to database
+[2017-10-03 03:43:34,817: WARNING/ForkPoolWorker-1] No: 657, Saving data to database
+[2017-10-03 03:43:35,344: WARNING/ForkPoolWorker-1] No: 658, Saving data to database
+[2017-10-03 03:43:35,818: WARNING/ForkPoolWorker-1] No: 659, Saving data to database
+[2017-10-03 03:43:36,424: WARNING/ForkPoolWorker-1] No: 660, Saving data to database
+[2017-10-03 03:43:36,912: WARNING/ForkPoolWorker-1] No: 661, Saving data to database
+[2017-10-03 03:43:37,508: WARNING/ForkPoolWorker-1] No: 662, Saving data to database
+[2017-10-03 03:43:38,639: WARNING/ForkPoolWorker-1] No: 663, Saving data to database
+[2017-10-03 03:43:39,222: WARNING/ForkPoolWorker-1] No: 664, Saving data to database
+[2017-10-03 03:43:40,786: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-80 with 200
+[2017-10-03 03:43:41,409: WARNING/ForkPoolWorker-1] No: 665, Saving data to database
+[2017-10-03 03:43:42,032: WARNING/ForkPoolWorker-1] No: 666, Saving data to database
+[2017-10-03 03:43:42,527: WARNING/ForkPoolWorker-1] No: 667, Saving data to database
+[2017-10-03 03:43:43,132: WARNING/ForkPoolWorker-1] No: 668, Saving data to database
+[2017-10-03 03:43:43,677: WARNING/ForkPoolWorker-1] No: 669, Saving data to database
+[2017-10-03 03:43:44,243: WARNING/ForkPoolWorker-1] No: 670, Saving data to database
+[2017-10-03 03:43:44,735: WARNING/ForkPoolWorker-1] No: 671, Saving data to database
+[2017-10-03 03:43:45,512: WARNING/ForkPoolWorker-1] No: 672, Saving data to database
+[2017-10-03 03:43:46,126: WARNING/ForkPoolWorker-1] No: 673, Saving data to database
+[2017-10-03 03:43:46,636: WARNING/ForkPoolWorker-1] No: 674, Saving data to database
+[2017-10-03 03:43:47,729: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-81 with 200
+[2017-10-03 03:43:48,394: WARNING/ForkPoolWorker-1] No: 675, Saving data to database
+[2017-10-03 03:43:49,021: WARNING/ForkPoolWorker-1] No: 676, Saving data to database
+[2017-10-03 03:43:49,721: WARNING/ForkPoolWorker-1] No: 677, Saving data to database
+[2017-10-03 03:43:50,239: WARNING/ForkPoolWorker-1] No: 678, Saving data to database
+[2017-10-03 03:43:50,826: WARNING/ForkPoolWorker-1] No: 679, Saving data to database
+[2017-10-03 03:43:51,336: WARNING/ForkPoolWorker-1] No: 680, Saving data to database
+[2017-10-03 03:43:51,980: WARNING/ForkPoolWorker-1] No: 681, Saving data to database
+[2017-10-03 03:43:52,500: WARNING/ForkPoolWorker-1] No: 682, Saving data to database
+[2017-10-03 03:43:53,038: WARNING/ForkPoolWorker-1] No: 683, Saving data to database
+[2017-10-03 03:43:53,538: WARNING/ForkPoolWorker-1] No: 684, Saving data to database
+[2017-10-03 03:43:54,597: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-82 with 200
+[2017-10-03 03:43:55,332: WARNING/ForkPoolWorker-1] No: 685, Saving data to database
+[2017-10-03 03:43:55,830: WARNING/ForkPoolWorker-1] No: 686, Saving data to database
+[2017-10-03 03:43:56,932: WARNING/ForkPoolWorker-1] No: 687, Saving data to database
+[2017-10-03 03:43:57,418: WARNING/ForkPoolWorker-1] No: 688, Saving data to database
+[2017-10-03 03:43:58,078: WARNING/ForkPoolWorker-1] No: 689, Saving data to database
+[2017-10-03 03:43:58,631: WARNING/ForkPoolWorker-1] No: 690, Saving data to database
+[2017-10-03 03:43:59,111: WARNING/ForkPoolWorker-1] No: 691, Saving data to database
+[2017-10-03 03:43:59,608: WARNING/ForkPoolWorker-1] No: 692, Saving data to database
+[2017-10-03 03:44:00,232: WARNING/ForkPoolWorker-1] No: 693, Saving data to database
+[2017-10-03 03:44:00,723: WARNING/ForkPoolWorker-1] No: 694, Saving data to database
+[2017-10-03 03:44:01,771: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-83 with 200
+[2017-10-03 03:44:02,399: WARNING/ForkPoolWorker-1] No: 695, Saving data to database
+[2017-10-03 03:44:02,978: WARNING/ForkPoolWorker-1] No: 696, Saving data to database
+[2017-10-03 03:44:03,620: WARNING/ForkPoolWorker-1] No: 697, Saving data to database
+[2017-10-03 03:44:04,113: WARNING/ForkPoolWorker-1] No: 698, Saving data to database
+[2017-10-03 03:44:04,591: WARNING/ForkPoolWorker-1] No: 699, Saving data to database
+[2017-10-03 03:44:05,107: WARNING/ForkPoolWorker-1] No: 700, Saving data to database
+[2017-10-03 03:44:05,708: WARNING/ForkPoolWorker-1] No: 701, Saving data to database
+[2017-10-03 03:44:06,931: WARNING/ForkPoolWorker-1] No: 702, Saving data to database
+[2017-10-03 03:44:07,479: WARNING/ForkPoolWorker-1] No: 703, Saving data to database
+[2017-10-03 03:44:08,636: WARNING/ForkPoolWorker-1] No: 704, Saving data to database
+[2017-10-03 03:44:09,727: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-84 with 200
+[2017-10-03 03:44:10,894: WARNING/ForkPoolWorker-1] No: 705, Saving data to database
+[2017-10-03 03:44:11,422: WARNING/ForkPoolWorker-1] No: 706, Saving data to database
+[2017-10-03 03:44:11,925: WARNING/ForkPoolWorker-1] No: 707, Saving data to database
+[2017-10-03 03:44:12,413: WARNING/ForkPoolWorker-1] No: 708, Saving data to database
+[2017-10-03 03:44:12,914: WARNING/ForkPoolWorker-1] No: 709, Saving data to database
+[2017-10-03 03:44:13,542: WARNING/ForkPoolWorker-1] No: 710, Saving data to database
+[2017-10-03 03:44:14,086: WARNING/ForkPoolWorker-1] No: 711, Saving data to database
+[2017-10-03 03:44:14,588: WARNING/ForkPoolWorker-1] No: 712, Saving data to database
+[2017-10-03 03:44:15,229: WARNING/ForkPoolWorker-1] No: 713, Saving data to database
+[2017-10-03 03:44:16,439: WARNING/ForkPoolWorker-1] No: 714, Saving data to database
+[2017-10-03 03:44:17,501: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-85 with 200
+[2017-10-03 03:44:18,198: WARNING/ForkPoolWorker-1] No: 715, Saving data to database
+[2017-10-03 03:44:18,711: WARNING/ForkPoolWorker-1] No: 716, Saving data to database
+[2017-10-03 03:44:19,213: WARNING/ForkPoolWorker-1] No: 717, Saving data to database
+[2017-10-03 03:44:19,916: WARNING/ForkPoolWorker-1] No: 718, Saving data to database
+[2017-10-03 03:44:20,405: WARNING/ForkPoolWorker-1] No: 719, Saving data to database
+[2017-10-03 03:44:20,902: WARNING/ForkPoolWorker-1] No: 720, Saving data to database
+[2017-10-03 03:44:21,412: WARNING/ForkPoolWorker-1] No: 721, Saving data to database
+[2017-10-03 03:44:22,025: WARNING/ForkPoolWorker-1] No: 722, Saving data to database
+[2017-10-03 03:44:22,511: WARNING/ForkPoolWorker-1] No: 723, Saving data to database
+[2017-10-03 03:44:23,018: WARNING/ForkPoolWorker-1] No: 724, Saving data to database
+[2017-10-03 03:44:24,105: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-86 with 200
+[2017-10-03 03:44:24,715: WARNING/ForkPoolWorker-1] No: 725, Saving data to database
+[2017-10-03 03:44:25,330: WARNING/ForkPoolWorker-1] No: 726, Saving data to database
+[2017-10-03 03:44:25,827: WARNING/ForkPoolWorker-1] No: 727, Saving data to database
+[2017-10-03 03:44:26,335: WARNING/ForkPoolWorker-1] No: 728, Saving data to database
+[2017-10-03 03:44:26,821: WARNING/ForkPoolWorker-1] No: 729, Saving data to database
+[2017-10-03 03:44:27,385: WARNING/ForkPoolWorker-1] No: 730, Saving data to database
+[2017-10-03 03:44:28,016: WARNING/ForkPoolWorker-1] No: 731, Saving data to database
+[2017-10-03 03:44:28,513: WARNING/ForkPoolWorker-1] No: 732, Saving data to database
+[2017-10-03 03:44:29,025: WARNING/ForkPoolWorker-1] No: 733, Saving data to database
+[2017-10-03 03:44:29,582: WARNING/ForkPoolWorker-1] No: 734, Saving data to database
+[2017-10-03 03:44:30,729: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-87 with 200
+[2017-10-03 03:44:31,513: WARNING/ForkPoolWorker-1] No: 735, Saving data to database
+[2017-10-03 03:44:32,017: WARNING/ForkPoolWorker-1] No: 736, Saving data to database
+[2017-10-03 03:44:32,609: WARNING/ForkPoolWorker-1] No: 737, Saving data to database
+[2017-10-03 03:44:33,207: WARNING/ForkPoolWorker-1] No: 738, Saving data to database
+[2017-10-03 03:44:33,874: WARNING/ForkPoolWorker-1] No: 739, Saving data to database
+[2017-10-03 03:44:34,403: WARNING/ForkPoolWorker-1] No: 740, Saving data to database
+[2017-10-03 03:44:34,908: WARNING/ForkPoolWorker-1] No: 741, Saving data to database
+[2017-10-03 03:44:35,518: WARNING/ForkPoolWorker-1] No: 742, Saving data to database
+[2017-10-03 03:44:36,133: WARNING/ForkPoolWorker-1] No: 743, Saving data to database
+[2017-10-03 03:44:36,616: WARNING/ForkPoolWorker-1] No: 744, Saving data to database
+[2017-10-03 03:44:37,696: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-88 with 200
+[2017-10-03 03:44:38,334: WARNING/ForkPoolWorker-1] No: 745, Saving data to database
+[2017-10-03 03:44:38,840: WARNING/ForkPoolWorker-1] No: 746, Saving data to database
+[2017-10-03 03:44:39,898: WARNING/ForkPoolWorker-1] No: 747, Saving data to database
+[2017-10-03 03:44:40,385: WARNING/ForkPoolWorker-1] No: 748, Saving data to database
+[2017-10-03 03:44:40,996: WARNING/ForkPoolWorker-1] No: 749, Saving data to database
+[2017-10-03 03:44:41,510: WARNING/ForkPoolWorker-1] No: 750, Saving data to database
+[2017-10-03 03:44:42,080: WARNING/ForkPoolWorker-1] No: 751, Saving data to database
+[2017-10-03 03:44:42,727: WARNING/ForkPoolWorker-1] No: 752, Saving data to database
+[2017-10-03 03:44:43,277: WARNING/ForkPoolWorker-1] No: 753, Saving data to database
+[2017-10-03 03:44:43,833: WARNING/ForkPoolWorker-1] No: 754, Saving data to database
+[2017-10-03 03:44:44,952: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-89 with 200
+[2017-10-03 03:44:45,728: WARNING/ForkPoolWorker-1] No: 755, Saving data to database
+[2017-10-03 03:44:46,340: WARNING/ForkPoolWorker-1] No: 756, Saving data to database
+[2017-10-03 03:44:46,974: WARNING/ForkPoolWorker-1] No: 757, Saving data to database
+[2017-10-03 03:44:47,517: WARNING/ForkPoolWorker-1] No: 758, Saving data to database
+[2017-10-03 03:44:48,016: WARNING/ForkPoolWorker-1] No: 759, Saving data to database
+[2017-10-03 03:44:48,643: WARNING/ForkPoolWorker-1] No: 760, Saving data to database
+[2017-10-03 03:44:49,274: WARNING/ForkPoolWorker-1] No: 761, Saving data to database
+[2017-10-03 03:44:49,784: WARNING/ForkPoolWorker-1] No: 762, Saving data to database
+[2017-10-03 03:44:50,325: WARNING/ForkPoolWorker-1] No: 763, Saving data to database
+[2017-10-03 03:44:51,038: WARNING/ForkPoolWorker-1] No: 764, Saving data to database
+[2017-10-03 03:44:52,132: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-90 with 200
+[2017-10-03 03:44:53,305: WARNING/ForkPoolWorker-1] No: 765, Saving data to database
+[2017-10-03 03:44:53,816: WARNING/ForkPoolWorker-1] No: 766, Saving data to database
+[2017-10-03 03:44:54,291: WARNING/ForkPoolWorker-1] No: 767, Saving data to database
+[2017-10-03 03:44:54,937: WARNING/ForkPoolWorker-1] No: 768, Saving data to database
+[2017-10-03 03:44:55,507: WARNING/ForkPoolWorker-1] No: 769, Saving data to database
+[2017-10-03 03:44:56,074: WARNING/ForkPoolWorker-1] No: 770, Saving data to database
+[2017-10-03 03:44:56,575: WARNING/ForkPoolWorker-1] No: 771, Saving data to database
+[2017-10-03 03:44:57,278: WARNING/ForkPoolWorker-1] No: 772, Saving data to database
+[2017-10-03 03:44:57,932: WARNING/ForkPoolWorker-1] No: 773, Saving data to database
+[2017-10-03 03:44:58,512: WARNING/ForkPoolWorker-1] No: 774, Saving data to database
+[2017-10-03 03:44:59,859: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-91 with 200
+[2017-10-03 03:45:00,589: WARNING/ForkPoolWorker-1] No: 775, Saving data to database
+[2017-10-03 03:45:01,219: WARNING/ForkPoolWorker-1] No: 776, Saving data to database
+[2017-10-03 03:45:01,880: WARNING/ForkPoolWorker-1] No: 777, Saving data to database
+[2017-10-03 03:45:02,416: WARNING/ForkPoolWorker-1] No: 778, Saving data to database
+[2017-10-03 03:45:02,943: WARNING/ForkPoolWorker-1] No: 779, Saving data to database
+[2017-10-03 03:45:03,513: WARNING/ForkPoolWorker-1] No: 780, Saving data to database
+[2017-10-03 03:45:04,132: WARNING/ForkPoolWorker-1] No: 781, Saving data to database
+[2017-10-03 03:45:04,734: WARNING/ForkPoolWorker-1] No: 782, Saving data to database
+[2017-10-03 03:45:05,441: WARNING/ForkPoolWorker-1] No: 783, Saving data to database
+[2017-10-03 03:45:06,033: WARNING/ForkPoolWorker-1] No: 784, Saving data to database
+[2017-10-03 03:45:07,117: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-92 with 200
+[2017-10-03 03:45:07,917: WARNING/ForkPoolWorker-1] No: 785, Saving data to database
+[2017-10-03 03:45:08,491: WARNING/ForkPoolWorker-1] No: 786, Saving data to database
+[2017-10-03 03:45:09,017: WARNING/ForkPoolWorker-1] No: 787, Saving data to database
+[2017-10-03 03:45:09,541: WARNING/ForkPoolWorker-1] No: 788, Saving data to database
+[2017-10-03 03:45:10,196: WARNING/ForkPoolWorker-1] No: 789, Saving data to database
+[2017-10-03 03:45:10,728: WARNING/ForkPoolWorker-1] No: 790, Saving data to database
+[2017-10-03 03:45:11,325: WARNING/ForkPoolWorker-1] No: 791, Saving data to database
+[2017-10-03 03:45:11,901: WARNING/ForkPoolWorker-1] No: 792, Saving data to database
+[2017-10-03 03:45:12,480: WARNING/ForkPoolWorker-1] No: 793, Saving data to database
+[2017-10-03 03:45:13,141: WARNING/ForkPoolWorker-1] No: 794, Saving data to database
+[2017-10-03 03:45:14,406: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-93 with 200
+[2017-10-03 03:45:15,120: WARNING/ForkPoolWorker-1] No: 795, Saving data to database
+[2017-10-03 03:45:15,641: WARNING/ForkPoolWorker-1] No: 796, Saving data to database
+[2017-10-03 03:45:16,288: WARNING/ForkPoolWorker-1] No: 797, Saving data to database
+[2017-10-03 03:45:16,825: WARNING/ForkPoolWorker-1] No: 798, Saving data to database
+[2017-10-03 03:45:17,329: WARNING/ForkPoolWorker-1] No: 799, Saving data to database
+[2017-10-03 03:45:17,813: WARNING/ForkPoolWorker-1] No: 800, Saving data to database
+[2017-10-03 03:45:18,506: WARNING/ForkPoolWorker-1] No: 801, Saving data to database
+[2017-10-03 03:45:19,129: WARNING/ForkPoolWorker-1] No: 802, Saving data to database
+[2017-10-03 03:45:19,634: WARNING/ForkPoolWorker-1] No: 803, Saving data to database
+[2017-10-03 03:45:20,127: WARNING/ForkPoolWorker-1] No: 804, Saving data to database
+[2017-10-03 03:45:21,196: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-94 with 200
+[2017-10-03 03:45:22,023: WARNING/ForkPoolWorker-1] No: 805, Saving data to database
+[2017-10-03 03:45:22,608: WARNING/ForkPoolWorker-1] No: 806, Saving data to database
+[2017-10-03 03:45:23,120: WARNING/ForkPoolWorker-1] No: 807, Saving data to database
+[2017-10-03 03:45:23,630: WARNING/ForkPoolWorker-1] No: 808, Saving data to database
+[2017-10-03 03:45:24,292: WARNING/ForkPoolWorker-1] No: 809, Saving data to database
+[2017-10-03 03:45:24,975: WARNING/ForkPoolWorker-1] No: 810, Saving data to database
+[2017-10-03 03:45:25,499: WARNING/ForkPoolWorker-1] No: 811, Saving data to database
+[2017-10-03 03:45:26,077: WARNING/ForkPoolWorker-1] No: 812, Saving data to database
+[2017-10-03 03:45:26,613: WARNING/ForkPoolWorker-1] No: 813, Saving data to database
+[2017-10-03 03:45:27,218: WARNING/ForkPoolWorker-1] No: 814, Saving data to database
+[2017-10-03 03:45:28,364: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-95 with 200
+[2017-10-03 03:45:29,021: WARNING/ForkPoolWorker-1] No: 815, Saving data to database
+[2017-10-03 03:45:29,591: WARNING/ForkPoolWorker-1] No: 816, Saving data to database
+[2017-10-03 03:45:30,228: WARNING/ForkPoolWorker-1] No: 817, Saving data to database
+[2017-10-03 03:45:30,879: WARNING/ForkPoolWorker-1] No: 818, Saving data to database
+[2017-10-03 03:45:31,418: WARNING/ForkPoolWorker-1] No: 819, Saving data to database
+[2017-10-03 03:45:32,045: WARNING/ForkPoolWorker-1] No: 820, Saving data to database
+[2017-10-03 03:45:32,587: WARNING/ForkPoolWorker-1] No: 821, Saving data to database
+[2017-10-03 03:45:33,096: WARNING/ForkPoolWorker-1] No: 822, Saving data to database
+[2017-10-03 03:45:33,797: WARNING/ForkPoolWorker-1] No: 823, Saving data to database
+[2017-10-03 03:45:34,343: WARNING/ForkPoolWorker-1] No: 824, Saving data to database
+[2017-10-03 03:45:35,442: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-96 with 200
+[2017-10-03 03:45:36,079: WARNING/ForkPoolWorker-1] No: 825, Saving data to database
+[2017-10-03 03:45:36,717: WARNING/ForkPoolWorker-1] No: 826, Saving data to database
+[2017-10-03 03:45:37,380: WARNING/ForkPoolWorker-1] No: 827, Saving data to database
+[2017-10-03 03:45:37,892: WARNING/ForkPoolWorker-1] No: 828, Saving data to database
+[2017-10-03 03:45:38,627: WARNING/ForkPoolWorker-1] No: 829, Saving data to database
+[2017-10-03 03:45:39,115: WARNING/ForkPoolWorker-1] No: 830, Saving data to database
+[2017-10-03 03:45:39,741: WARNING/ForkPoolWorker-1] No: 831, Saving data to database
+[2017-10-03 03:45:40,275: WARNING/ForkPoolWorker-1] No: 832, Saving data to database
+[2017-10-03 03:45:40,804: WARNING/ForkPoolWorker-1] No: 833, Saving data to database
+[2017-10-03 03:45:41,539: WARNING/ForkPoolWorker-1] No: 834, Saving data to database
+[2017-10-03 03:45:42,618: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-97 with 200
+[2017-10-03 03:45:43,489: WARNING/ForkPoolWorker-1] No: 835, Saving data to database
+[2017-10-03 03:45:44,097: WARNING/ForkPoolWorker-1] No: 836, Saving data to database
+[2017-10-03 03:45:44,688: WARNING/ForkPoolWorker-1] No: 837, Saving data to database
+[2017-10-03 03:45:45,190: WARNING/ForkPoolWorker-1] No: 838, Saving data to database
+[2017-10-03 03:45:45,827: WARNING/ForkPoolWorker-1] No: 839, Saving data to database
+[2017-10-03 03:45:46,395: WARNING/ForkPoolWorker-1] No: 840, Saving data to database
+[2017-10-03 03:45:47,034: WARNING/ForkPoolWorker-1] No: 841, Saving data to database
+[2017-10-03 03:45:47,514: WARNING/ForkPoolWorker-1] No: 842, Saving data to database
+[2017-10-03 03:45:48,115: WARNING/ForkPoolWorker-1] No: 843, Saving data to database
+[2017-10-03 03:45:48,623: WARNING/ForkPoolWorker-1] No: 844, Saving data to database
+[2017-10-03 03:45:49,697: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-98 with 200
+[2017-10-03 03:45:50,338: WARNING/ForkPoolWorker-1] No: 845, Saving data to database
+[2017-10-03 03:45:50,834: WARNING/ForkPoolWorker-1] No: 846, Saving data to database
+[2017-10-03 03:45:51,432: WARNING/ForkPoolWorker-1] No: 847, Saving data to database
+[2017-10-03 03:45:52,006: WARNING/ForkPoolWorker-1] No: 848, Saving data to database
+[2017-10-03 03:45:52,505: WARNING/ForkPoolWorker-1] No: 849, Saving data to database
+[2017-10-03 03:45:53,096: WARNING/ForkPoolWorker-1] No: 850, Saving data to database
+[2017-10-03 03:45:53,726: WARNING/ForkPoolWorker-1] No: 851, Saving data to database
+[2017-10-03 03:45:54,337: WARNING/ForkPoolWorker-1] No: 852, Saving data to database
+[2017-10-03 03:45:54,832: WARNING/ForkPoolWorker-1] No: 853, Saving data to database
+[2017-10-03 03:45:55,380: WARNING/ForkPoolWorker-1] No: 854, Saving data to database
+[2017-10-03 03:45:56,459: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-99 with 200
+[2017-10-03 03:45:57,329: WARNING/ForkPoolWorker-1] No: 855, Saving data to database
+[2017-10-03 03:45:57,818: WARNING/ForkPoolWorker-1] No: 856, Saving data to database
+[2017-10-03 03:45:58,315: WARNING/ForkPoolWorker-1] No: 857, Saving data to database
+[2017-10-03 03:45:58,823: WARNING/ForkPoolWorker-1] No: 858, Saving data to database
+[2017-10-03 03:46:00,122: WARNING/ForkPoolWorker-1] No: 859, Saving data to database
+[2017-10-03 03:46:00,729: WARNING/ForkPoolWorker-1] No: 860, Saving data to database
+[2017-10-03 03:46:01,220: WARNING/ForkPoolWorker-1] No: 861, Saving data to database
+[2017-10-03 03:46:01,774: WARNING/ForkPoolWorker-1] No: 862, Saving data to database
+[2017-10-03 03:46:02,239: WARNING/ForkPoolWorker-1] No: 863, Saving data to database
+[2017-10-03 03:46:02,879: WARNING/ForkPoolWorker-1] No: 864, Saving data to database
+[2017-10-03 03:46:04,004: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/ahmedabad/computer repairing/page-100 with 200
+[2017-10-03 03:46:04,625: WARNING/ForkPoolWorker-1] No: 865, Saving data to database
+[2017-10-03 03:46:05,179: WARNING/ForkPoolWorker-1] No: 866, Saving data to database
+[2017-10-03 03:46:05,804: WARNING/ForkPoolWorker-1] No: 867, Saving data to database
+[2017-10-03 03:46:06,434: WARNING/ForkPoolWorker-1] No: 868, Saving data to database
+[2017-10-03 03:46:06,929: WARNING/ForkPoolWorker-1] No: 869, Saving data to database
+[2017-10-03 03:46:07,415: WARNING/ForkPoolWorker-1] No: 870, Saving data to database
+[2017-10-03 03:46:07,924: WARNING/ForkPoolWorker-1] No: 871, Saving data to database
+[2017-10-03 03:46:08,521: WARNING/ForkPoolWorker-1] No: 872, Saving data to database
+[2017-10-03 03:46:09,284: WARNING/ForkPoolWorker-1] No: 873, Saving data to database
+[2017-10-03 03:46:09,880: WARNING/ForkPoolWorker-1] No: 874, Saving data to database
+[2017-10-03 03:46:09,883: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[85d7f3ce-1eb1-48d2-93ad-1879b3deb17f] succeeded in 695.0410777099896s: ' scrabbing success!'
+[2017-10-03 03:55:52,320: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[4969d08d-fd6a-4d2d-850b-b9f9150c39f0]  
+[2017-10-03 03:55:52,321: WARNING/ForkPoolWorker-1] Ahmedabad
+[2017-10-03 03:55:52,321: WARNING/ForkPoolWorker-1] Neelkanth Computers
+[2017-10-03 03:55:52,321: WARNING/ForkPoolWorker-1] 1
+[2017-10-03 03:55:52,321: WARNING/ForkPoolWorker-1] requested by user id: 1
+[2017-10-03 03:55:54,737: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Ahmedabad/Neelkanth Computers/page-1 with 200
+[2017-10-03 03:55:55,696: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-03 03:55:56,439: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-03 03:55:57,034: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-03 03:55:57,643: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-03 03:55:58,217: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-03 03:55:59,021: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-03 03:55:59,513: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-03 03:56:00,017: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-03 03:56:00,678: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-10-03 03:56:01,305: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-10-03 03:56:01,310: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[4969d08d-fd6a-4d2d-850b-b9f9150c39f0] succeeded in 8.989107034052722s: ' scrabbing success!'
+[2017-10-03 04:10:34,432: INFO/MainProcess] Received task: crawler_manager.tasks.start_srabbing[872bdedf-74f2-4521-abe4-4ecc82be27d0]  
+[2017-10-03 04:10:34,433: WARNING/ForkPoolWorker-1] Ahmedabad
+[2017-10-03 04:10:34,433: WARNING/ForkPoolWorker-1] Neelkanth Computers
+[2017-10-03 04:10:34,434: WARNING/ForkPoolWorker-1] 1
+[2017-10-03 04:10:34,434: WARNING/ForkPoolWorker-1] requested by user id: 1
+[2017-10-03 04:10:36,437: WARNING/ForkPoolWorker-1] got page url https://www.justdial.com/Ahmedabad/Neelkanth Computers/page-1 with 200
+[2017-10-03 04:10:38,511: WARNING/ForkPoolWorker-1] No: 0, Saving data to database
+[2017-10-03 04:10:39,498: WARNING/ForkPoolWorker-1] No: 1, Saving data to database
+[2017-10-03 04:10:40,031: WARNING/ForkPoolWorker-1] No: 2, Saving data to database
+[2017-10-03 04:10:42,308: WARNING/ForkPoolWorker-1] No: 3, Saving data to database
+[2017-10-03 04:10:43,128: WARNING/ForkPoolWorker-1] No: 4, Saving data to database
+[2017-10-03 04:10:43,613: WARNING/ForkPoolWorker-1] No: 5, Saving data to database
+[2017-10-03 04:10:44,298: WARNING/ForkPoolWorker-1] No: 6, Saving data to database
+[2017-10-03 04:10:44,815: WARNING/ForkPoolWorker-1] No: 7, Saving data to database
+[2017-10-03 04:10:45,421: WARNING/ForkPoolWorker-1] No: 8, Saving data to database
+[2017-10-03 04:10:45,917: WARNING/ForkPoolWorker-1] No: 9, Saving data to database
+[2017-10-03 04:10:45,921: INFO/ForkPoolWorker-1] Task crawler_manager.tasks.start_srabbing[872bdedf-74f2-4521-abe4-4ecc82be27d0] succeeded in 11.487680681049824s: ' scrabbing success!'

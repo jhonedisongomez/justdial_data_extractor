@@ -4204,3 +4204,628 @@ django.db.utils.OperationalError: no such table: django_session
 [2017-10-02 08:33:55 +0000] [14011] [DEBUG] GET /admin/login/
 [2017-10-02 08:33:56 +0000] [14013] [DEBUG] GET /favicon.ico
 [2017-10-02 08:33:56 +0000] [14015] [DEBUG] GET /admin/login/
+[2017-10-02 08:37:31 +0000] [14011] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:37:32 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:37:33 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:11 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:38:12 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:13 +0000] [14011] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:38:14 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:38:15 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:19 +0000] [14015] [DEBUG] GET /
+[2017-10-02 08:38:19 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:21 +0000] [14011] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:38:22 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:38:22 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:25 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:38:25 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:28 +0000] [14011] [DEBUG] GET /admin/auth/user/
+[2017-10-02 08:38:28 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:38:29 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:31 +0000] [14013] [DEBUG] GET /admin/auth/
+[2017-10-02 08:38:32 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:33 +0000] [14011] [DEBUG] GET /admin/auth/group/add/
+[2017-10-02 08:38:33 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:38:34 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:44 +0000] [14015] [DEBUG] POST /admin/auth/group/add/
+[2017-10-02 08:38:45 +0000] [14013] [DEBUG] GET /admin/auth/group/
+[2017-10-02 08:38:45 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:38:46 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:38:53 +0000] [14015] [DEBUG] GET /admin/auth/group/add/
+[2017-10-02 08:38:54 +0000] [14011] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:38:54 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:00 +0000] [14011] [DEBUG] POST /admin/auth/group/add/
+[2017-10-02 08:39:01 +0000] [14015] [DEBUG] GET /admin/auth/group/
+[2017-10-02 08:39:01 +0000] [14011] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:39:02 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:05 +0000] [14013] [DEBUG] GET /admin/auth/
+[2017-10-02 08:39:05 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:07 +0000] [14011] [DEBUG] GET /admin/auth/user/
+[2017-10-02 08:39:07 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:39:07 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:10 +0000] [14015] [DEBUG] GET /admin/auth/user/add/
+[2017-10-02 08:39:10 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:39:10 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:26 +0000] [14015] [DEBUG] POST /admin/auth/user/add/
+[2017-10-02 08:39:26 +0000] [14011] [DEBUG] GET /admin/auth/user/3/change/
+[2017-10-02 08:39:27 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:39:27 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:35 +0000] [14015] [DEBUG] POST /admin/auth/user/3/change/
+[2017-10-02 08:39:36 +0000] [14011] [DEBUG] GET /admin/auth/user/
+[2017-10-02 08:39:36 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:39:36 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:39 +0000] [14013] [DEBUG] GET /
+[2017-10-02 08:39:40 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:41 +0000] [14011] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:39:42 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:39:43 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:45 +0000] [14015] [DEBUG] GET /admin/logout/
+[2017-10-02 08:39:46 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:46 +0000] [14011] [DEBUG] GET /admin/login/
+[2017-10-02 08:39:47 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:39:47 +0000] [14013] [DEBUG] GET /admin/login/
+[2017-10-02 08:39:48 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:39:48 +0000] [14015] [DEBUG] GET /admin/login/
+[2017-10-02 08:39:58 +0000] [14015] [DEBUG] POST /admin/login/
+[2017-10-02 08:39:58 +0000] [14011] [DEBUG] GET /admin/
+[2017-10-02 08:39:59 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:00 +0000] [14015] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:40:01 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:40:02 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:09 +0000] [14011] [DEBUG] GET /
+[2017-10-02 08:40:09 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:11 +0000] [14015] [DEBUG] GET /admin/
+[2017-10-02 08:40:12 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:13 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:40:14 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:15 +0000] [14011] [DEBUG] GET /admin/
+[2017-10-02 08:40:16 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:18 +0000] [14013] [DEBUG] GET /admin/logout/
+[2017-10-02 08:40:19 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:19 +0000] [14011] [DEBUG] GET /admin/login/
+[2017-10-02 08:40:20 +0000] [14015] [DEBUG] GET /admin/
+[2017-10-02 08:40:20 +0000] [14013] [DEBUG] GET /admin/login/
+[2017-10-02 08:40:21 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:21 +0000] [14015] [DEBUG] GET /admin/login/
+[2017-10-02 08:40:38 +0000] [14011] [DEBUG] POST /admin/login/
+[2017-10-02 08:40:38 +0000] [14015] [DEBUG] GET /admin/
+[2017-10-02 08:40:38 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:45 +0000] [14011] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:40:46 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:40:46 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:54 +0000] [14015] [DEBUG] GET /admin/logout/
+[2017-10-02 08:40:54 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:55 +0000] [14011] [DEBUG] GET /admin/login/
+[2017-10-02 08:40:56 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:40:56 +0000] [14013] [DEBUG] GET /admin/login/
+[2017-10-02 08:40:57 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:40:57 +0000] [14015] [DEBUG] GET /admin/login/
+[2017-10-02 08:41:04 +0000] [14015] [DEBUG] POST /admin/login/
+[2017-10-02 08:41:04 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:41:04 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:06 +0000] [14015] [DEBUG] GET /admin/auth/user/
+[2017-10-02 08:41:07 +0000] [14011] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:07 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:08 +0000] [14011] [DEBUG] GET /admin/auth/user/3/change/
+[2017-10-02 08:41:09 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:09 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:19 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:41:20 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:22 +0000] [14015] [DEBUG] GET /admin/auth/user/
+[2017-10-02 08:41:23 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:23 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:25 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:41:26 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:27 +0000] [14015] [DEBUG] GET /admin/auth/group/
+[2017-10-02 08:41:28 +0000] [14011] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:28 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:29 +0000] [14011] [DEBUG] GET /admin/auth/group/1/change/
+[2017-10-02 08:41:30 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:30 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:36 +0000] [14015] [DEBUG] GET /admin/auth/group/
+[2017-10-02 08:41:36 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:38 +0000] [14011] [DEBUG] GET /admin/auth/group/2/change/
+[2017-10-02 08:41:38 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:39 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:41 +0000] [14013] [DEBUG] GET /admin/
+[2017-10-02 08:41:41 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:45 +0000] [14011] [DEBUG] GET /admin/auth/user/
+[2017-10-02 08:41:45 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:46 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:41:47 +0000] [14015] [DEBUG] GET /admin/auth/user/3/change/
+[2017-10-02 08:41:47 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:41:48 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:42:04 +0000] [14013] [DEBUG] POST /admin/auth/user/3/change/
+[2017-10-02 08:42:04 +0000] [14011] [DEBUG] GET /admin/auth/user/
+[2017-10-02 08:42:05 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:42:05 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:42:13 +0000] [14013] [DEBUG] GET /admin/auth/user/3/change/
+[2017-10-02 08:42:13 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:42:14 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:42:20 +0000] [14015] [DEBUG] GET /
+[2017-10-02 08:42:20 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 08:42:27 +0000] [14011] [DEBUG] POST /index
+[2017-10-02 08:42:28 +0000] [14015] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:42:29 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:42:30 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:42:32 +0000] [14015] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:42:33 +0000] [14013] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:42:34 +0000] [14011] [DEBUG] GET /favicon.ico
+[2017-10-02 08:42:35 +0000] [14013] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:42:36 +0000] [14011] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:42:37 +0000] [14015] [DEBUG] GET /favicon.ico
+[2017-10-02 08:42:46 +0000] [14011] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:42:47 +0000] [14015] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:42:48 +0000] [14013] [DEBUG] GET /favicon.ico
+[2017-10-02 04:43:15 -0400] [14004] [INFO] Handling signal: term
+[2017-10-02 08:43:15 +0000] [14011] [INFO] Worker exiting (pid: 14011)
+[2017-10-02 08:43:15 +0000] [14015] [INFO] Worker exiting (pid: 14015)
+[2017-10-02 08:43:15 +0000] [14013] [INFO] Worker exiting (pid: 14013)
+[2017-10-02 04:43:16 -0400] [14004] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-02 04:43:17 -0400] [15788] [DEBUG] Current configuration:
+  accesslog: None
+  loglevel: debug
+  statsd_host: None
+  chdir: /root/justdial_data_extractor
+  user: 0
+  group: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  forwarded_allow_ips: ['127.0.0.1']
+  pythonpath: None
+  proxy_protocol: False
+  pre_exec: <function PreExec.pre_exec at 0x7f1eed16e268>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f1eed16e840>
+  max_requests: 0
+  errorlog: -
+  max_requests_jitter: 0
+  graceful_timeout: 30
+  certfile: None
+  pre_fork: <function Prefork.pre_fork at 0x7f1eed16a9d8>
+  keepalive: 2
+  ca_certs: None
+  ciphers: TLSv1
+  proxy_allow_ips: ['127.0.0.1']
+  threads: 1
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  worker_int: <function WorkerInt.worker_int at 0x7f1eed16aea0>
+  tmp_upload_dir: None
+  capture_output: False
+  logconfig: None
+  limit_request_fields: 100
+  cert_reqs: 0
+  spew: False
+  syslog_addr: udp://localhost:514
+  worker_connections: 1000
+  pre_request: <function PreRequest.pre_request at 0x7f1eed16e400>
+  limit_request_field_size: 8190
+  preload_app: False
+  paste: None
+  suppress_ragged_eofs: True
+  syslog_facility: user
+  initgroups: False
+  statsd_prefix: 
+  sendfile: None
+  daemon: False
+  worker_tmp_dir: None
+  on_starting: <function OnStarting.on_starting at 0x7f1eed16a510>
+  on_reload: <function OnReload.on_reload at 0x7f1eed16a6a8>
+  ssl_version: 2
+  config: None
+  do_handshake_on_connect: False
+  limit_request_line: 4094
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f1eed16ad08>
+  syslog: False
+  post_request: <function PostRequest.post_request at 0x7f1eed16e510>
+  reload_engine: auto
+  when_ready: <function WhenReady.when_ready at 0x7f1eed16a840>
+  post_fork: <function Postfork.post_fork at 0x7f1eed16ab70>
+  child_exit: <function ChildExit.child_exit at 0x7f1eed16e6a8>
+  backlog: 2048
+  reload: False
+  workers: 3
+  worker_class: sync
+  pidfile: None
+  umask: 0
+  raw_paste_global_conf: []
+  proc_name: django_app
+  default_proc_name: justdial_main.wsgi:application
+  syslog_prefix: None
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f1eed16e0d0>
+  timeout: 30
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f1eed16e9d8>
+  logger_class: gunicorn.glogging.Logger
+  keyfile: None
+  enable_stdio_inheritance: False
+  check_config: False
+  raw_env: []
+  on_exit: <function OnExit.on_exit at 0x7f1eed16eb70>
+[2017-10-02 04:43:17 -0400] [15788] [INFO] Starting gunicorn 19.7.1
+[2017-10-02 04:43:17 -0400] [15788] [DEBUG] Arbiter booted
+[2017-10-02 04:43:17 -0400] [15788] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (15788)
+[2017-10-02 04:43:17 -0400] [15788] [INFO] Using worker: sync
+[2017-10-02 04:43:17 -0400] [15795] [INFO] Booting worker with pid: 15795
+[2017-10-02 04:43:17 -0400] [15796] [INFO] Booting worker with pid: 15796
+[2017-10-02 04:43:17 -0400] [15798] [INFO] Booting worker with pid: 15798
+[2017-10-02 04:43:17 -0400] [15788] [DEBUG] 3 workers
+[2017-10-02 08:43:41 +0000] [15796] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 08:43:42 +0000] [15798] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 08:43:43 +0000] [15796] [DEBUG] GET /favicon.ico
+[2017-10-02 16:12:03 +0000] [15796] [DEBUG] GET /
+[2017-10-02 16:12:03 +0000] [15795] [DEBUG] GET /admin/login/
+[2017-10-02 16:12:04 +0000] [15796] [DEBUG] GET /favicon.ico
+[2017-10-02 16:12:04 +0000] [15798] [DEBUG] GET /admin/login/
+[2017-10-02 16:38:39 +0000] [15796] [DEBUG] GET /admin/
+[2017-10-02 16:38:40 +0000] [15798] [DEBUG] GET /favicon.ico
+[2017-10-02 16:38:42 +0000] [15798] [DEBUG] GET /admin/crawler_manager/
+[2017-10-02 16:38:43 +0000] [15796] [DEBUG] GET /favicon.ico
+[2017-10-02 16:38:43 +0000] [15795] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 16:38:46 +0000] [15795] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 16:38:48 +0000] [15798] [DEBUG] GET /favicon.ico
+[2017-10-02 16:40:04 +0000] [15796] [DEBUG] GET /admin/crawler_manager/crawelissue/import/
+[2017-10-02 16:40:04 +0000] [15798] [DEBUG] GET /favicon.ico
+[2017-10-02 16:40:23 +0000] [15798] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 16:40:25 +0000] [15798] [DEBUG] GET /favicon.ico
+[2017-10-02 17:04:48 +0000] [15796] [DEBUG] GET /admin/
+[2017-10-02 17:04:49 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:31:24 +0000] [15798] [DEBUG] GET /admin/auth/user/
+[2017-10-02 17:31:25 +0000] [15796] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:31:25 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:32:08 +0000] [15796] [DEBUG] GET /admin/
+[2017-10-02 17:32:08 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:32:11 +0000] [15798] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:32:13 +0000] [15795] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:32:13 +0000] [15796] [DEBUG] GET /
+[2017-10-02 17:32:14 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:32:17 +0000] [15795] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:32:18 +0000] [15798] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:32:19 +0000] [15796] [DEBUG] GET /favicon.ico
+[2017-10-02 17:32:21 +0000] [15798] [DEBUG] GET /
+[2017-10-02 17:32:22 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:32:24 +0000] [15798] [DEBUG] GET /admin/
+[2017-10-02 17:32:24 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:32:27 +0000] [15796] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:32:28 +0000] [15795] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:32:29 +0000] [15798] [DEBUG] GET /favicon.ico
+[2017-10-02 17:34:59 +0000] [15796] [DEBUG] GET /
+[2017-10-02 17:35:00 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:37:12 +0000] [15798] [DEBUG] GET /admin/
+[2017-10-02 17:37:12 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 17:39:28 +0000] [15798] [DEBUG] GET /
+[2017-10-02 17:39:28 +0000] [15795] [DEBUG] GET /favicon.ico
+[2017-10-02 13:41:34 -0400] [15788] [INFO] Handling signal: term
+[2017-10-02 17:41:34 +0000] [15798] [INFO] Worker exiting (pid: 15798)
+[2017-10-02 17:41:34 +0000] [15795] [INFO] Worker exiting (pid: 15795)
+[2017-10-02 17:41:34 +0000] [15796] [INFO] Worker exiting (pid: 15796)
+[2017-10-02 13:41:35 -0400] [15788] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting django_app as root
+[2017-10-02 13:41:35 -0400] [27248] [DEBUG] Current configuration:
+  pre_fork: <function Prefork.pre_fork at 0x7fb2f231c9d8>
+  accesslog: None
+  umask: 0
+  do_handshake_on_connect: False
+  forwarded_allow_ips: ['127.0.0.1']
+  max_requests: 0
+  preload_app: False
+  post_fork: <function Postfork.post_fork at 0x7fb2f231cb70>
+  chdir: /root/justdial_data_extractor
+  worker_int: <function WorkerInt.worker_int at 0x7fb2f231cea0>
+  loglevel: debug
+  worker_class: sync
+  when_ready: <function WhenReady.when_ready at 0x7fb2f231c840>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fb2f231cd08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fb2f23200d0>
+  child_exit: <function ChildExit.child_exit at 0x7fb2f23206a8>
+  on_exit: <function OnExit.on_exit at 0x7fb2f2320b70>
+  default_proc_name: justdial_main.wsgi:application
+  limit_request_line: 4094
+  syslog_prefix: None
+  keepalive: 2
+  backlog: 2048
+  limit_request_fields: 100
+  logconfig: None
+  raw_env: []
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fb2f23209d8>
+  proxy_protocol: False
+  syslog_addr: udp://localhost:514
+  enable_stdio_inheritance: False
+  statsd_prefix: 
+  daemon: False
+  config: None
+  limit_request_field_size: 8190
+  group: 0
+  keyfile: None
+  ciphers: TLSv1
+  capture_output: False
+  pidfile: None
+  threads: 1
+  cert_reqs: 0
+  initgroups: False
+  tmp_upload_dir: None
+  bind: ['unix:/root/py3djenv/run/gunicorn.sock']
+  proxy_allow_ips: ['127.0.0.1']
+  worker_connections: 1000
+  sendfile: None
+  raw_paste_global_conf: []
+  workers: 3
+  graceful_timeout: 30
+  worker_exit: <function WorkerExit.worker_exit at 0x7fb2f2320840>
+  certfile: None
+  suppress_ragged_eofs: True
+  spew: False
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  on_starting: <function OnStarting.on_starting at 0x7fb2f231c510>
+  on_reload: <function OnReload.on_reload at 0x7fb2f231c6a8>
+  pre_exec: <function PreExec.pre_exec at 0x7fb2f2320268>
+  pre_request: <function PreRequest.pre_request at 0x7fb2f2320400>
+  post_request: <function PostRequest.post_request at 0x7fb2f2320510>
+  user: 0
+  pythonpath: None
+  paste: None
+  proc_name: django_app
+  reload: False
+  reload_engine: auto
+  check_config: False
+  max_requests_jitter: 0
+  timeout: 30
+  ssl_version: 2
+  ca_certs: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  logger_class: gunicorn.glogging.Logger
+  syslog: False
+  syslog_facility: user
+  statsd_host: None
+  worker_tmp_dir: None
+[2017-10-02 13:41:35 -0400] [27248] [INFO] Starting gunicorn 19.7.1
+[2017-10-02 13:41:35 -0400] [27248] [DEBUG] Arbiter booted
+[2017-10-02 13:41:35 -0400] [27248] [INFO] Listening at: unix:/root/py3djenv/run/gunicorn.sock (27248)
+[2017-10-02 13:41:35 -0400] [27248] [INFO] Using worker: sync
+[2017-10-02 13:41:35 -0400] [27255] [INFO] Booting worker with pid: 27255
+[2017-10-02 13:41:35 -0400] [27256] [INFO] Booting worker with pid: 27256
+[2017-10-02 13:41:35 -0400] [27259] [INFO] Booting worker with pid: 27259
+[2017-10-02 13:41:35 -0400] [27248] [DEBUG] 3 workers
+[2017-10-02 17:41:59 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:42:00 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:42:01 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:42:56 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:42:57 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:42:58 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:43:03 +0000] [27255] [DEBUG] GET /admin/crawler_manager/
+[2017-10-02 17:43:03 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-02 17:43:08 +0000] [27255] [DEBUG] GET /admin/
+[2017-10-02 17:43:08 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:43:10 +0000] [27256] [DEBUG] GET /admin/auth/user/
+[2017-10-02 17:43:10 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:43:11 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-02 17:43:12 +0000] [27259] [DEBUG] GET /admin/auth/user/3/change/
+[2017-10-02 17:43:12 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:43:13 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-02 17:54:02 +0000] [27255] [DEBUG] GET /
+[2017-10-02 17:54:03 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:54:19 +0000] [27255] [DEBUG] GET /admin/
+[2017-10-02 17:54:20 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:56:54 +0000] [27256] [DEBUG] GET /admin/auth/user/add/
+[2017-10-02 17:56:54 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:56:54 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-02 17:57:09 +0000] [27255] [DEBUG] POST /admin/auth/user/add/
+[2017-10-02 17:57:10 +0000] [27259] [DEBUG] GET /admin/auth/user/4/change/
+[2017-10-02 17:57:10 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:57:11 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-02 17:57:26 +0000] [27259] [DEBUG] POST /admin/auth/user/4/change/
+[2017-10-02 17:57:26 +0000] [27255] [DEBUG] GET /admin/auth/user/
+[2017-10-02 17:57:26 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:57:27 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-02 17:57:30 +0000] [27256] [DEBUG] GET /admin/logout/
+[2017-10-02 17:57:31 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:57:31 +0000] [27255] [DEBUG] GET /admin/login/
+[2017-10-02 17:57:32 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-02 17:57:32 +0000] [27256] [DEBUG] GET /admin/login/
+[2017-10-02 17:57:33 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:57:33 +0000] [27255] [DEBUG] GET /admin/login/
+[2017-10-02 17:57:40 +0000] [27259] [DEBUG] POST /admin/login/
+[2017-10-02 17:57:40 +0000] [27255] [DEBUG] GET /admin/
+[2017-10-02 17:57:41 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-02 17:57:42 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:57:43 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:57:43 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-02 17:57:52 +0000] [27255] [DEBUG] GET /
+[2017-10-02 17:57:52 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:58:05 +0000] [27256] [DEBUG] POST /index
+[2017-10-02 17:58:05 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:58:06 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:58:06 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:58:09 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:58:09 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:58:09 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-02 17:58:11 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:58:12 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:58:12 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-02 17:58:14 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 17:58:14 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 17:58:15 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-02 18:06:47 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-02 18:06:48 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-02 18:06:48 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-02 18:31:28 +0000] [27255] [DEBUG] GET /robots.txt
+[2017-10-02 18:31:45 +0000] [27255] [DEBUG] GET /admin/login/
+[2017-10-03 01:38:36 +0000] [27256] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 01:38:37 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 01:38:37 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 01:38:40 +0000] [27255] [DEBUG] GET /admin/logout/
+[2017-10-03 01:38:40 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 01:38:40 +0000] [27256] [DEBUG] GET /admin/login/
+[2017-10-03 01:38:42 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 01:38:43 +0000] [27255] [DEBUG] GET /admin/login/
+[2017-10-03 01:38:43 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 01:38:44 +0000] [27259] [DEBUG] GET /admin/login/
+[2017-10-03 03:25:38 +0000] [27255] [DEBUG] GET /
+[2017-10-03 03:25:39 +0000] [27256] [DEBUG] GET /admin/login/
+[2017-10-03 03:25:40 +0000] [27255] [DEBUG] GET /
+[2017-10-03 03:25:43 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:25:43 +0000] [27255] [DEBUG] GET /admin/login/
+[2017-10-03 03:30:15 +0000] [27255] [DEBUG] POST /admin/login/
+[2017-10-03 03:30:15 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:30:16 +0000] [27256] [DEBUG] GET /admin/login/
+[2017-10-03 03:30:16 +0000] [27259] [DEBUG] GET /admin/login
+[2017-10-03 03:30:40 +0000] [27259] [DEBUG] POST /admin/login/
+[2017-10-03 03:30:41 +0000] [27256] [DEBUG] GET /
+[2017-10-03 03:30:42 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:30:50 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:30:52 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:30:55 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:31:14 +0000] [27255] [DEBUG] GET /admin/
+[2017-10-03 03:31:15 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:31:26 +0000] [27259] [DEBUG] GET /admin/auth/user/
+[2017-10-03 03:31:27 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:31:27 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:31:50 +0000] [27256] [DEBUG] GET /admin/
+[2017-10-03 03:31:50 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:31:52 +0000] [27255] [DEBUG] GET /
+[2017-10-03 03:31:52 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:31:58 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 03:31:58 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:31:58 +0000] [27256] [DEBUG] GET /admin
+[2017-10-03 03:32:01 +0000] [27256] [DEBUG] GET /admin/auth/user/
+[2017-10-03 03:32:02 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:32:02 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:32:13 +0000] [27255] [DEBUG] GET /admin/auth/user/add/
+[2017-10-03 03:32:13 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:32:14 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:32:37 +0000] [27259] [DEBUG] POST /admin/auth/user/add/
+[2017-10-03 03:32:38 +0000] [27256] [DEBUG] GET /admin/auth/user/5/change/
+[2017-10-03 03:32:38 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:32:39 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:32:47 +0000] [27259] [DEBUG] GET /admin/auth/user/5/change
+[2017-10-03 03:32:48 +0000] [27259] [DEBUG] POST /admin/auth/user/5/change/
+[2017-10-03 03:32:49 +0000] [27255] [DEBUG] GET /admin/auth/user/
+[2017-10-03 03:32:49 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:32:49 +0000] [27256] [DEBUG] GET /admin/auth/user
+[2017-10-03 03:32:49 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:32:52 +0000] [27259] [DEBUG] GET /admin/auth/user/5/change/
+[2017-10-03 03:32:53 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:32:53 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:01 +0000] [27256] [DEBUG] POST /admin/auth/user/5/change/
+[2017-10-03 03:33:02 +0000] [27255] [DEBUG] GET /admin/auth/user/
+[2017-10-03 03:33:02 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:33:02 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:06 +0000] [27256] [DEBUG] GET /admin/logout/
+[2017-10-03 03:33:06 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:06 +0000] [27255] [DEBUG] GET /admin/login/
+[2017-10-03 03:33:07 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 03:33:08 +0000] [27259] [DEBUG] GET /admin/login/
+[2017-10-03 03:33:08 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:08 +0000] [27256] [DEBUG] GET /admin/login/
+[2017-10-03 03:33:17 +0000] [27255] [DEBUG] POST /admin/login/
+[2017-10-03 03:33:17 +0000] [27256] [DEBUG] GET /admin/
+[2017-10-03 03:33:17 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:18 +0000] [27255] [DEBUG] GET /admin/logout
+[2017-10-03 03:33:23 +0000] [27255] [DEBUG] GET /
+[2017-10-03 03:33:24 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:26 +0000] [27256] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:33:26 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:33:26 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue
+[2017-10-03 03:33:26 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:30 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 03:33:30 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:32 +0000] [27256] [DEBUG] GET /
+[2017-10-03 03:33:33 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:35 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:33:35 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:33:36 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:42 +0000] [27256] [DEBUG] GET /admin/
+[2017-10-03 03:33:42 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:47 +0000] [27259] [DEBUG] GET /
+[2017-10-03 03:33:47 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:49 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:33:50 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:33:50 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:55 +0000] [27256] [DEBUG] GET /admin/
+[2017-10-03 03:33:55 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:33:58 +0000] [27255] [DEBUG] GET /
+[2017-10-03 03:33:58 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:34:02 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:34:02 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:34:02 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:34:11 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 03:34:11 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:34:15 +0000] [27255] [DEBUG] GET /
+[2017-10-03 03:34:15 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:34:34 +0000] [27259] [DEBUG] POST /index
+[2017-10-03 03:34:35 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:34:35 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:34:35 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:34:43 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:34:43 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:34:44 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:34:49 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:34:49 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:34:50 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:35:20 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/284/change/
+[2017-10-03 03:35:21 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:35:21 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:35:22 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/284/change
+[2017-10-03 03:36:23 +0000] [27255] [DEBUG] GET /admin/crawler_manager/
+[2017-10-03 03:36:24 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:36:24 +0000] [27256] [DEBUG] GET /admin/crawler_manager
+[2017-10-03 03:36:25 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 03:36:26 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:36:28 +0000] [27256] [DEBUG] GET /
+[2017-10-03 03:36:29 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:36:30 +0000] [27256] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:36:31 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:36:32 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:38:41 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 03:38:42 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:39:59 +0000] [27259] [DEBUG] GET /
+[2017-10-03 03:39:59 +0000] [27259] [DEBUG] GET /admin/login/
+[2017-10-03 03:40:00 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:00 +0000] [27259] [DEBUG] GET /admin/login/
+[2017-10-03 03:40:15 +0000] [27255] [DEBUG] GET /admin/logout/
+[2017-10-03 03:40:15 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:16 +0000] [27259] [DEBUG] GET /admin/login/
+[2017-10-03 03:40:17 +0000] [27255] [DEBUG] GET /admin/
+[2017-10-03 03:40:17 +0000] [27255] [DEBUG] GET /admin/login/
+[2017-10-03 03:40:17 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:18 +0000] [27259] [DEBUG] GET /admin/login/
+[2017-10-03 03:40:19 +0000] [27259] [DEBUG] POST /admin/login/
+[2017-10-03 03:40:19 +0000] [27255] [DEBUG] GET /
+[2017-10-03 03:40:20 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:22 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:40:25 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:40:26 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:27 +0000] [27255] [DEBUG] POST /admin/login/
+[2017-10-03 03:40:27 +0000] [27259] [DEBUG] GET /admin/
+[2017-10-03 03:40:28 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:32 +0000] [27256] [DEBUG] GET /
+[2017-10-03 03:40:33 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:35 +0000] [27256] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:40:38 +0000] [27255] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:40:41 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:47 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:40:47 +0000] [27259] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:40:47 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 03:40:57 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/export/
+[2017-10-03 03:40:58 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:45:53 +0000] [27255] [DEBUG] GET /admin/
+[2017-10-03 03:45:53 +0000] [27256] [DEBUG] GET /favicon.ico
+[2017-10-03 03:51:55 +0000] [27256] [DEBUG] GET /
+[2017-10-03 03:51:56 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:55:44 +0000] [27259] [DEBUG] GET /
+[2017-10-03 03:55:45 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:55:52 +0000] [27255] [DEBUG] POST /index
+[2017-10-03 03:55:52 +0000] [27259] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:55:56 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:55:59 +0000] [27255] [DEBUG] GET /favicon.ico
+[2017-10-03 03:56:02 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 03:56:06 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 03:56:08 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 04:08:41 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 04:10:30 +0000] [27259] [DEBUG] GET /favicon.ico
+[2017-10-03 04:10:34 +0000] [27256] [DEBUG] POST /index
+[2017-10-03 04:10:34 +0000] [27255] [DEBUG] GET /admin/crawler_manager/crawelissue/
+[2017-10-03 04:10:39 +0000] [27256] [DEBUG] GET /admin/jsi18n/
+[2017-10-03 04:10:39 +0000] [27256] [DEBUG] GET /favicon.ico
