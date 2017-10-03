@@ -55,9 +55,16 @@ def start_srabbing(data):
                 single_url = cont.find("a", {"class" : "nlogo lazy srtbyPic" }).get('href')
                 html_markupx = requests.get(check_url(single_url), headers=headers)
                 page_soup = BeautifulSoup(html_markupx.content, "lxml")
-                cc = page_soup.find("div", {"class" : "col-sm-4 col-xs-12 padding0 leftdt"})
-                
-                contact = cc.find("div", {"class" : "telCntct cmawht"}).get_text() # compulsory field to scrab
+                cc = page_soup.find("div", {"class" : "col-sm-4 col-xs-12 padding0 leftdt"})               
+
+                try:
+                    contact = cc.find_all("div", {"class" : "telCntct cmawht"})
+                    contact = contact[0].get_text() + contact[1].get_text()
+                    print (contact)
+                except Exception as e:
+                    contact = cc.find("div", {"class" : "telCntct cmawht"}).get_text() # compulsory field to scrab
+                    print ('could not get, got exception')
+                    pass
                 
                 try:
                     address = cc.find("span", {"class" : "lng_add"}).get_text()
@@ -78,7 +85,7 @@ def start_srabbing(data):
                 flag = False
             
             if flag is True:
-                print ( 'No: {}, Saving data to database'.format(instance_index))
+                print ( 'No: {}, Saving data to database.'.format(instance_index))
                 issue = CrawelIssue.objects.create(
                     user = user,
                     keyword = keyword, 
