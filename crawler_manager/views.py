@@ -26,9 +26,8 @@ def home(request):
         user = str(request.user.id)
         print (type(user))
 
-        data = (city_name, keyword, numof_instance, user,)
-
-        start_srabbing.delay(data)
+        data = (city_name, keyword, numof_instance, user)
+        
         messages.success(request, 'We are scrabbing your requested data, please reload this page to see progressed data')
-
-        return redirect('/admin/crawler_manager/crawelissue/')
+        #return response
+        return start_srabbing(data, request)

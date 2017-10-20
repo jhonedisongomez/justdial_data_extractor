@@ -12,7 +12,7 @@ newspaper_base_url = 'https://www.justdial.com/'
 headers = {"User-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36"}
 
 city_name = 'Ahmedabad'
-keyword = 'hello'
+keyword = 'Gym'
 
 cat_page_url = newspaper_base_url + city_name
 html_markup = requests.get(cat_page_url, headers=headers)
