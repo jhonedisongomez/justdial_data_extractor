@@ -1,0 +1,87 @@
+{% extends "admin/base.html" %}
+
+{% block title %} Start Scrapping {% endblock %}
+{% load static %}
+{% block extrastyle %}
+  <link rel="stylesheet" type="text/css" href="{% static "crawler_manager/custom.css" %}" />
+{% endblock %}
+
+
+{% load i18n %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Welcome, Start Scrapping Now!</a></h1>
+
+
+{% endblock %}
+
+{% block breadcrumbs %}
+  <div class="breadcrumbs">
+    <a href="{% url 'admin:index' %}">{% trans 'Admin Home' %}</a>
+    {% if title %} &rsaquo; {{ title }}{% endif %} / 
+  <a href="#">{% trans 'Second scrapped' %}</a> /
+
+    <a href="/admin/crawler_manager/crawelissue/">{% trans 'Scrapped Data' %}</a> /
+
+    <a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a> / 
+    <a href="{% url 'admin:logout' %}">{% trans 'Log out' %}</a>
+    
+
+  </div>
+{% endblock %}
+
+{% block messages %}
+    {% if messages %}
+    <ul class="messagelist">{% for message in messages %}
+      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message|capfirst }}</li>
+    {% endfor %}</ul>
+    {% endif %}
+{% endblock messages %}
+
+
+{% block content %}
+<div class="columnx">
+  <h1>Please specify a category and keyword to start scrapping: </h1>
+
+    {% if messages %}
+        {% for message in messages %}
+            <p style="color: green">{{ message }}</p>
+        {% endfor %}
+        <hr>
+    {% endif %}
+
+  <form action="index" method="post"> {% csrf_token %}
+
+    <label for="city_name">City Name</label>
+    <br>
+
+    <input type="text" name="city_name" id="city_name" placeholder="Ahmedabad">
+
+    <br>
+
+    <label for="keyword">Search Keyword</label>
+    <br>
+    <input type="text" name="keyword" placeholder="hello">
+    
+    <br>
+
+    <label for="numof_instance">Number of Pages to Scrab</label>
+    <br>
+    <input type="number" name="numof_instance">
+
+
+    <br>
+    <button type="submit">Start</button>
+  </form>
+  
+</div>
+
+<!-- <div class="columnx">
+  <h1>Show scrapped data list</h1>
+  <form action="index_show" method="post"> {% csrf_token %}
+      <label for="city">By City Name</label>
+      <input type="text" name="city" id="city" placeholder="Ahmedabad">
+      <button type="submit">Show</button>
+  </form>
+</div> -->
+{% endblock %}

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 NAME="django_app"                                   # Name of the application
-DJANGODIR=/root/justdial_data_extractor               # Django project directory
+DJANGODIR=/home/jhon/Documentos/projects/justdial_data_extractor               # Django project directory
 SOCKFILE=/root/py3djenv/run/gunicorn.sock  # we will communicte using this unix socket
-USER=root                                         # the user to run as
+USER=jhon                                         # the user to run as
 GROUP=root                                        # the group to run as
 NUM_WORKERS=3                                       # how many worker processes should Gunicorn spawn
 DJANGO_SETTINGS_MODULE=justdial_main.settings      # which settings file should Django use
@@ -13,7 +13,7 @@ echo "Starting $NAME as `whoami`"
 # Activate the virtual environment
 
 cd $DJANGODIR
-source /root/py3djenv/bin/activate
+source /home/jhon/Documentos/projects/justdial_data_extractor/.env/bin/activate
 export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
 export PYTHONPATH=$DJANGODIR:$PYTHONPATH
 

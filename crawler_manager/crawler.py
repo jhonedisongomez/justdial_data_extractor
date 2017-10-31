@@ -14,7 +14,7 @@ def check_url(link):
         return newspaper_base_url + link
 
 
-def get_info_instance(city_name='Ahmedabad', keyword='hello', numof_result=5):
+def get_info_instance(city_name='Ahmedabad', keyword='Gym', numof_result=5):
     instance_index = 0
     for i in range(numof_result):
         city_page_url = newspaper_base_url + city_name + '/' + keyword + 'page-' + str(i+1)
@@ -44,7 +44,7 @@ def get_info_instance(city_name='Ahmedabad', keyword='hello', numof_result=5):
 
             except Exception as e:
                 pass
-                flag = False
+                flag = True
             
             if flag is True:
                 print ( instance_index, city_name, title, rating, votes, contact, address, website)

@@ -14,6 +14,8 @@ class CrawelIssue(models.Model):
     contact = models.CharField(max_length=100, default='')
     address = models.CharField(max_length=100, default='')
     website = models.CharField(max_length=100, default='')
+    others_sites = models.CharField(max_length=500, default='')
+
 
     def __str__(self):
         return self.title

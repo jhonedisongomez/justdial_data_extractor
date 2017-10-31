@@ -23,10 +23,10 @@ class CrawelIssueAdmin(ImportExportModelAdmin, admin.ModelAdmin):
 
     resource_class = CrawelIssuekResource
 
-    list_display = ('keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website')
+    list_display = ('keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website','others_sites')
     list_filter = ['city_name', 'keyword', 'rating']
     search_fields = ['keyword', 'city_name', 'title', 'rating', 'votes', 'address', 'contact', 'website']
-    list_per_page = 5000
+    list_per_page = 10
 
     def get_queryset(self, request):
         qs = super(CrawelIssueAdmin, self).get_queryset(request)
