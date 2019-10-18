@@ -21,7 +21,7 @@ django-mptt==0.8.7
 django-polymorphic==1.0.2
 django-static-jquery==1.11.3
 django-suit==0.2.25
-djangorestframework==3.6.4
+djangorestframework==3.9.1
 easy-thumbnails==2.4.1
 et-xmlfile==1.0.1
 feedfinder2==0.0.4
